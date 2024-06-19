@@ -11,15 +11,25 @@
 <body>
     <table>
         <?php 
+
+        require_once "stringUtils.php";
+        require_once "database.php";
+
         $jsonInText = file_get_contents("../data/withCoords.json");
         $json = json_decode($jsonInText, true);
+        $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 
-        foreach ($json as $item) { ?>
-        <tr class="row">
-            <td class="address"><?php echo $item["name"] ?></td>
-            <td class="medDiv"><?php echo $item["medDivision"] ?></td>
-            <td class="peopleCount"><?php echo $item["peopleCount"] ?></td>
-            <td class="position"><?php echo $item["position"] ?></td>
+        foreach ($json as $index=>$item) { ?>
+        <tr class="row" style="background-color: #<?php echo $index % 2 ? 'dadada' : 'efefef'?>">
+            <td class="address" style="width: <?php echo $maxLength * 7?>px">
+                <?php echo str_replace(",", "", $item["name"]) ?>
+            </td>
+            <td class="medDiv" style="width: 100px;">
+                <?php echo $item["medDivision"] ?>
+            </td>
+            <td class="peopleCount" style="width: 20px;">
+                <?php echo $item["peopleCount"] ?>
+            </td>
         </tr>
         <?php } ?>
     </table>

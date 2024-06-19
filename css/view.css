@@ -7,20 +7,19 @@
 .row {
     display: flex;
     width: 90%;
-    justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: antiquewhite;
 }
 
 body {
     margin: 0 auto;
 }
 
-td {
-    width: 300px;
-}
-
 table {
     margin: 0 auto;
-    width: fit-content;
+    width: 70%;
 }
