@@ -1,0 +1,6002 @@
+[
+    {
+      "name": "  1-й Горский, пер., 1а",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "82.899463 54.996949"
+    },
+    {
+      "name": "  1-й Горский, пер., 2",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "73.333384 54.925675"
+    },
+    {
+      "name": "  1-й Горский, пер., 4",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "45.698161 43.349533"
+    },
+    {
+      "name": "  1-й Горский, пер., 4а",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "82.902041 54.99681"
+    },
+    {
+      "name": "  1-й Горский, пер., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "73.333232 54.925478"
+    },
+    {
+      "name": "  1-й Горский, пер., 8",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "73.333061 54.925292"
+    },
+    {
+      "name": "  1-й Горский, пер., 13",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "45.699814 43.350143"
+    },
+    {
+      "name": "  1-й Горский, пер., 15",
+      "peopleCount": 15,
+      "medDivision": " 6 то",
+      "position": "45.699984 43.350116"
+    },
+    {
+      "name": "  1-й Крашенинникова, пер., 3",
+      "peopleCount": 3,
+      "medDivision": " 2 то",
+      "position": "82.865974 54.984842"
+    },
+    {
+      "name": "  1-й Крашенинникова, пер., 9",
+      "peopleCount": 9,
+      "medDivision": " 2 то",
+      "position": "82.864177 54.984274"
+    },
+    {
+      "name": "  1-й Крашенинникова, пер., 11",
+      "peopleCount": 11,
+      "medDivision": " 2 то",
+      "position": "82.8638 54.984729"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 1",
+      "peopleCount": 1,
+      "medDivision": " 2 то",
+      "position": "82.874633 54.989569"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 4",
+      "peopleCount": 4,
+      "medDivision": " 2 то",
+      "position": "82.872307 54.988887"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 6",
+      "peopleCount": 6,
+      "medDivision": " 2 то",
+      "position": "82.872873 54.988908"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 8",
+      "peopleCount": 8,
+      "medDivision": " 2 то",
+      "position": "82.873538 54.98897"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 10",
+      "peopleCount": 10,
+      "medDivision": " 2 то",
+      "position": "82.874095 54.98899"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 12",
+      "peopleCount": 12,
+      "medDivision": " 2 то",
+      "position": "82.874687 54.989042"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 14",
+      "peopleCount": 14,
+      "medDivision": " 2 то",
+      "position": "82.875289 54.989011"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 16",
+      "peopleCount": 16,
+      "medDivision": " 2 то",
+      "position": "82.875855 54.988965"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 18",
+      "peopleCount": 18,
+      "medDivision": " 2 то",
+      "position": "82.876628 54.988835"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 20",
+      "peopleCount": 20,
+      "medDivision": " 3 то",
+      "position": "82.877337 54.988908"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 22",
+      "peopleCount": 22,
+      "medDivision": " 3 то",
+      "position": "82.877975 54.988939"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 24",
+      "peopleCount": 24,
+      "medDivision": " 3 то",
+      "position": "82.878667 54.98899"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 26",
+      "peopleCount": 26,
+      "medDivision": " 3 то",
+      "position": "82.879377 54.989011"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 28",
+      "peopleCount": 28,
+      "medDivision": " 3 то",
+      "position": "82.880041 54.989058"
+    },
+    {
+      "name": "  1-й Пархоменко, пер., 30",
+      "peopleCount": 30,
+      "medDivision": " 3 то",
+      "position": "82.879799 54.989796"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 3",
+      "peopleCount": 3,
+      "medDivision": " 3 то",
+      "position": "82.88262 54.981087"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 3/1",
+      "peopleCount": 3,
+      "medDivision": " 3 то",
+      "position": "82.882754 54.979888"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 5",
+      "peopleCount": 5,
+      "medDivision": " 3 то",
+      "position": "82.882781 54.980358"
+    },
+    {
+      "name": "  2-й Римского-Корсакова, пер., 5а",
+      "peopleCount": 0,
+      "medDivision": " 3 то",
+      "position": "82.88385 54.98087"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 6",
+      "peopleCount": 6,
+      "medDivision": " 3 то",
+      "position": "82.881622 54.981071"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 8",
+      "peopleCount": 8,
+      "medDivision": " 3 то",
+      "position": "82.881515 54.980751"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 10",
+      "peopleCount": 10,
+      "medDivision": " 3 то",
+      "position": "82.881568 54.98042"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 12",
+      "peopleCount": 12,
+      "medDivision": " 3 то",
+      "position": "82.881793 54.9801"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 14",
+      "peopleCount": 14,
+      "medDivision": " 3 то",
+      "position": "82.881865 54.979681"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 16",
+      "peopleCount": 16,
+      "medDivision": " 3 то",
+      "position": "82.882449 54.979578"
+    },
+    {
+      "name": "  1-й Римского-Корсакова, пер., 18",
+      "peopleCount": 18,
+      "medDivision": " 3 то",
+      "position": "82.882521 54.979258"
+    },
+    {
+      "name": "  1-й Серафимовича, пер., 2",
+      "peopleCount": 2,
+      "medDivision": " 3 то",
+      "position": "82.878209 54.980818"
+    },
+    {
+      "name": "  1-й Серафимовича, пер., 3",
+      "peopleCount": 3,
+      "medDivision": " 3 то",
+      "position": "23.817042 53.690979"
+    },
+    {
+      "name": "  1-й Серафимовича, пер., 5",
+      "peopleCount": 5,
+      "medDivision": " 3 то",
+      "position": "23.81653 53.690931"
+    },
+    {
+      "name": "  1-й Серафимовича, пер., 7",
+      "peopleCount": 7,
+      "medDivision": " 3 то",
+      "position": "48.325113 54.266063"
+    },
+    {
+      "name": "  1-й Серафимовича, пер., 11",
+      "peopleCount": 11,
+      "medDivision": " 3 то",
+      "position": "33.186488 51.211976"
+    },
+    {
+      "name": "  1-й Серафимовича, пер., 13",
+      "peopleCount": 13,
+      "medDivision": " 3 то",
+      "position": "33.186605 51.212071"
+    },
+    {
+      "name": "  1-й Серафимовича, пер., 15",
+      "peopleCount": 15,
+      "medDivision": " 3 то",
+      "position": "33.18683 51.21219"
+    },
+    {
+      "name": "  1-й Чулымский, пер., 3",
+      "peopleCount": 3,
+      "medDivision": " 6 то",
+      "position": "82.908473 55.005403"
+    },
+    {
+      "name": "  1-й Чулымский, пер., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "82.908545 55.0058"
+    },
+    {
+      "name": "  1-й Чулымский, пер., 6а",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.908931 55.005687"
+    },
+    {
+      "name": "  1-й Чулымский, пер., 8",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "82.908734 55.005976"
+    },
+    {
+      "name": "  1-й Чулымский, пер., 8/1",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "82.908734 55.005976"
+    },
+    {
+      "name": "  1-й Чулымский, пер., 8а",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "82.908734 55.005976"
+    },
+    {
+      "name": "  1-й Чулымский, пер., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "82.908868 55.006105"
+    },
+    {
+      "name": "  1-й Чулымский, пер., 10а",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "82.908985 55.006172"
+    },
+    {
+      "name": "  1-я Подгорная, ул., 12",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "82.897801 54.997414"
+    },
+    {
+      "name": "  1-я Подгорная, ул., 12а",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "82.898097 54.997414"
+    },
+    {
+      "name": "  1-я Подгорная, ул., 14",
+      "peopleCount": 14,
+      "medDivision": " 6 то",
+      "position": "82.898277 54.997306"
+    },
+    {
+      "name": "  1-я Подгорная, ул., 16",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "82.898636 54.997244"
+    },
+    {
+      "name": "  1-я Подгорная, ул., 18",
+      "peopleCount": 18,
+      "medDivision": " 6 то",
+      "position": "82.899023 54.997419"
+    },
+    {
+      "name": "  1-я Подгорная, ул., 20",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "82.899705 54.997244"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 2",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "82.881299 55.015929"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 4",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "82.880823 55.015795"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "82.880446 55.015862"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 8",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "82.880077 55.015898"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "82.879808 55.015888"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 12",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "82.879493 55.015924"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 14",
+      "peopleCount": 14,
+      "medDivision": " 6 то",
+      "position": "82.87935 55.015955"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 16",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "82.879044 55.015939"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 18",
+      "peopleCount": 18,
+      "medDivision": " 6 то",
+      "position": "82.87864 55.016027"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 20",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "82.878317 55.016058"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 22",
+      "peopleCount": 22,
+      "medDivision": " 6 то",
+      "position": "82.878227 55.016234"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 24",
+      "peopleCount": 24,
+      "medDivision": " 6 то",
+      "position": "82.877894 55.016187"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 26",
+      "peopleCount": 26,
+      "medDivision": " 6 то",
+      "position": "82.877607 55.016456"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 28",
+      "peopleCount": 28,
+      "medDivision": " 6 то",
+      "position": "82.877014 55.016316"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 28/1",
+      "peopleCount": 28,
+      "medDivision": " 6 то",
+      "position": "82.877176 55.016316"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 28а",
+      "peopleCount": 28,
+      "medDivision": " 6 то",
+      "position": "82.877014 55.016316"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 30",
+      "peopleCount": 30,
+      "medDivision": " 6 то",
+      "position": "82.876852 55.016476"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 32",
+      "peopleCount": 32,
+      "medDivision": " 6 то",
+      "position": "82.876583 55.016378"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 34",
+      "peopleCount": 34,
+      "medDivision": " 6 то",
+      "position": "82.876403 55.016425"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 34/1",
+      "peopleCount": 34,
+      "medDivision": " 6 то",
+      "position": "82.876403 55.016425"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 34а",
+      "peopleCount": 34,
+      "medDivision": " 6 то",
+      "position": "82.876179 55.016518"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 36",
+      "peopleCount": 36,
+      "medDivision": " 6 то",
+      "position": "82.876367 55.016616"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 38",
+      "peopleCount": 38,
+      "medDivision": " 6 то",
+      "position": "82.87599 55.01659"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 40",
+      "peopleCount": 40,
+      "medDivision": " 6 то",
+      "position": "82.875783 55.0166"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 42",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "82.875622 55.016652"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 43а",
+      "peopleCount": 43,
+      "medDivision": " 6 то",
+      "position": "82.875622 55.016652"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 44",
+      "peopleCount": 44,
+      "medDivision": " 6 то",
+      "position": "82.875424 55.016714"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 46",
+      "peopleCount": 46,
+      "medDivision": " 6 то",
+      "position": "82.875424 55.016714"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 48",
+      "peopleCount": 48,
+      "medDivision": " 6 то",
+      "position": "82.875065 55.016817"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 50",
+      "peopleCount": 50,
+      "medDivision": " 6 то",
+      "position": "82.875065 55.016817"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 54",
+      "peopleCount": 54,
+      "medDivision": " 6 то",
+      "position": "82.874786 55.016894"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 56",
+      "peopleCount": 56,
+      "medDivision": " 6 то",
+      "position": "82.874633 55.016956"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 58",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "82.874472 55.017029"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 60",
+      "peopleCount": 60,
+      "medDivision": " 6 то",
+      "position": "82.874382 55.017147"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 62",
+      "peopleCount": 62,
+      "medDivision": " 6 то",
+      "position": "82.874103 55.017147"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 64",
+      "peopleCount": 64,
+      "medDivision": " 6 то",
+      "position": "82.874086 55.017302"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 66",
+      "peopleCount": 66,
+      "medDivision": " 6 то",
+      "position": "82.873699 55.017292"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 68",
+      "peopleCount": 68,
+      "medDivision": " 6 то",
+      "position": "82.873699 55.017292"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 70",
+      "peopleCount": 70,
+      "medDivision": " 6 то",
+      "position": "82.873556 55.017333"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 72",
+      "peopleCount": 72,
+      "medDivision": " 6 то",
+      "position": "82.873493 55.0174"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 72а",
+      "peopleCount": 72,
+      "medDivision": " 6 то",
+      "position": "82.873493 55.0174"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 74",
+      "peopleCount": 74,
+      "medDivision": " 6 то",
+      "position": "82.873223 55.017462"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 76",
+      "peopleCount": 76,
+      "medDivision": " 6 то",
+      "position": "82.872855 55.017622"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 78",
+      "peopleCount": 78,
+      "medDivision": " 6 то",
+      "position": "82.872585 55.017674"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 80",
+      "peopleCount": 80,
+      "medDivision": " 6 то",
+      "position": "82.872361 55.017803"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 82",
+      "peopleCount": 82,
+      "medDivision": " 6 то",
+      "position": "82.87263 55.017952"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 84",
+      "peopleCount": 84,
+      "medDivision": " 6 то",
+      "position": "82.872082 55.017916"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 86",
+      "peopleCount": 86,
+      "medDivision": " 6 то",
+      "position": "82.872064 55.018066"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 88",
+      "peopleCount": 88,
+      "medDivision": " 6 то",
+      "position": "82.871732 55.018056"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 90",
+      "peopleCount": 90,
+      "medDivision": " 6 то",
+      "position": "82.871606 55.018195"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 92",
+      "peopleCount": 92,
+      "medDivision": " 6 то",
+      "position": "82.871391 55.018283"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 93",
+      "peopleCount": 93,
+      "medDivision": " 6 то",
+      "position": "82.867267 55.020244"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 94",
+      "peopleCount": 94,
+      "medDivision": " 6 то",
+      "position": "82.871184 55.018396"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 95",
+      "peopleCount": 95,
+      "medDivision": " 6 то",
+      "position": "82.867106 55.020378"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 96",
+      "peopleCount": 96,
+      "medDivision": " 6 то",
+      "position": "82.870905 55.018479"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 97",
+      "peopleCount": 97,
+      "medDivision": " 6 то",
+      "position": "82.866881 55.020384"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 98",
+      "peopleCount": 98,
+      "medDivision": " 6 то",
+      "position": "82.870905 55.018479"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 99",
+      "peopleCount": 99,
+      "medDivision": " 6 то",
+      "position": "82.866809 55.020513"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 100",
+      "peopleCount": 100,
+      "medDivision": " 6 то",
+      "position": "82.870699 55.018582"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 101",
+      "peopleCount": 101,
+      "medDivision": " 6 то",
+      "position": "82.866585 55.020544"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 102",
+      "peopleCount": 102,
+      "medDivision": " 6 то",
+      "position": "82.870519 55.018696"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 103",
+      "peopleCount": 103,
+      "medDivision": " 6 то",
+      "position": "82.86654 55.020704"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 104",
+      "peopleCount": 104,
+      "medDivision": " 6 то",
+      "position": "82.870402 55.018758"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 105",
+      "peopleCount": 105,
+      "medDivision": " 6 то",
+      "position": "82.866432 55.020802"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 106",
+      "peopleCount": 106,
+      "medDivision": " 6 то",
+      "position": "82.870295 55.018845"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 107",
+      "peopleCount": 107,
+      "medDivision": " 6 то",
+      "position": "82.866351 55.020869"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 107а",
+      "peopleCount": 107,
+      "medDivision": " 6 то",
+      "position": "82.866261 55.020972"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 108",
+      "peopleCount": 108,
+      "medDivision": " 6 то",
+      "position": "82.870034 55.018959"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 109",
+      "peopleCount": 109,
+      "medDivision": " 6 то",
+      "position": "82.866117 55.021147"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 109а",
+      "peopleCount": 109,
+      "medDivision": " 6 то",
+      "position": "82.866117 55.021147"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 110",
+      "peopleCount": 110,
+      "medDivision": " 6 то",
+      "position": "82.869863 55.019047"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 111",
+      "peopleCount": 111,
+      "medDivision": " 6 то",
+      "position": "82.866117 55.021147"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 112",
+      "peopleCount": 112,
+      "medDivision": " 6 то",
+      "position": "82.869522 55.019212"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 113",
+      "peopleCount": 113,
+      "medDivision": " 6 то",
+      "position": "82.865848 55.021338"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 114",
+      "peopleCount": 114,
+      "medDivision": " 6 то",
+      "position": "82.869522 55.019212"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 116",
+      "peopleCount": 116,
+      "medDivision": " 6 то",
+      "position": "82.869271 55.01931"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 118",
+      "peopleCount": 118,
+      "medDivision": " 6 то",
+      "position": "82.86919 55.019413"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 118а",
+      "peopleCount": 118,
+      "medDivision": " 6 то",
+      "position": "82.86919 55.019413"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 120",
+      "peopleCount": 120,
+      "medDivision": " 6 то",
+      "position": "82.869037 55.01946"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 122",
+      "peopleCount": 122,
+      "medDivision": " 6 то",
+      "position": "82.868938 55.019516"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 124",
+      "peopleCount": 124,
+      "medDivision": " 6 то",
+      "position": "82.868714 55.019609"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 126",
+      "peopleCount": 126,
+      "medDivision": " 6 то",
+      "position": "82.868543 55.019826"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 126а",
+      "peopleCount": 126,
+      "medDivision": " 6 то",
+      "position": "82.868543 55.019826"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 128",
+      "peopleCount": 128,
+      "medDivision": " 6 то",
+      "position": "82.868417 55.01994"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 130",
+      "peopleCount": 130,
+      "medDivision": " 6 то",
+      "position": "82.868354 55.020033"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 132",
+      "peopleCount": 132,
+      "medDivision": " 6 то",
+      "position": "82.867842 55.020255"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 134",
+      "peopleCount": 134,
+      "medDivision": " 6 то",
+      "position": "82.867654 55.020306"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 136",
+      "peopleCount": 136,
+      "medDivision": " 6 то",
+      "position": "82.867528 55.02043"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 138",
+      "peopleCount": 138,
+      "medDivision": " 6 то",
+      "position": "82.867887 55.020802"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 140",
+      "peopleCount": 140,
+      "medDivision": " 6 то",
+      "position": "82.867267 55.020533"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 140а",
+      "peopleCount": 140,
+      "medDivision": " 6 то",
+      "position": "82.867267 55.020533"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 142",
+      "peopleCount": 142,
+      "medDivision": " 6 то",
+      "position": "82.867016 55.020724"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 144",
+      "peopleCount": 144,
+      "medDivision": " 6 то",
+      "position": "82.867016 55.020724"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 146",
+      "peopleCount": 146,
+      "medDivision": " 6 то",
+      "position": "82.867007 55.021085"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 148",
+      "peopleCount": 148,
+      "medDivision": " 6 то",
+      "position": "82.86671 55.020967"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 150",
+      "peopleCount": 150,
+      "medDivision": " 6 то",
+      "position": "82.867878 55.021039"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 150/1",
+      "peopleCount": 150,
+      "medDivision": " 6 то",
+      "position": "82.86769 55.021137"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 152",
+      "peopleCount": 152,
+      "medDivision": " 6 то",
+      "position": "82.867573 55.02122"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 154",
+      "peopleCount": 154,
+      "medDivision": " 6 то",
+      "position": "82.866594 55.021091"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 156",
+      "peopleCount": 156,
+      "medDivision": " 6 то",
+      "position": "82.867537 55.021245"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 158",
+      "peopleCount": 158,
+      "medDivision": " 6 то",
+      "position": "82.867528 55.021478"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 160",
+      "peopleCount": 160,
+      "medDivision": " 6 то",
+      "position": "82.867043 55.021824"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 162",
+      "peopleCount": 162,
+      "medDivision": " 6 то",
+      "position": "82.867043 55.021824"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 162а",
+      "peopleCount": 162,
+      "medDivision": " 6 то",
+      "position": "82.867043 55.021824"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 164",
+      "peopleCount": 164,
+      "medDivision": " 6 то",
+      "position": "82.866288 55.021318"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 166",
+      "peopleCount": 166,
+      "medDivision": " 6 то",
+      "position": "82.866019 55.021509"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 168",
+      "peopleCount": 168,
+      "medDivision": " 6 то",
+      "position": "82.866019 55.021509"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 170",
+      "peopleCount": 170,
+      "medDivision": " 6 то",
+      "position": "82.865938 55.021627"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 170а",
+      "peopleCount": 170,
+      "medDivision": " 6 то",
+      "position": "82.866108 55.021741"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 172",
+      "peopleCount": 172,
+      "medDivision": " 6 то",
+      "position": "82.865947 55.021808"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 172а",
+      "peopleCount": 172,
+      "medDivision": " 6 то",
+      "position": "82.865947 55.021808"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 174",
+      "peopleCount": 174,
+      "medDivision": " 6 то",
+      "position": "82.865938 55.022025"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 176",
+      "peopleCount": 176,
+      "medDivision": " 6 то",
+      "position": "82.865938 55.022025"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 178",
+      "peopleCount": 178,
+      "medDivision": " 6 то",
+      "position": "82.865803 55.022092"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 180",
+      "peopleCount": 180,
+      "medDivision": " 6 то",
+      "position": "82.865974 55.022211"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 182",
+      "peopleCount": 182,
+      "medDivision": " 6 то",
+      "position": "82.865866 55.022469"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 184",
+      "peopleCount": 184,
+      "medDivision": " 6 то",
+      "position": "82.865812 55.022933"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 186",
+      "peopleCount": 186,
+      "medDivision": " 6 то",
+      "position": "82.865812 55.022933"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 188",
+      "peopleCount": 188,
+      "medDivision": " 6 то",
+      "position": "82.866216 55.023114"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 190",
+      "peopleCount": 190,
+      "medDivision": " 6 то",
+      "position": "82.866306 55.023274"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 192",
+      "peopleCount": 192,
+      "medDivision": " 6 то",
+      "position": "82.866737 55.023408"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 194",
+      "peopleCount": 194,
+      "medDivision": " 6 то",
+      "position": "82.866477 55.023625"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 196",
+      "peopleCount": 196,
+      "medDivision": " 6 то",
+      "position": "82.866324 55.023976"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 198",
+      "peopleCount": 198,
+      "medDivision": " 6 то",
+      "position": "82.866513 55.024001"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 200",
+      "peopleCount": 200,
+      "medDivision": " 6 то",
+      "position": "82.866692 55.024254"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 202",
+      "peopleCount": 202,
+      "medDivision": " 6 то",
+      "position": "82.866405 55.024192"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 202а",
+      "peopleCount": 202,
+      "medDivision": " 6 то",
+      "position": "82.866405 55.024192"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 204",
+      "peopleCount": 204,
+      "medDivision": " 6 то",
+      "position": "82.866441 55.024389"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 206",
+      "peopleCount": 206,
+      "medDivision": " 6 то",
+      "position": "82.866441 55.024389"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 208",
+      "peopleCount": 208,
+      "medDivision": " 6 то",
+      "position": "82.866441 55.024389"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 210",
+      "peopleCount": 210,
+      "medDivision": " 6 то",
+      "position": "82.866441 55.024389"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 212",
+      "peopleCount": 212,
+      "medDivision": " 6 то",
+      "position": "82.866441 55.024389"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 214",
+      "peopleCount": 214,
+      "medDivision": " 6 то",
+      "position": "82.866441 55.024389"
+    },
+    {
+      "name": "  1-я Ракитная, ул., 216",
+      "peopleCount": 216,
+      "medDivision": " 6 то",
+      "position": "82.873484 55.017225"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 1",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "82.910872 55.007974"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 1/1",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "82.910809 55.007375"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 1/2",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "82.90974 55.007075"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 1а",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "82.910297 55.007814"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 2",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "82.910746 55.008098"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 3",
+      "peopleCount": 3,
+      "medDivision": " 6 то",
+      "position": "82.911321 55.007514"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 4",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "82.908509 55.008666"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 5",
+      "peopleCount": 5,
+      "medDivision": " 6 то",
+      "position": "82.911321 55.007514"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "82.908248 55.008728"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 7",
+      "peopleCount": 7,
+      "medDivision": " 6 то",
+      "position": "82.908967 55.006549"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 8",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "82.90797 55.008862"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 8а",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "82.907988 55.008655"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 9",
+      "peopleCount": 9,
+      "medDivision": " 6 то",
+      "position": "82.907557 55.008475"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "82.907629 55.008924"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 10а",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "82.907485 55.008975"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 10б",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "82.907629 55.008924"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 11",
+      "peopleCount": 11,
+      "medDivision": " 6 то",
+      "position": "82.907359 55.008547"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 12",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "82.907287 55.009037"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 13",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "82.907072 55.00866"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 14",
+      "peopleCount": 14,
+      "medDivision": " 6 то",
+      "position": "82.906883 55.008955"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 14а",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.906883 55.008955"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 15",
+      "peopleCount": 15,
+      "medDivision": " 6 то",
+      "position": "82.906533 55.008738"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 15/1",
+      "peopleCount": 15,
+      "medDivision": " 6 то",
+      "position": "82.906533 55.008738"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 16",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "82.90673 55.009043"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 16/1",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "82.906874 55.009574"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 16/2",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "82.90673 55.009043"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 16а",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "82.90673 55.009043"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 16б",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "82.90673 55.009043"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 17",
+      "peopleCount": 17,
+      "medDivision": " 6 то",
+      "position": "82.906389 55.008888"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 18",
+      "peopleCount": 18,
+      "medDivision": " 6 то",
+      "position": "82.906398 55.009141"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 19",
+      "peopleCount": 19,
+      "medDivision": " 6 то",
+      "position": "82.906227 55.00897"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 20",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "82.905913 55.009466"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 20/1",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "82.905913 55.009466"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 20а",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "82.906101 55.009435"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 21",
+      "peopleCount": 21,
+      "medDivision": " 6 то",
+      "position": "82.906003 55.009027"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 21/1",
+      "peopleCount": 21,
+      "medDivision": " 6 то",
+      "position": "82.906003 55.009027"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 21а",
+      "peopleCount": 21,
+      "medDivision": " 6 то",
+      "position": "82.906003 55.009027"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 22",
+      "peopleCount": 22,
+      "medDivision": " 6 то",
+      "position": "82.905419 55.009657"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 22а",
+      "peopleCount": 22,
+      "medDivision": " 6 то",
+      "position": "82.905419 55.009657"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 23",
+      "peopleCount": 23,
+      "medDivision": " 6 то",
+      "position": "82.905805 55.00912"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 24",
+      "peopleCount": 24,
+      "medDivision": " 6 то",
+      "position": "82.905149 55.009621"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 25",
+      "peopleCount": 25,
+      "medDivision": " 6 то",
+      "position": "82.905446 55.009208"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 25/1",
+      "peopleCount": 25,
+      "medDivision": " 6 то",
+      "position": "82.905616 55.009161"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 26",
+      "peopleCount": 26,
+      "medDivision": " 6 то",
+      "position": "82.904925 55.009739"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 27",
+      "peopleCount": 27,
+      "medDivision": " 6 то",
+      "position": "82.905266 55.009363"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 27/1",
+      "peopleCount": 27,
+      "medDivision": " 6 то",
+      "position": "82.905266 55.009363"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 27а",
+      "peopleCount": 27,
+      "medDivision": " 6 то",
+      "position": "82.905266 55.009363"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 28",
+      "peopleCount": 28,
+      "medDivision": " 6 то",
+      "position": "82.904925 55.009739"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 29",
+      "peopleCount": 29,
+      "medDivision": " 6 то",
+      "position": "82.904871 55.009471"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 30",
+      "peopleCount": 30,
+      "medDivision": " 6 то",
+      "position": "82.904781 55.009801"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 31",
+      "peopleCount": 31,
+      "medDivision": " 6 то",
+      "position": "82.90461 55.0096"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 31/1",
+      "peopleCount": 31,
+      "medDivision": " 6 то",
+      "position": "82.90461 55.0096"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 32",
+      "peopleCount": 32,
+      "medDivision": " 6 то",
+      "position": "82.904323 55.009956"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 33",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "82.904233 55.009698"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 34",
+      "peopleCount": 34,
+      "medDivision": " 6 то",
+      "position": "82.904161 55.010008"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 35",
+      "peopleCount": 35,
+      "medDivision": " 6 то",
+      "position": "82.904233 55.009698"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 36",
+      "peopleCount": 36,
+      "medDivision": " 6 то",
+      "position": "82.903847 55.010075"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 37",
+      "peopleCount": 37,
+      "medDivision": " 6 то",
+      "position": "82.903685 55.009672"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 38",
+      "peopleCount": 38,
+      "medDivision": " 6 то",
+      "position": "82.903847 55.010075"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 39",
+      "peopleCount": 39,
+      "medDivision": " 6 то",
+      "position": "82.903541 55.009925"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 40",
+      "peopleCount": 40,
+      "medDivision": " 6 то",
+      "position": "82.903263 55.010282"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 41",
+      "peopleCount": 41,
+      "medDivision": " 6 то",
+      "position": "82.903272 55.00992"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 42",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "82.903263 55.010282"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 43",
+      "peopleCount": 43,
+      "medDivision": " 6 то",
+      "position": "82.902859 55.010091"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 44",
+      "peopleCount": 44,
+      "medDivision": " 6 то",
+      "position": "82.902643 55.010555"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 45",
+      "peopleCount": 45,
+      "medDivision": " 6 то",
+      "position": "82.902859 55.010091"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 46",
+      "peopleCount": 46,
+      "medDivision": " 6 то",
+      "position": "82.902347 55.010529"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 47",
+      "peopleCount": 47,
+      "medDivision": " 6 то",
+      "position": "82.902445 55.010297"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 48",
+      "peopleCount": 48,
+      "medDivision": " 6 то",
+      "position": "82.902023 55.010653"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 49",
+      "peopleCount": 49,
+      "medDivision": " 6 то",
+      "position": "82.902445 55.010297"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 50",
+      "peopleCount": 50,
+      "medDivision": " 6 то",
+      "position": "82.901799 55.010731"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 51",
+      "peopleCount": 51,
+      "medDivision": " 6 то",
+      "position": "82.902445 55.010297"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 52",
+      "peopleCount": 52,
+      "medDivision": " 6 то",
+      "position": "82.901799 55.010731"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 53",
+      "peopleCount": 53,
+      "medDivision": " 6 то",
+      "position": "82.902553 55.010266"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 53а",
+      "peopleCount": 53,
+      "medDivision": " 6 то",
+      "position": "82.902014 55.009781"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 54",
+      "peopleCount": 54,
+      "medDivision": " 6 то",
+      "position": "82.901484 55.010844"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 54а",
+      "peopleCount": 54,
+      "medDivision": " 6 то",
+      "position": "82.901484 55.010844"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 55",
+      "peopleCount": 55,
+      "medDivision": " 6 то",
+      "position": "82.901745 55.010369"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 56",
+      "peopleCount": 56,
+      "medDivision": " 6 то",
+      "position": "82.901331 55.010901"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 56а",
+      "peopleCount": 56,
+      "medDivision": " 6 то",
+      "position": "82.901134 55.010979"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 57",
+      "peopleCount": 57,
+      "medDivision": " 6 то",
+      "position": "82.902167 55.010318"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 58",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "82.900882 55.010994"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 58/1",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "82.900882 55.010994"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 58а",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "82.90081 55.011071"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 59",
+      "peopleCount": 59,
+      "medDivision": " 6 то",
+      "position": "82.901367 55.010607"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 59а",
+      "peopleCount": 59,
+      "medDivision": " 6 то",
+      "position": "82.901942 55.010395"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 60",
+      "peopleCount": 60,
+      "medDivision": " 6 то",
+      "position": "82.900712 55.011149"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 60а",
+      "peopleCount": 60,
+      "medDivision": " 6 то",
+      "position": "82.900981 55.011309"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 61",
+      "peopleCount": 61,
+      "medDivision": " 6 то",
+      "position": "82.901619 55.010586"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 61/1",
+      "peopleCount": 61,
+      "medDivision": " 6 то",
+      "position": "82.901619 55.010586"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 62",
+      "peopleCount": 62,
+      "medDivision": " 6 то",
+      "position": "82.900496 55.011159"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 62а",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.900352 55.011237"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 62б",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.900496 55.011159"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 63",
+      "peopleCount": 63,
+      "medDivision": " 6 то",
+      "position": "82.901619 55.010586"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 64",
+      "peopleCount": 64,
+      "medDivision": " 6 то",
+      "position": "82.900029 55.011438"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 64/1",
+      "peopleCount": 64,
+      "medDivision": " 6 то",
+      "position": "82.900029 55.011438"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 64а",
+      "peopleCount": 64,
+      "medDivision": " 6 то",
+      "position": "82.899894 55.011309"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 65",
+      "peopleCount": 65,
+      "medDivision": " 6 то",
+      "position": "82.900909 55.010715"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 66",
+      "peopleCount": 66,
+      "medDivision": " 6 то",
+      "position": "82.900029 55.011438"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 67",
+      "peopleCount": 67,
+      "medDivision": " 6 то",
+      "position": "82.900694 55.010834"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 67а",
+      "peopleCount": 67,
+      "medDivision": " 6 то",
+      "position": "82.900694 55.010834"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 68",
+      "peopleCount": 68,
+      "medDivision": " 6 то",
+      "position": "82.899463 55.01151"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 68/2",
+      "peopleCount": 68,
+      "medDivision": " 6 то",
+      "position": "82.899463 55.01151"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 69",
+      "peopleCount": 69,
+      "medDivision": " 6 то",
+      "position": "82.900361 55.010932"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 69/1",
+      "peopleCount": 69,
+      "medDivision": " 6 то",
+      "position": "82.900361 55.010932"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 69/2",
+      "peopleCount": 69,
+      "medDivision": " 6 то",
+      "position": "82.900361 55.010932"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 69а",
+      "peopleCount": 69,
+      "medDivision": " 6 то",
+      "position": "82.900128 55.010596"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 70",
+      "peopleCount": 70,
+      "medDivision": " 6 то",
+      "position": "82.899032 55.011526"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 71",
+      "peopleCount": 71,
+      "medDivision": " 6 то",
+      "position": "82.900155 55.010906"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 72",
+      "peopleCount": 72,
+      "medDivision": " 6 то",
+      "position": "82.898556 55.011448"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 72а",
+      "peopleCount": 72,
+      "medDivision": " 6 то",
+      "position": "82.899211 55.011583"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 73",
+      "peopleCount": 73,
+      "medDivision": " 6 то",
+      "position": "82.900002 55.010963"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 73а",
+      "peopleCount": 73,
+      "medDivision": " 6 то",
+      "position": "82.899813 55.011035"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 74",
+      "peopleCount": 74,
+      "medDivision": " 6 то",
+      "position": "82.89843 55.01166"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 75",
+      "peopleCount": 75,
+      "medDivision": " 6 то",
+      "position": "82.89931 55.011061"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 75/1",
+      "peopleCount": 75,
+      "medDivision": " 6 то",
+      "position": "82.899131 55.011102"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 76",
+      "peopleCount": 76,
+      "medDivision": " 6 то",
+      "position": "82.89843 55.01166"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 77",
+      "peopleCount": 77,
+      "medDivision": " 6 то",
+      "position": "82.89931 55.011061"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 78",
+      "peopleCount": 78,
+      "medDivision": " 6 то",
+      "position": "82.898115 55.01149"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 78/1",
+      "peopleCount": 78,
+      "medDivision": " 6 то",
+      "position": "82.898115 55.01149"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 78/2",
+      "peopleCount": 78,
+      "medDivision": " 6 то",
+      "position": "82.898097 55.011639"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 78а",
+      "peopleCount": 78,
+      "medDivision": " 6 то",
+      "position": "82.898663 55.011872"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 79",
+      "peopleCount": 79,
+      "medDivision": " 6 то",
+      "position": "82.898457 55.01117"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 79а",
+      "peopleCount": 79,
+      "medDivision": " 6 то",
+      "position": "82.898457 55.01117"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 80",
+      "peopleCount": 80,
+      "medDivision": " 6 то",
+      "position": "82.898717 55.012135"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 81",
+      "peopleCount": 81,
+      "medDivision": " 6 то",
+      "position": "82.89799 55.011226"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 81а",
+      "peopleCount": 81,
+      "medDivision": " 6 то",
+      "position": "82.897666 55.011278"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 82",
+      "peopleCount": 82,
+      "medDivision": " 6 то",
+      "position": "82.898304 55.012052"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 82/1",
+      "peopleCount": 82,
+      "medDivision": " 6 то",
+      "position": "82.898304 55.012052"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 82а",
+      "peopleCount": 82,
+      "medDivision": " 6 то",
+      "position": "82.898304 55.011949"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 83",
+      "peopleCount": 83,
+      "medDivision": " 6 то",
+      "position": "82.897271 55.011309"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 83а",
+      "peopleCount": 83,
+      "medDivision": " 6 то",
+      "position": "82.897271 55.011309"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 84а",
+      "peopleCount": 84,
+      "medDivision": " 6 то",
+      "position": "82.897307 55.0115"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 84б",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.897963 55.012016"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 85",
+      "peopleCount": 85,
+      "medDivision": " 6 то",
+      "position": "82.896696 55.011335"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 85/1",
+      "peopleCount": 85,
+      "medDivision": " 6 то",
+      "position": "82.896696 55.011335"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 85/2",
+      "peopleCount": 85,
+      "medDivision": " 6 то",
+      "position": "82.896696 55.011335"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 86",
+      "peopleCount": 86,
+      "medDivision": " 6 то",
+      "position": "82.897756 55.011877"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 86а",
+      "peopleCount": 86,
+      "medDivision": " 6 то",
+      "position": "82.897756 55.011877"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 87",
+      "peopleCount": 87,
+      "medDivision": " 6 то",
+      "position": "82.896696 55.011335"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 88",
+      "peopleCount": 88,
+      "medDivision": " 6 то",
+      "position": "82.896678 55.011634"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 89",
+      "peopleCount": 89,
+      "medDivision": " 6 то",
+      "position": "82.896696 55.011335"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 90",
+      "peopleCount": 90,
+      "medDivision": " 6 то",
+      "position": "82.896193 55.011841"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 90а",
+      "peopleCount": 90,
+      "medDivision": " 6 то",
+      "position": "82.896346 55.01165"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 91",
+      "peopleCount": 91,
+      "medDivision": " 6 то",
+      "position": "82.892959 55.012026"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 92",
+      "peopleCount": 92,
+      "medDivision": " 6 то",
+      "position": "82.895376 55.011882"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 92а",
+      "peopleCount": 92,
+      "medDivision": " 6 то",
+      "position": "82.895286 55.012197"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 92б",
+      "peopleCount": 92,
+      "medDivision": " 6 то",
+      "position": "82.895915 55.012192"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 93",
+      "peopleCount": 93,
+      "medDivision": " 6 то",
+      "position": "82.892959 55.012026"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 93а",
+      "peopleCount": 93,
+      "medDivision": " 6 то",
+      "position": "82.892959 55.012026"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 94",
+      "peopleCount": 94,
+      "medDivision": " 6 то",
+      "position": "82.894953 55.011959"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 94а",
+      "peopleCount": 94,
+      "medDivision": " 6 то",
+      "position": "82.894953 55.011959"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 95",
+      "peopleCount": 95,
+      "medDivision": " 6 то",
+      "position": "82.892959 55.012026"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 96",
+      "peopleCount": 96,
+      "medDivision": " 6 то",
+      "position": "82.894603 55.012073"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 97",
+      "peopleCount": 97,
+      "medDivision": " 6 то",
+      "position": "82.892941 55.012145"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 98",
+      "peopleCount": 98,
+      "medDivision": " 6 то",
+      "position": "82.89419 55.012181"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 99",
+      "peopleCount": 99,
+      "medDivision": " 6 то",
+      "position": "82.892618 55.012228"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 100",
+      "peopleCount": 100,
+      "medDivision": " 6 то",
+      "position": "82.893795 55.0123"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 101",
+      "peopleCount": 101,
+      "medDivision": " 6 то",
+      "position": "82.892106 55.012336"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 102",
+      "peopleCount": 102,
+      "medDivision": " 6 то",
+      "position": "82.89339 55.012372"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 103",
+      "peopleCount": 103,
+      "medDivision": " 6 то",
+      "position": "82.891746 55.012264"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 104",
+      "peopleCount": 104,
+      "medDivision": " 6 то",
+      "position": "82.892977 55.012465"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 105",
+      "peopleCount": 105,
+      "medDivision": " 6 то",
+      "position": "82.891513 55.01247"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 105/1",
+      "peopleCount": 105,
+      "medDivision": " 6 то",
+      "position": "82.891513 55.01247"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 105/2",
+      "peopleCount": 105,
+      "medDivision": " 6 то",
+      "position": "82.891513 55.01247"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 106",
+      "peopleCount": 106,
+      "medDivision": " 6 то",
+      "position": "82.892564 55.012465"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 107",
+      "peopleCount": 107,
+      "medDivision": " 6 то",
+      "position": "82.891189 55.012434"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 108",
+      "peopleCount": 108,
+      "medDivision": " 6 то",
+      "position": "82.892312 55.012532"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 109",
+      "peopleCount": 109,
+      "medDivision": " 6 то",
+      "position": "82.890659 55.012558"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 109а",
+      "peopleCount": 109,
+      "medDivision": " 6 то",
+      "position": "82.890453 55.012558"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 110",
+      "peopleCount": 110,
+      "medDivision": " 6 то",
+      "position": "82.89198 55.012589"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 110/1",
+      "peopleCount": 110,
+      "medDivision": " 6 то",
+      "position": "82.89198 55.012589"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 110а",
+      "peopleCount": 110,
+      "medDivision": " 6 то",
+      "position": "82.89198 55.012589"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 111",
+      "peopleCount": 111,
+      "medDivision": " 6 то",
+      "position": "82.890453 55.012558"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 112",
+      "peopleCount": 112,
+      "medDivision": " 6 то",
+      "position": "82.891639 55.012708"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 112/2",
+      "peopleCount": 112,
+      "medDivision": " 6 то",
+      "position": "82.888647 55.013828"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 112/3",
+      "peopleCount": 112,
+      "medDivision": " 6 то",
+      "position": "82.889294 55.01437"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 113",
+      "peopleCount": 113,
+      "medDivision": " 6 то",
+      "position": "82.890201 55.012605"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 114",
+      "peopleCount": 114,
+      "medDivision": " 6 то",
+      "position": "82.887417 55.013188"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 114/1",
+      "peopleCount": 114,
+      "medDivision": " 6 то",
+      "position": "82.887417 55.013188"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 114а",
+      "peopleCount": 114,
+      "medDivision": " 6 то",
+      "position": "82.887722 55.013234"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 115",
+      "peopleCount": 115,
+      "medDivision": " 6 то",
+      "position": "82.889555 55.012264"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 116",
+      "peopleCount": 116,
+      "medDivision": " 6 то",
+      "position": "82.88721 55.013204"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 117",
+      "peopleCount": 117,
+      "medDivision": " 6 то",
+      "position": "82.889195 55.012476"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 118",
+      "peopleCount": 118,
+      "medDivision": " 6 то",
+      "position": "82.886662 55.013281"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 118/1",
+      "peopleCount": 118,
+      "medDivision": " 6 то",
+      "position": "82.886662 55.013281"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 118/2",
+      "peopleCount": 118,
+      "medDivision": " 6 то",
+      "position": "82.886662 55.013281"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 118г",
+      "peopleCount": 118,
+      "medDivision": " 6 то",
+      "position": "82.886365 55.013338"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 118б",
+      "peopleCount": 118,
+      "medDivision": " 6 то",
+      "position": "82.886015 55.01324"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 119",
+      "peopleCount": 119,
+      "medDivision": " 6 то",
+      "position": "82.88889 55.012718"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 119/1",
+      "peopleCount": 119,
+      "medDivision": " 6 то",
+      "position": "82.88889 55.012718"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 119а",
+      "peopleCount": 119,
+      "medDivision": " 6 то",
+      "position": "82.88889 55.012718"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 119б",
+      "peopleCount": 119,
+      "medDivision": " 6 то",
+      "position": "82.88889 55.012718"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 120а",
+      "peopleCount": 120,
+      "medDivision": " 6 то",
+      "position": "82.885862 55.013302"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 121",
+      "peopleCount": 121,
+      "medDivision": " 6 то",
+      "position": "82.888333 55.012723"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 122",
+      "peopleCount": 122,
+      "medDivision": " 6 то",
+      "position": "82.885314 55.013658"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 123",
+      "peopleCount": 123,
+      "medDivision": " 6 то",
+      "position": "82.888279 55.01262"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 123а",
+      "peopleCount": 123,
+      "medDivision": " 6 то",
+      "position": "82.888521 55.012512"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 123б",
+      "peopleCount": 123,
+      "medDivision": " 6 то",
+      "position": "82.887866 55.012723"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 124",
+      "peopleCount": 124,
+      "medDivision": " 6 то",
+      "position": "82.885818 55.013616"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 124/1",
+      "peopleCount": 124,
+      "medDivision": " 6 то",
+      "position": "82.885818 55.013616"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 124а",
+      "peopleCount": 124,
+      "medDivision": " 6 то",
+      "position": "82.888791 55.012119"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 124б",
+      "peopleCount": 124,
+      "medDivision": " 6 то",
+      "position": "82.885818 55.013616"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 125",
+      "peopleCount": 125,
+      "medDivision": " 6 то",
+      "position": "82.888279 55.01262"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 126",
+      "peopleCount": 126,
+      "medDivision": " 6 то",
+      "position": "82.885979 55.013673"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 127",
+      "peopleCount": 127,
+      "medDivision": " 6 то",
+      "position": "82.885207 55.013007"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 128",
+      "peopleCount": 128,
+      "medDivision": " 6 то",
+      "position": "82.886312 55.013632"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 129",
+      "peopleCount": 129,
+      "medDivision": " 6 то",
+      "position": "82.885207 55.013007"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 130",
+      "peopleCount": 130,
+      "medDivision": " 6 то",
+      "position": "82.886581 55.013632"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 131",
+      "peopleCount": 131,
+      "medDivision": " 6 то",
+      "position": "82.885207 55.013007"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 132",
+      "peopleCount": 132,
+      "medDivision": " 6 то",
+      "position": "82.88694 55.013704"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 133",
+      "peopleCount": 133,
+      "medDivision": " 6 то",
+      "position": "82.885207 55.013007"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 134",
+      "peopleCount": 134,
+      "medDivision": " 6 то",
+      "position": "82.887165 55.013715"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 134а",
+      "peopleCount": 134,
+      "medDivision": " 6 то",
+      "position": "82.887479 55.013709"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 135",
+      "peopleCount": 135,
+      "medDivision": " 6 то",
+      "position": "82.885207 55.013007"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 136",
+      "peopleCount": 136,
+      "medDivision": " 6 то",
+      "position": "82.887461 55.014189"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 136а",
+      "peopleCount": 136,
+      "medDivision": " 6 то",
+      "position": "82.887461 55.014189"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 137",
+      "peopleCount": 137,
+      "medDivision": " 6 то",
+      "position": "82.885207 55.013007"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 138",
+      "peopleCount": 138,
+      "medDivision": " 6 то",
+      "position": "82.887147 55.014215"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 138/1",
+      "peopleCount": 138,
+      "medDivision": " 6 то",
+      "position": "82.887147 55.014215"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 139",
+      "peopleCount": 139,
+      "medDivision": " 6 то",
+      "position": "82.885207 55.013007"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 140",
+      "peopleCount": 140,
+      "medDivision": " 6 то",
+      "position": "82.886563 55.014251"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 141",
+      "peopleCount": 141,
+      "medDivision": " 6 то",
+      "position": "82.886374 55.014313"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 142",
+      "peopleCount": 142,
+      "medDivision": " 6 то",
+      "position": "82.886374 55.014313"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 143",
+      "peopleCount": 143,
+      "medDivision": " 6 то",
+      "position": "82.886374 55.014313"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 144",
+      "peopleCount": 144,
+      "medDivision": " 6 то",
+      "position": "82.885979 55.014401"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 145",
+      "peopleCount": 145,
+      "medDivision": " 6 то",
+      "position": "82.885979 55.014401"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 146",
+      "peopleCount": 146,
+      "medDivision": " 6 то",
+      "position": "82.885979 55.014401"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 147",
+      "peopleCount": 147,
+      "medDivision": " 6 то",
+      "position": "82.885288 55.014189"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 148",
+      "peopleCount": 148,
+      "medDivision": " 6 то",
+      "position": "82.885288 55.014189"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 149",
+      "peopleCount": 149,
+      "medDivision": " 6 то",
+      "position": "82.885288 55.014189"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 150",
+      "peopleCount": 150,
+      "medDivision": " 6 то",
+      "position": "82.885288 55.014189"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 151",
+      "peopleCount": 151,
+      "medDivision": " 6 то",
+      "position": "82.885288 55.014189"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 152",
+      "peopleCount": 152,
+      "medDivision": " 6 то",
+      "position": "82.885135 55.014334"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 153",
+      "peopleCount": 153,
+      "medDivision": " 6 то",
+      "position": "82.885135 55.014334"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 154",
+      "peopleCount": 154,
+      "medDivision": " 6 то",
+      "position": "82.884901 55.014633"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 155",
+      "peopleCount": 155,
+      "medDivision": " 6 то",
+      "position": "82.885395 55.014737"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 156",
+      "peopleCount": 156,
+      "medDivision": " 6 то",
+      "position": "82.885395 55.014737"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 157",
+      "peopleCount": 157,
+      "medDivision": " 6 то",
+      "position": "82.885395 55.014737"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 158",
+      "peopleCount": 158,
+      "medDivision": " 6 то",
+      "position": "82.885889 55.014726"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 159",
+      "peopleCount": 159,
+      "medDivision": " 6 то",
+      "position": "82.885889 55.014726"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 160",
+      "peopleCount": 160,
+      "medDivision": " 6 то",
+      "position": "82.885889 55.014726"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 161",
+      "peopleCount": 161,
+      "medDivision": " 6 то",
+      "position": "82.885889 55.014726"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 162",
+      "peopleCount": 162,
+      "medDivision": " 6 то",
+      "position": "82.885889 55.014726"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 163",
+      "peopleCount": 163,
+      "medDivision": " 6 то",
+      "position": "82.887183 55.015124"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 164",
+      "peopleCount": 164,
+      "medDivision": " 6 то",
+      "position": "82.887183 55.015124"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 165",
+      "peopleCount": 165,
+      "medDivision": " 6 то",
+      "position": "82.887183 55.015124"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 166",
+      "peopleCount": 166,
+      "medDivision": " 6 то",
+      "position": "82.887426 55.015212"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 167",
+      "peopleCount": 167,
+      "medDivision": " 6 то",
+      "position": "82.88765 55.015444"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 168",
+      "peopleCount": 168,
+      "medDivision": " 6 то",
+      "position": "82.88765 55.015444"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 169",
+      "peopleCount": 169,
+      "medDivision": " 6 то",
+      "position": "82.88765 55.015444"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 171",
+      "peopleCount": 171,
+      "medDivision": " 6 то",
+      "position": "82.88792 55.015697"
+    },
+    {
+      "name": "  1-я Чулымская, ул., 172",
+      "peopleCount": 172,
+      "medDivision": " 6 то",
+      "position": "82.88792 55.015697"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 1",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "82.883608 55.012011"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 2",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "39.941065 57.612031"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 3",
+      "peopleCount": 3,
+      "medDivision": " 6 то",
+      "position": "82.883329 55.01246"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 4",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "39.941748 57.611404"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 5",
+      "peopleCount": 5,
+      "medDivision": " 6 то",
+      "position": "82.88306 55.012491"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "39.942071 57.610966"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 7",
+      "peopleCount": 7,
+      "medDivision": " 6 то",
+      "position": "82.882808 55.012501"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 8",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "39.942376 57.610565"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 9",
+      "peopleCount": 9,
+      "medDivision": " 6 то",
+      "position": "82.882539 55.012507"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "39.942844 57.610011"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 10а",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "30.168958 59.818938"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 11",
+      "peopleCount": 11,
+      "medDivision": " 6 то",
+      "position": "82.882233 55.012558"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 11а",
+      "peopleCount": 11,
+      "medDivision": " 6 то",
+      "position": "82.882233 55.012558"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 12",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "39.943167 57.609664"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 13",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "82.882027 55.012558"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 13/1",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "82.882027 55.012558"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 14",
+      "peopleCount": 14,
+      "medDivision": " 6 то",
+      "position": "39.943418 57.60909"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 15",
+      "peopleCount": 15,
+      "medDivision": " 6 то",
+      "position": "82.881649 55.012579"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 16",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "39.943571 57.608618"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 17",
+      "peopleCount": 17,
+      "medDivision": " 6 то",
+      "position": "82.881434 55.012553"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 18",
+      "peopleCount": 18,
+      "medDivision": " 6 то",
+      "position": "39.94367 57.608208"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 19",
+      "peopleCount": 19,
+      "medDivision": " 6 то",
+      "position": "82.881065 55.012636"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 20",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "39.944919 57.608907"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 21",
+      "peopleCount": 21,
+      "medDivision": " 6 то",
+      "position": "82.880787 55.012594"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 21а",
+      "peopleCount": 21,
+      "medDivision": " 6 то",
+      "position": "82.880787 55.012594"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 22",
+      "peopleCount": 22,
+      "medDivision": " 6 то",
+      "position": "39.944856 57.608637"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 23",
+      "peopleCount": 23,
+      "medDivision": " 6 то",
+      "position": "39.943796 57.607166"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 24",
+      "peopleCount": 24,
+      "medDivision": " 6 то",
+      "position": "39.945458 57.607615"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 25",
+      "peopleCount": 25,
+      "medDivision": " 6 то",
+      "position": "39.943886 57.606944"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 26",
+      "peopleCount": 26,
+      "medDivision": " 6 то",
+      "position": "39.9457 57.607108"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 27",
+      "peopleCount": 27,
+      "medDivision": " 6 то",
+      "position": "39.943895 57.606414"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 28",
+      "peopleCount": 28,
+      "medDivision": " 6 то",
+      "position": "39.945395 57.606641"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 29",
+      "peopleCount": 29,
+      "medDivision": " 6 то",
+      "position": "47.864781 42.552537"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 30",
+      "peopleCount": 30,
+      "medDivision": " 6 то",
+      "position": "82.878344 55.01324"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 31",
+      "peopleCount": 31,
+      "medDivision": " 6 то",
+      "position": "47.864502 42.552809"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 32",
+      "peopleCount": 32,
+      "medDivision": " 6 то",
+      "position": "82.878092 55.013255"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 33",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "36.564702 50.649212"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 34",
+      "peopleCount": 34,
+      "medDivision": " 6 то",
+      "position": "82.87758 55.013214"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 34/1",
+      "peopleCount": 34,
+      "medDivision": " 6 то",
+      "position": "82.877867 55.013245"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 35",
+      "peopleCount": 35,
+      "medDivision": " 6 то",
+      "position": "132.459158 43.291429"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 36",
+      "peopleCount": 36,
+      "medDivision": " 6 то",
+      "position": "82.877373 55.013234"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 36а",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.877535 55.013296"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 37",
+      "peopleCount": 37,
+      "medDivision": " 6 то",
+      "position": "132.459733 43.283921"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 38",
+      "peopleCount": 38,
+      "medDivision": " 6 то",
+      "position": "82.877212 55.013255"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 39",
+      "peopleCount": 39,
+      "medDivision": " 6 то",
+      "position": "36.564495 50.649766"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 40",
+      "peopleCount": 40,
+      "medDivision": " 6 то",
+      "position": "82.876754 55.013317"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 41",
+      "peopleCount": 41,
+      "medDivision": " 6 то",
+      "position": "82.878146 55.012579"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 42",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "82.876502 55.013353"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 42а",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "82.87652 55.013451"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 43",
+      "peopleCount": 43,
+      "medDivision": " 6 то",
+      "position": "82.877688 55.012775"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 43а",
+      "peopleCount": 43,
+      "medDivision": " 6 то",
+      "position": "82.877688 55.012775"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 44",
+      "peopleCount": 44,
+      "medDivision": " 6 то",
+      "position": "82.876215 55.013906"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 44а",
+      "peopleCount": 44,
+      "medDivision": " 6 то",
+      "position": "82.876188 55.01342"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 45",
+      "peopleCount": 45,
+      "medDivision": " 6 то",
+      "position": "82.876969 55.012785"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 45/3",
+      "peopleCount": 45,
+      "medDivision": " 6 то",
+      "position": "82.876969 55.012785"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 45а",
+      "peopleCount": 45,
+      "medDivision": " 6 то",
+      "position": "82.87731 55.012791"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 46",
+      "peopleCount": 46,
+      "medDivision": " 6 то",
+      "position": "39.946428 57.602725"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 46а",
+      "peopleCount": 46,
+      "medDivision": " 6 то",
+      "position": "39.946428 57.602725"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 47",
+      "peopleCount": 47,
+      "medDivision": " 6 то",
+      "position": "39.944308 57.603236"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 48",
+      "peopleCount": 48,
+      "medDivision": " 6 то",
+      "position": "36.563974 50.654729"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 48а",
+      "peopleCount": 48,
+      "medDivision": " 6 то",
+      "position": "82.875262 55.013477"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 49",
+      "peopleCount": 49,
+      "medDivision": " 6 то",
+      "position": "39.944425 57.60272"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 50",
+      "peopleCount": 50,
+      "medDivision": " 6 то",
+      "position": "82.875172 55.013348"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 50а",
+      "peopleCount": 50,
+      "medDivision": " 6 то",
+      "position": "82.87511 55.013219"
+    },
+    {
+      "name": "  1-я Шоссейная, ул., 52",
+      "peopleCount": 52,
+      "medDivision": " 6 то",
+      "position": "82.874642 55.013054"
+    },
+    {
+      "name": "  2-й Горский, пер., 1а",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "82.903236 54.996345"
+    },
+    {
+      "name": "  2-й Горский, пер., 7",
+      "peopleCount": 7,
+      "medDivision": " 6 то",
+      "position": "45.698457 43.350543"
+    },
+    {
+      "name": "  2-й Горский, пер., 9",
+      "peopleCount": 9,
+      "medDivision": " 6 то",
+      "position": "39.773394 57.716162"
+    },
+    {
+      "name": "  2-й Горский, пер., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "45.698781 43.3503"
+    },
+    {
+      "name": "  2-й Горский, пер., 13",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "45.699257 43.350628"
+    },
+    {
+      "name": "  2-й Горский, пер., 14",
+      "peopleCount": 14,
+      "medDivision": " 6 то",
+      "position": "45.699751 43.350464"
+    },
+    {
+      "name": "  2-й Горский, пер., 14а",
+      "peopleCount": 14,
+      "medDivision": " 6 то",
+      "position": "45.699751 43.350464"
+    },
+    {
+      "name": "  2-й Горский, пер., 15",
+      "peopleCount": 15,
+      "medDivision": " 6 то",
+      "position": "45.699445 43.350779"
+    },
+    {
+      "name": "  2-й Горский, пер., 17",
+      "peopleCount": 17,
+      "medDivision": " 6 то",
+      "position": "45.699661 43.350706"
+    },
+    {
+      "name": "  2-й Крашенинникова, пер., 2",
+      "peopleCount": 2,
+      "medDivision": " 2 то",
+      "position": "82.867393 54.982714"
+    },
+    {
+      "name": "  2-й Крашенинникова, пер., 4",
+      "peopleCount": 4,
+      "medDivision": " 2 то",
+      "position": "82.866719 54.982688"
+    },
+    {
+      "name": "  2-й Крашенинникова, пер., 6",
+      "peopleCount": 6,
+      "medDivision": " 2 то",
+      "position": "82.865974 54.983148"
+    },
+    {
+      "name": "  2-й Крашенинникова, пер., 8",
+      "peopleCount": 8,
+      "medDivision": " 2 то",
+      "position": "82.865911 54.983721"
+    },
+    {
+      "name": "  2-й Крашенинникова, пер., 10",
+      "peopleCount": 10,
+      "medDivision": " 2 то",
+      "position": "82.865848 54.982637"
+    },
+    {
+      "name": "  2-й Крашенинникова, пер., 12",
+      "peopleCount": 12,
+      "medDivision": " 2 то",
+      "position": "82.865093 54.982611"
+    },
+    {
+      "name": "  2-й Крашенинникова, пер., 14",
+      "peopleCount": 14,
+      "medDivision": " 2 то",
+      "position": "82.864357 54.983034"
+    },
+    {
+      "name": "  2-й Крашенинникова, пер., 16",
+      "peopleCount": 16,
+      "medDivision": " 2 то",
+      "position": "82.864222 54.982575"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 1",
+      "peopleCount": 1,
+      "medDivision": " 2 то",
+      "position": "82.873259 54.990809"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 3",
+      "peopleCount": 3,
+      "medDivision": " 2 то",
+      "position": "82.873861 54.990871"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 9",
+      "peopleCount": 9,
+      "medDivision": " 2 то",
+      "position": "82.875613 54.990912"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 10",
+      "peopleCount": 10,
+      "medDivision": " 2 то",
+      "position": "82.879727 54.99054"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 11",
+      "peopleCount": 11,
+      "medDivision": " 2 то",
+      "position": "82.876224 54.991165"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 12",
+      "peopleCount": 12,
+      "medDivision": " 2 то",
+      "position": "82.880553 54.990762"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 13",
+      "peopleCount": 13,
+      "medDivision": " 2 то",
+      "position": "82.87696 54.991222"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 15",
+      "peopleCount": 15,
+      "medDivision": " 2 то",
+      "position": "82.877616 54.991279"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 17",
+      "peopleCount": 17,
+      "medDivision": " 2 то",
+      "position": "82.878335 54.99132"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 19",
+      "peopleCount": 19,
+      "medDivision": " 2 то",
+      "position": "82.879017 54.991346"
+    },
+    {
+      "name": "  2-й Пархоменко, пер., 21",
+      "peopleCount": 21,
+      "medDivision": " 2 то",
+      "position": "82.879754 54.991263"
+    },
+    {
+      "name": "  2-й Римского-Корсакова, пер., 1",
+      "peopleCount": 1,
+      "medDivision": " 3 то",
+      "position": "82.883545 54.981624"
+    },
+    {
+      "name": "  2-й Римского-Корсакова, пер., 3",
+      "peopleCount": 3,
+      "medDivision": " 3 то",
+      "position": "82.883617 54.981149"
+    },
+    {
+      "name": "  2-й Римского-Корсакова, пер., 5",
+      "peopleCount": 5,
+      "medDivision": " 3 то",
+      "position": "82.88385 54.98087"
+    },
+    {
+      "name": "  2-й Римского-Корсакова, пер., 7",
+      "peopleCount": 7,
+      "medDivision": " 3 то",
+      "position": "82.883904 54.980534"
+    },
+    {
+      "name": "  2-й Римского-Корсакова, пер., 8",
+      "peopleCount": 8,
+      "medDivision": " 3 то",
+      "position": "82.883194 54.979609"
+    },
+    {
+      "name": "  2-й Римского-Корсакова, пер., 9",
+      "peopleCount": 9,
+      "medDivision": " 3 то",
+      "position": "82.883751 54.980213"
+    },
+    {
+      "name": "  2-й Римского-Корсакова, пер., 10",
+      "peopleCount": 10,
+      "medDivision": " 3 то",
+      "position": "82.883248 54.979284"
+    },
+    {
+      "name": "  2-й Римского-Корсакова, пер., 11",
+      "peopleCount": 11,
+      "medDivision": " 3 то",
+      "position": "82.883814 54.979748"
+    },
+    {
+      "name": "  2-й Серафимовича, пер., 6",
+      "peopleCount": 6,
+      "medDivision": " 3 то",
+      "position": "23.815695 53.691208"
+    },
+    {
+      "name": "  2-й Серафимовича, пер., 8",
+      "peopleCount": 8,
+      "medDivision": " 3 то",
+      "position": "23.814509 53.691171"
+    },
+    {
+      "name": "  2-й Серафимовича, пер., 12",
+      "peopleCount": 12,
+      "medDivision": " 3 то",
+      "position": "82.877463 54.980213"
+    },
+    {
+      "name": "  2-й Серафимовича, пер., 14",
+      "peopleCount": 14,
+      "medDivision": " 3 то",
+      "position": "82.877679 54.979847"
+    },
+    {
+      "name": "  2-й Серафимовича, пер., 16",
+      "peopleCount": 16,
+      "medDivision": " 3 то",
+      "position": "82.877463 54.979495"
+    },
+    {
+      "name": "  2-й Станиславского, пер., 3",
+      "peopleCount": 3,
+      "medDivision": " 3 то",
+      "position": "41.026194 57.025454"
+    },
+    {
+      "name": "  2-й Станиславского, пер., 6",
+      "peopleCount": 6,
+      "medDivision": " 3 то",
+      "position": "82.868597 54.979315"
+    },
+    {
+      "name": "  2-й Станиславского, пер., 13",
+      "peopleCount": 13,
+      "medDivision": " 3 то",
+      "position": "41.02658 57.026213"
+    },
+    {
+      "name": "  2-й Станиславского, пер., 15",
+      "peopleCount": 15,
+      "medDivision": " 3 то",
+      "position": "41.026688 57.02637"
+    },
+    {
+      "name": "  2-й Станиславского, пер., 17",
+      "peopleCount": 17,
+      "medDivision": " 3 то",
+      "position": "41.026751 57.026468"
+    },
+    {
+      "name": "  2-й Чулымский, пер., 2а",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "82.910315 55.00564"
+    },
+    {
+      "name": "  2-й Чулымский, пер., 4",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "82.909955 55.0058"
+    },
+    {
+      "name": "  2-й Чулымский, пер., 4а",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "82.910315 55.00564"
+    },
+    {
+      "name": "  2-й Чулымский, пер., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "82.909767 55.005645"
+    },
+    {
+      "name": "  2-й Чулымский, пер., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "82.909668 55.005537"
+    },
+    {
+      "name": "  2-й Чулымский, пер., 12",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "82.909506 55.005289"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 1",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "61.369181 55.094653"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 2",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "61.369289 55.095838"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 3",
+      "peopleCount": 3,
+      "medDivision": " 6 то",
+      "position": "61.370133 55.096064"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 4",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "87.343572 53.758186"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 5",
+      "peopleCount": 5,
+      "medDivision": " 6 то",
+      "position": "61.371822 55.095292"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "87.343644 53.758452"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 7",
+      "peopleCount": 7,
+      "medDivision": " 6 то",
+      "position": "30.244524 55.222174"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 8",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "30.243563 55.222395"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 9",
+      "peopleCount": 9,
+      "medDivision": " 6 то",
+      "position": "30.244192 55.222395"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "87.342018 53.758335"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 11",
+      "peopleCount": 11,
+      "medDivision": " 6 то",
+      "position": "30.243814 55.22259"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 12",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "87.341192 53.758362"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 13",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "30.243491 55.222754"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 14",
+      "peopleCount": 14,
+      "medDivision": " 6 то",
+      "position": "87.340374 53.758357"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 15",
+      "peopleCount": 15,
+      "medDivision": " 6 то",
+      "position": "30.243078 55.223011"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 16",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "87.339674 53.758405"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 17",
+      "peopleCount": 17,
+      "medDivision": " 6 то",
+      "position": "30.242799 55.223201"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 18",
+      "peopleCount": 18,
+      "medDivision": " 6 то",
+      "position": "56.098074 57.977736"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 19",
+      "peopleCount": 19,
+      "medDivision": " 6 то",
+      "position": "82.870807 55.023413"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 20",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "56.098676 57.977455"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 21",
+      "peopleCount": 21,
+      "medDivision": " 6 то",
+      "position": "82.87078 55.023692"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 22",
+      "peopleCount": 22,
+      "medDivision": " 6 то",
+      "position": "87.338524 53.758293"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 23",
+      "peopleCount": 23,
+      "medDivision": " 6 то",
+      "position": "82.870582 55.023945"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 24",
+      "peopleCount": 24,
+      "medDivision": " 6 то",
+      "position": "87.338084 53.758325"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 25",
+      "peopleCount": 25,
+      "medDivision": " 6 то",
+      "position": "82.870528 55.024182"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 26",
+      "peopleCount": 26,
+      "medDivision": " 6 то",
+      "position": "87.337679 53.758298"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 27",
+      "peopleCount": 27,
+      "medDivision": " 6 то",
+      "position": "82.870501 55.024259"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 28",
+      "peopleCount": 28,
+      "medDivision": " 6 то",
+      "position": "87.33723 53.758277"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 29",
+      "peopleCount": 29,
+      "medDivision": " 6 то",
+      "position": "82.87042 55.02445"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 30",
+      "peopleCount": 30,
+      "medDivision": " 6 то",
+      "position": "87.336539 53.758351"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 31",
+      "peopleCount": 31,
+      "medDivision": " 6 то",
+      "position": "82.870375 55.024703"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 32",
+      "peopleCount": 32,
+      "medDivision": " 6 то",
+      "position": "87.972393 52.765291"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 33",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "82.870402 55.02493"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 34",
+      "peopleCount": 34,
+      "medDivision": " 6 то",
+      "position": "87.97277 52.765966"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 35",
+      "peopleCount": 35,
+      "medDivision": " 6 то",
+      "position": "82.870295 55.025059"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 36",
+      "peopleCount": 36,
+      "medDivision": " 6 то",
+      "position": "82.869819 55.025132"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 37",
+      "peopleCount": 37,
+      "medDivision": " 6 то",
+      "position": "82.870259 55.025256"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 37а",
+      "peopleCount": 37,
+      "medDivision": " 6 то",
+      "position": "82.870277 55.025188"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 38",
+      "peopleCount": 38,
+      "medDivision": " 6 то",
+      "position": "87.972824 52.766871"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 39",
+      "peopleCount": 39,
+      "medDivision": " 6 то",
+      "position": "82.87025 55.025426"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 40",
+      "peopleCount": 40,
+      "medDivision": " 6 то",
+      "position": "87.972923 52.767198"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 41",
+      "peopleCount": 41,
+      "medDivision": " 6 то",
+      "position": "82.870304 55.025648"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 42",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "87.972959 52.7674"
+    },
+    {
+      "name": "  2-я Дальняя, ул., 43",
+      "peopleCount": 43,
+      "medDivision": " 6 то",
+      "position": "82.870169 55.025834"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 1",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "82.871139 55.019088"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 2",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "82.873331 55.017839"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 2а",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "82.87369 55.01787"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 3",
+      "peopleCount": 3,
+      "medDivision": " 6 то",
+      "position": "82.870923 55.019284"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 4",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "82.873187 55.017978"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 5",
+      "peopleCount": 5,
+      "medDivision": " 6 то",
+      "position": "31.817267 54.792681"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "82.873196 55.018138"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 7",
+      "peopleCount": 7,
+      "medDivision": " 6 то",
+      "position": "82.870708 55.019527"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 8",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "82.87299 55.018128"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 8а",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "82.87299 55.018128"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 9",
+      "peopleCount": 9,
+      "medDivision": " 6 то",
+      "position": "82.870313 55.019826"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "82.872801 55.018164"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 11",
+      "peopleCount": 11,
+      "medDivision": " 6 то",
+      "position": "82.870358 55.019981"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 11а",
+      "peopleCount": 11,
+      "medDivision": " 6 то",
+      "position": "82.870115 55.020043"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 12",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "82.872693 55.018303"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 13",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "31.815956 54.792603"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 13а",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "82.870061 55.020265"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 14",
+      "peopleCount": 14,
+      "medDivision": " 6 то",
+      "position": "82.872496 55.018396"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 15",
+      "peopleCount": 15,
+      "medDivision": " 6 то",
+      "position": "82.869854 55.020425"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 16",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "31.815453 54.792805"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 17",
+      "peopleCount": 17,
+      "medDivision": " 6 то",
+      "position": "82.869738 55.020554"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 18",
+      "peopleCount": 18,
+      "medDivision": " 6 то",
+      "position": "82.872325 55.018531"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 19",
+      "peopleCount": 19,
+      "medDivision": " 6 то",
+      "position": "82.869477 55.020735"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 19а",
+      "peopleCount": 19,
+      "medDivision": " 6 то",
+      "position": "82.869064 55.020822"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 20",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "82.872235 55.01866"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 21",
+      "peopleCount": 21,
+      "medDivision": " 6 то",
+      "position": "82.869289 55.021209"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 22",
+      "peopleCount": 22,
+      "medDivision": " 6 то",
+      "position": "82.872469 55.018876"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 23",
+      "peopleCount": 23,
+      "medDivision": " 6 то",
+      "position": "82.868902 55.02123"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 23а",
+      "peopleCount": 23,
+      "medDivision": " 6 то",
+      "position": "82.868498 55.020962"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 24",
+      "peopleCount": 24,
+      "medDivision": " 6 то",
+      "position": "82.87201 55.018985"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 25",
+      "peopleCount": 25,
+      "medDivision": " 6 то",
+      "position": "82.868561 55.021323"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 26",
+      "peopleCount": 26,
+      "medDivision": " 6 то",
+      "position": "82.871948 55.019073"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 27",
+      "peopleCount": 27,
+      "medDivision": " 6 то",
+      "position": "82.868372 55.021565"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 27а",
+      "peopleCount": 27,
+      "medDivision": " 6 то",
+      "position": "82.868956 55.021622"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 27в",
+      "peopleCount": 27,
+      "medDivision": " 6 то",
+      "position": "82.868372 55.021565"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 28",
+      "peopleCount": 28,
+      "medDivision": " 6 то",
+      "position": "82.871759 55.01915"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 29",
+      "peopleCount": 29,
+      "medDivision": " 6 то",
+      "position": "82.868956 55.021622"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 30",
+      "peopleCount": 30,
+      "medDivision": " 6 то",
+      "position": "82.871759 55.01915"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 31",
+      "peopleCount": 31,
+      "medDivision": " 6 то",
+      "position": "82.868202 55.021865"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 32",
+      "peopleCount": 32,
+      "medDivision": " 6 то",
+      "position": "82.87166 55.019465"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 33",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "82.86857 55.022056"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 33/1",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "82.868408 55.022056"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 33/2",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "82.868211 55.022092"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 34",
+      "peopleCount": 34,
+      "medDivision": " 6 то",
+      "position": "82.871606 55.019645"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 35",
+      "peopleCount": 35,
+      "medDivision": " 6 то",
+      "position": "82.868705 55.022298"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 36",
+      "peopleCount": 36,
+      "medDivision": " 6 то",
+      "position": "82.871606 55.019645"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 37",
+      "peopleCount": 37,
+      "medDivision": " 6 то",
+      "position": "82.868202 55.022329"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 37а",
+      "peopleCount": 37,
+      "medDivision": " 6 то",
+      "position": "82.868202 55.022329"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 38",
+      "peopleCount": 38,
+      "medDivision": " 6 то",
+      "position": "82.871319 55.019723"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 39",
+      "peopleCount": 39,
+      "medDivision": " 6 то",
+      "position": "82.867375 55.02218"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 39а",
+      "peopleCount": 39,
+      "medDivision": " 6 то",
+      "position": "82.867636 55.022273"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 40",
+      "peopleCount": 40,
+      "medDivision": " 6 то",
+      "position": "82.871507 55.019852"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 41",
+      "peopleCount": 41,
+      "medDivision": " 6 то",
+      "position": "82.868202 55.022463"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 42",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "82.871229 55.019883"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 42а",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "82.871229 55.019883"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 43",
+      "peopleCount": 43,
+      "medDivision": " 6 то",
+      "position": "82.867106 55.022469"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 43а",
+      "peopleCount": 43,
+      "medDivision": " 6 то",
+      "position": "82.866701 55.022365"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 44",
+      "peopleCount": 44,
+      "medDivision": " 6 то",
+      "position": "82.870914 55.019862"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 45",
+      "peopleCount": 45,
+      "medDivision": " 6 то",
+      "position": "82.867195 55.022701"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 46",
+      "peopleCount": 46,
+      "medDivision": " 6 то",
+      "position": "82.871094 55.02011"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 47",
+      "peopleCount": 47,
+      "medDivision": " 6 то",
+      "position": "82.866549 55.022608"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 48",
+      "peopleCount": 48,
+      "medDivision": " 6 то",
+      "position": "82.871148 55.020239"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 49",
+      "peopleCount": 49,
+      "medDivision": " 6 то",
+      "position": "82.868202 55.022613"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 50",
+      "peopleCount": 50,
+      "medDivision": " 6 то",
+      "position": "82.870753 55.020384"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 51",
+      "peopleCount": 51,
+      "medDivision": " 6 то",
+      "position": "82.86866 55.022778"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 52",
+      "peopleCount": 52,
+      "medDivision": " 6 то",
+      "position": "82.870825 55.020616"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 52а",
+      "peopleCount": 52,
+      "medDivision": " 6 то",
+      "position": "82.870528 55.020435"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 53",
+      "peopleCount": 53,
+      "medDivision": " 6 то",
+      "position": "82.868273 55.023088"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 53а",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.868184 55.022809"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 54",
+      "peopleCount": 54,
+      "medDivision": " 6 то",
+      "position": "82.870187 55.020719"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 55",
+      "peopleCount": 55,
+      "medDivision": " 6 то",
+      "position": "82.868184 55.02332"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 56",
+      "peopleCount": 56,
+      "medDivision": " 6 то",
+      "position": "82.870681 55.020838"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 57",
+      "peopleCount": 57,
+      "medDivision": " 6 то",
+      "position": "82.86786 55.023165"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 58",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "82.870699 55.020936"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 58а",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "82.870636 55.021039"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 59",
+      "peopleCount": 59,
+      "medDivision": " 6 то",
+      "position": "82.867267 55.023212"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 60",
+      "peopleCount": 60,
+      "medDivision": " 6 то",
+      "position": "82.869926 55.021008"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 60а",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.869926 55.021008"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 61",
+      "peopleCount": 61,
+      "medDivision": " 6 то",
+      "position": "82.867267 55.023367"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 62",
+      "peopleCount": 62,
+      "medDivision": " 6 то",
+      "position": "82.87051 55.021245"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 63",
+      "peopleCount": 63,
+      "medDivision": " 6 то",
+      "position": "82.868094 55.023656"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 64",
+      "peopleCount": 64,
+      "medDivision": " 6 то",
+      "position": "82.869783 55.021256"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 65",
+      "peopleCount": 65,
+      "medDivision": " 6 то",
+      "position": "82.867878 55.023537"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 66",
+      "peopleCount": 66,
+      "medDivision": " 6 то",
+      "position": "82.869711 55.021374"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 67",
+      "peopleCount": 67,
+      "medDivision": " 6 то",
+      "position": "82.867438 55.02363"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 67а",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.867707 55.023774"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 68",
+      "peopleCount": 68,
+      "medDivision": " 6 то",
+      "position": "82.870528 55.021591"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 69",
+      "peopleCount": 69,
+      "medDivision": " 6 то",
+      "position": "82.867258 55.023919"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 70",
+      "peopleCount": 70,
+      "medDivision": " 6 то",
+      "position": "82.870402 55.021725"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 71",
+      "peopleCount": 71,
+      "medDivision": " 6 то",
+      "position": "82.867258 55.023919"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 72",
+      "peopleCount": 72,
+      "medDivision": " 6 то",
+      "position": "82.870402 55.021725"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 73",
+      "peopleCount": 73,
+      "medDivision": " 6 то",
+      "position": "82.868345 55.023852"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 74",
+      "peopleCount": 74,
+      "medDivision": " 6 то",
+      "position": "82.869576 55.021591"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 74а",
+      "peopleCount": 74,
+      "medDivision": " 6 то",
+      "position": "82.869576 55.021591"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 75",
+      "peopleCount": 75,
+      "medDivision": " 6 то",
+      "position": "82.868345 55.023852"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 75а",
+      "peopleCount": 75,
+      "medDivision": " 6 то",
+      "position": "82.868345 55.023852"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 76",
+      "peopleCount": 76,
+      "medDivision": " 6 то",
+      "position": "82.870061 55.021813"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 77",
+      "peopleCount": 77,
+      "medDivision": " 6 то",
+      "position": "82.868184 55.024048"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 78",
+      "peopleCount": 78,
+      "medDivision": " 6 то",
+      "position": "82.870546 55.02203"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 79",
+      "peopleCount": 79,
+      "medDivision": " 6 то",
+      "position": "82.867384 55.024017"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 80",
+      "peopleCount": 80,
+      "medDivision": " 6 то",
+      "position": "82.870322 55.021999"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 80/1",
+      "peopleCount": 80,
+      "medDivision": " 6 то",
+      "position": "82.870322 55.021999"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 80а",
+      "peopleCount": 80,
+      "medDivision": " 6 то",
+      "position": "82.869648 55.021989"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 81",
+      "peopleCount": 81,
+      "medDivision": " 6 то",
+      "position": "82.868309 55.02444"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 82",
+      "peopleCount": 82,
+      "medDivision": " 6 то",
+      "position": "82.870366 55.022185"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 83",
+      "peopleCount": 83,
+      "medDivision": " 6 то",
+      "position": "82.868309 55.02444"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 84",
+      "peopleCount": 84,
+      "medDivision": " 6 то",
+      "position": "82.869756 55.022422"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 85",
+      "peopleCount": 85,
+      "medDivision": " 6 то",
+      "position": "82.866971 55.024714"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 86",
+      "peopleCount": 86,
+      "medDivision": " 6 то",
+      "position": "82.869756 55.022422"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 87",
+      "peopleCount": 87,
+      "medDivision": " 6 то",
+      "position": "82.866971 55.024714"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 88",
+      "peopleCount": 88,
+      "medDivision": " 6 то",
+      "position": "82.869801 55.022639"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 88а",
+      "peopleCount": 88,
+      "medDivision": " 6 то",
+      "position": "82.869576 55.022562"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 89",
+      "peopleCount": 89,
+      "medDivision": " 6 то",
+      "position": "82.866989 55.024868"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 90",
+      "peopleCount": 90,
+      "medDivision": " 6 то",
+      "position": "82.869836 55.022737"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 90а",
+      "peopleCount": 90,
+      "medDivision": " 6 то",
+      "position": "82.869127 55.022747"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 91",
+      "peopleCount": 91,
+      "medDivision": " 6 то",
+      "position": "82.866989 55.024868"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 91а",
+      "peopleCount": 91,
+      "medDivision": " 6 то",
+      "position": "82.868318 55.024652"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 92",
+      "peopleCount": 92,
+      "medDivision": " 6 то",
+      "position": "82.870259 55.022907"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 92а",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.870582 55.022964"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 93",
+      "peopleCount": 93,
+      "medDivision": " 6 то",
+      "position": "82.867447 55.024352"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 94",
+      "peopleCount": 94,
+      "medDivision": " 6 то",
+      "position": "82.86954 55.02298"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 95",
+      "peopleCount": 95,
+      "medDivision": " 6 то",
+      "position": "82.867133 55.02509"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 96",
+      "peopleCount": 96,
+      "medDivision": " 6 то",
+      "position": "82.869729 55.023114"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 97",
+      "peopleCount": 97,
+      "medDivision": " 6 то",
+      "position": "82.868309 55.02507"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 98",
+      "peopleCount": 98,
+      "medDivision": " 6 то",
+      "position": "82.869693 55.022964"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 99",
+      "peopleCount": 99,
+      "medDivision": " 6 то",
+      "position": "82.867375 55.025679"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 100",
+      "peopleCount": 100,
+      "medDivision": " 6 то",
+      "position": "82.869324 55.023062"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 101",
+      "peopleCount": 101,
+      "medDivision": " 6 то",
+      "position": "82.867375 55.025679"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 101а",
+      "peopleCount": 101,
+      "medDivision": " 6 то",
+      "position": "82.86733 55.02541"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 102",
+      "peopleCount": 102,
+      "medDivision": " 6 то",
+      "position": "82.869522 55.023088"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 103",
+      "peopleCount": 103,
+      "medDivision": " 6 то",
+      "position": "82.867788 55.025338"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 104",
+      "peopleCount": 104,
+      "medDivision": " 6 то",
+      "position": "82.869262 55.02332"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 105",
+      "peopleCount": 105,
+      "medDivision": " 6 то",
+      "position": "82.868318 55.024925"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 106",
+      "peopleCount": 106,
+      "medDivision": " 6 то",
+      "position": "82.869468 55.023227"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 107",
+      "peopleCount": 107,
+      "medDivision": " 6 то",
+      "position": "82.867555 55.025849"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 108",
+      "peopleCount": 108,
+      "medDivision": " 6 то",
+      "position": "82.868938 55.02347"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 109",
+      "peopleCount": 109,
+      "medDivision": " 6 то",
+      "position": "82.868372 55.025529"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 110",
+      "peopleCount": 110,
+      "medDivision": " 6 то",
+      "position": "82.868714 55.023609"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 111",
+      "peopleCount": 111,
+      "medDivision": " 6 то",
+      "position": "82.868372 55.025529"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 112",
+      "peopleCount": 112,
+      "medDivision": " 6 то",
+      "position": "82.868794 55.023836"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 113",
+      "peopleCount": 113,
+      "medDivision": " 6 то",
+      "position": "82.868193 55.025689"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 114",
+      "peopleCount": 114,
+      "medDivision": " 6 то",
+      "position": "82.868866 55.023986"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 115",
+      "peopleCount": 115,
+      "medDivision": " 6 то",
+      "position": "82.868076 55.025968"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 116",
+      "peopleCount": 116,
+      "medDivision": " 6 то",
+      "position": "82.868866 55.023986"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 117",
+      "peopleCount": 117,
+      "medDivision": " 6 то",
+      "position": "82.867582 55.026226"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 118",
+      "peopleCount": 118,
+      "medDivision": " 6 то",
+      "position": "82.869127 55.024115"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 120",
+      "peopleCount": 120,
+      "medDivision": " 6 то",
+      "position": "82.868911 55.024239"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 122",
+      "peopleCount": 122,
+      "medDivision": " 6 то",
+      "position": "82.869055 55.024414"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 122а",
+      "peopleCount": 122,
+      "medDivision": " 6 то",
+      "position": "82.869091 55.02461"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 124",
+      "peopleCount": 124,
+      "medDivision": " 6 то",
+      "position": "82.868893 55.024703"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 126",
+      "peopleCount": 126,
+      "medDivision": " 6 то",
+      "position": "82.868866 55.024843"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 128",
+      "peopleCount": 128,
+      "medDivision": " 6 то",
+      "position": "82.869064 55.025575"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 130",
+      "peopleCount": 130,
+      "medDivision": " 6 то",
+      "position": "82.868785 55.025834"
+    },
+    {
+      "name": "  2-я Ракитная, ул., 132",
+      "peopleCount": 132,
+      "medDivision": " 6 то",
+      "position": "82.86936 55.026014"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 1",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 2",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 3",
+      "peopleCount": 3,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 4",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 5",
+      "peopleCount": 5,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 7",
+      "peopleCount": 7,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 8",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 9",
+      "peopleCount": 9,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "82.904314 55.009218"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 11",
+      "peopleCount": 11,
+      "medDivision": " 6 то",
+      "position": "82.897873 55.010684"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 12",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "82.904314 55.009218"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 13",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "82.897873 55.010684"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 15",
+      "peopleCount": 15,
+      "medDivision": " 6 то",
+      "position": "82.897873 55.010684"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 18",
+      "peopleCount": 18,
+      "medDivision": " 6 то",
+      "position": "82.904314 55.009218"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 19",
+      "peopleCount": 19,
+      "medDivision": " 6 то",
+      "position": "82.897873 55.010684"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 20",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "82.904314 55.009218"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 21а",
+      "peopleCount": 21,
+      "medDivision": " 6 то",
+      "position": "82.903146 55.00912"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 22",
+      "peopleCount": 22,
+      "medDivision": " 6 то",
+      "position": "82.903721 55.009228"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 23",
+      "peopleCount": 23,
+      "medDivision": " 6 то",
+      "position": "82.902634 55.009094"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 24",
+      "peopleCount": 24,
+      "medDivision": " 6 то",
+      "position": "82.903416 55.009285"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 25",
+      "peopleCount": 25,
+      "medDivision": " 6 то",
+      "position": "82.902266 55.009311"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 26",
+      "peopleCount": 26,
+      "medDivision": " 6 то",
+      "position": "82.903029 55.009538"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 27",
+      "peopleCount": 27,
+      "medDivision": " 6 то",
+      "position": "82.901942 55.00945"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 28",
+      "peopleCount": 28,
+      "medDivision": " 6 то",
+      "position": "82.902661 55.009502"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 29",
+      "peopleCount": 29,
+      "medDivision": " 6 то",
+      "position": "82.901655 55.009461"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 30",
+      "peopleCount": 30,
+      "medDivision": " 6 то",
+      "position": "82.902418 55.009569"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 31",
+      "peopleCount": 31,
+      "medDivision": " 6 то",
+      "position": "82.900963 55.009388"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 33",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "82.901313 55.009569"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 33/1",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "82.901313 55.009569"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 33а",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "82.900927 55.00977"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 33б",
+      "peopleCount": 0,
+      "medDivision": " 6 то",
+      "position": "82.900963 55.009388"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 35",
+      "peopleCount": 35,
+      "medDivision": " 6 то",
+      "position": "82.900739 55.009786"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 36",
+      "peopleCount": 36,
+      "medDivision": " 6 то",
+      "position": "82.90134 55.009931"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 37",
+      "peopleCount": 37,
+      "medDivision": " 6 то",
+      "position": "82.900433 55.009827"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 38",
+      "peopleCount": 38,
+      "medDivision": " 6 то",
+      "position": "82.90108 55.009941"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 39",
+      "peopleCount": 39,
+      "medDivision": " 6 то",
+      "position": "82.899912 55.009523"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 41",
+      "peopleCount": 41,
+      "medDivision": " 6 то",
+      "position": "82.899741 55.00976"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 41а",
+      "peopleCount": 41,
+      "medDivision": " 6 то",
+      "position": "82.899741 55.00976"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 42",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "82.900101 55.010189"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 42/1",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "82.900667 55.010132"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 42а",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "82.900101 55.010189"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 43",
+      "peopleCount": 43,
+      "medDivision": " 6 то",
+      "position": "82.899741 55.00976"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 44",
+      "peopleCount": 44,
+      "medDivision": " 6 то",
+      "position": "82.900101 55.010189"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 45",
+      "peopleCount": 45,
+      "medDivision": " 6 то",
+      "position": "82.89967 55.0096"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 46",
+      "peopleCount": 46,
+      "medDivision": " 6 то",
+      "position": "82.899292 55.010385"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 47",
+      "peopleCount": 47,
+      "medDivision": " 6 то",
+      "position": "82.89967 55.0096"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 48",
+      "peopleCount": 48,
+      "medDivision": " 6 то",
+      "position": "82.898421 55.010695"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 51",
+      "peopleCount": 51,
+      "medDivision": " 6 то",
+      "position": "82.899122 55.010142"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 53",
+      "peopleCount": 53,
+      "medDivision": " 6 то",
+      "position": "82.898124 55.010194"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 54",
+      "peopleCount": 54,
+      "medDivision": " 6 то",
+      "position": "82.897567 55.010999"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 55",
+      "peopleCount": 55,
+      "medDivision": " 6 то",
+      "position": "82.898124 55.010194"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 56",
+      "peopleCount": 56,
+      "medDivision": " 6 то",
+      "position": "82.897567 55.010999"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 57",
+      "peopleCount": 57,
+      "medDivision": " 6 то",
+      "position": "82.89746 55.010333"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 58",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "82.897567 55.010999"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 59",
+      "peopleCount": 59,
+      "medDivision": " 6 то",
+      "position": "82.89746 55.010333"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 60",
+      "peopleCount": 60,
+      "medDivision": " 6 то",
+      "position": "82.897567 55.010999"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 61",
+      "peopleCount": 61,
+      "medDivision": " 6 то",
+      "position": "82.89746 55.010333"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 61а",
+      "peopleCount": 61,
+      "medDivision": " 6 то",
+      "position": "82.89746 55.010333"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 62",
+      "peopleCount": 62,
+      "medDivision": " 6 то",
+      "position": "82.897567 55.010999"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 63",
+      "peopleCount": 63,
+      "medDivision": " 6 то",
+      "position": "82.89746 55.010333"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 65",
+      "peopleCount": 65,
+      "medDivision": " 6 то",
+      "position": "82.89746 55.010333"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 67",
+      "peopleCount": 67,
+      "medDivision": " 6 то",
+      "position": "82.89746 55.010333"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 69",
+      "peopleCount": 69,
+      "medDivision": " 6 то",
+      "position": "82.898735 55.010844"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 70",
+      "peopleCount": 70,
+      "medDivision": " 6 то",
+      "position": "82.898735 55.010844"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 72",
+      "peopleCount": 72,
+      "medDivision": " 6 то",
+      "position": "82.898735 55.010844"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 73",
+      "peopleCount": 73,
+      "medDivision": " 6 то",
+      "position": "82.898735 55.010844"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 74",
+      "peopleCount": 74,
+      "medDivision": " 6 то",
+      "position": "82.898735 55.010844"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 75",
+      "peopleCount": 75,
+      "medDivision": " 6 то",
+      "position": "82.898735 55.010844"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 76",
+      "peopleCount": 76,
+      "medDivision": " 6 то",
+      "position": "82.898735 55.010844"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 77",
+      "peopleCount": 77,
+      "medDivision": " 6 то",
+      "position": "82.898735 55.010844"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 79",
+      "peopleCount": 79,
+      "medDivision": " 6 то",
+      "position": "82.897451 55.010777"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 80",
+      "peopleCount": 80,
+      "medDivision": " 6 то",
+      "position": "82.897451 55.010777"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 81",
+      "peopleCount": 81,
+      "medDivision": " 6 то",
+      "position": "82.897451 55.010777"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 82",
+      "peopleCount": 82,
+      "medDivision": " 6 то",
+      "position": "82.897451 55.010777"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 83",
+      "peopleCount": 83,
+      "medDivision": " 6 то",
+      "position": "82.897334 55.011025"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 83/1",
+      "peopleCount": 83,
+      "medDivision": " 6 то",
+      "position": "82.897334 55.011025"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 83а",
+      "peopleCount": 83,
+      "medDivision": " 6 то",
+      "position": "82.897334 55.011025"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 84",
+      "peopleCount": 84,
+      "medDivision": " 6 то",
+      "position": "82.896912 55.01104"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 85",
+      "peopleCount": 85,
+      "medDivision": " 6 то",
+      "position": "82.896912 55.01104"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 86",
+      "peopleCount": 86,
+      "medDivision": " 6 то",
+      "position": "82.896912 55.01104"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 88",
+      "peopleCount": 88,
+      "medDivision": " 6 то",
+      "position": "82.896391 55.011061"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 89",
+      "peopleCount": 89,
+      "medDivision": " 6 то",
+      "position": "82.896391 55.011061"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 90",
+      "peopleCount": 90,
+      "medDivision": " 6 то",
+      "position": "82.896391 55.011061"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 91",
+      "peopleCount": 91,
+      "medDivision": " 6 то",
+      "position": "82.896391 55.011061"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 92",
+      "peopleCount": 92,
+      "medDivision": " 6 то",
+      "position": "82.896391 55.011061"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 93",
+      "peopleCount": 93,
+      "medDivision": " 6 то",
+      "position": "82.896391 55.011061"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 95",
+      "peopleCount": 95,
+      "medDivision": " 6 то",
+      "position": "82.896391 55.011061"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 97",
+      "peopleCount": 97,
+      "medDivision": " 6 то",
+      "position": "82.896391 55.011061"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 98",
+      "peopleCount": 98,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 99",
+      "peopleCount": 99,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.010075"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 101",
+      "peopleCount": 101,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 102",
+      "peopleCount": 102,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 103",
+      "peopleCount": 103,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 105",
+      "peopleCount": 105,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 106",
+      "peopleCount": 106,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 107",
+      "peopleCount": 107,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 108",
+      "peopleCount": 108,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 110",
+      "peopleCount": 110,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 111",
+      "peopleCount": 111,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 112",
+      "peopleCount": 112,
+      "medDivision": " 6 то",
+      "position": "82.893992 55.011082"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 113",
+      "peopleCount": 113,
+      "medDivision": " 6 то",
+      "position": "82.895591 55.010984"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 114",
+      "peopleCount": 114,
+      "medDivision": " 6 то",
+      "position": "82.895591 55.010984"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 117",
+      "peopleCount": 117,
+      "medDivision": " 6 то",
+      "position": "82.895591 55.010984"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 118",
+      "peopleCount": 118,
+      "medDivision": " 6 то",
+      "position": "82.895591 55.010984"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 119",
+      "peopleCount": 119,
+      "medDivision": " 6 то",
+      "position": "82.895591 55.010984"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 120",
+      "peopleCount": 120,
+      "medDivision": " 6 то",
+      "position": "82.895591 55.010984"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 121",
+      "peopleCount": 121,
+      "medDivision": " 6 то",
+      "position": "82.895591 55.010984"
+    },
+    {
+      "name": "  2-я Чулымская, ул., 123",
+      "peopleCount": 123,
+      "medDivision": " 6 то",
+      "position": "82.895591 55.010984"
+    },
+    {
+      "name": "  2-я Школьная, ул., 57",
+      "peopleCount": 57,
+      "medDivision": " 6 то",
+      "position": "82.87908 54.998519"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 1",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "132.067834 43.284026"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 1а",
+      "peopleCount": 1,
+      "medDivision": " 6 то",
+      "position": "132.065534 43.284256"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 2",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "59.726719 55.203395"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 2а",
+      "peopleCount": 2,
+      "medDivision": " 6 то",
+      "position": "82.910063 55.004318"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 4",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "59.725731 55.202938"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 4а",
+      "peopleCount": 4,
+      "medDivision": " 6 то",
+      "position": "30.171275 59.819192"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 6",
+      "peopleCount": 6,
+      "medDivision": " 6 то",
+      "position": "132.061546 43.284263"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 7",
+      "peopleCount": 7,
+      "medDivision": " 6 то",
+      "position": "132.065633 43.277765"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 8",
+      "peopleCount": 8,
+      "medDivision": " 6 то",
+      "position": "59.723171 55.202409"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 9",
+      "peopleCount": 9,
+      "medDivision": " 6 то",
+      "position": "82.908123 55.004731"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 9а",
+      "peopleCount": 9,
+      "medDivision": " 6 то",
+      "position": "82.907943 55.004948"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 10",
+      "peopleCount": 10,
+      "medDivision": " 6 то",
+      "position": "132.06336 43.280961"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 11/1",
+      "peopleCount": 11,
+      "medDivision": " 6 то",
+      "position": "132.067555 43.27535"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 12",
+      "peopleCount": 12,
+      "medDivision": " 6 то",
+      "position": "30.170584 59.818604"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 13",
+      "peopleCount": 13,
+      "medDivision": " 6 то",
+      "position": "132.072002 43.271024"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 14",
+      "peopleCount": 14,
+      "medDivision": " 6 то",
+      "position": "132.064205 43.278743"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 16",
+      "peopleCount": 16,
+      "medDivision": " 6 то",
+      "position": "132.064699 43.278316"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 18",
+      "peopleCount": 18,
+      "medDivision": " 6 то",
+      "position": "132.064752 43.278172"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 20",
+      "peopleCount": 20,
+      "medDivision": " 6 то",
+      "position": "132.064429 43.278047"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 22",
+      "peopleCount": 22,
+      "medDivision": " 6 то",
+      "position": "132.064645 43.277706"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 24",
+      "peopleCount": 24,
+      "medDivision": " 6 то",
+      "position": "132.064842 43.277437"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 26",
+      "peopleCount": 26,
+      "medDivision": " 6 то",
+      "position": "132.064483 43.277036"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 28",
+      "peopleCount": 28,
+      "medDivision": " 6 то",
+      "position": "132.06513 43.276912"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 30",
+      "peopleCount": 30,
+      "medDivision": " 6 то",
+      "position": "132.06477 43.27659"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 32",
+      "peopleCount": 32,
+      "medDivision": " 6 то",
+      "position": "132.064986 43.27636"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 33",
+      "peopleCount": 33,
+      "medDivision": " 6 то",
+      "position": "82.899202 55.007509"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 34",
+      "peopleCount": 34,
+      "medDivision": " 6 то",
+      "position": "132.065013 43.276098"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 35",
+      "peopleCount": 35,
+      "medDivision": " 6 то",
+      "position": "82.898816 55.00769"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 36",
+      "peopleCount": 36,
+      "medDivision": " 6 то",
+      "position": "132.065516 43.276059"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 37",
+      "peopleCount": 37,
+      "medDivision": " 6 то",
+      "position": "82.898475 55.00785"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 37а",
+      "peopleCount": 37,
+      "medDivision": " 6 то",
+      "position": "82.898187 55.007994"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 38",
+      "peopleCount": 38,
+      "medDivision": " 6 то",
+      "position": "132.065408 43.275789"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 39",
+      "peopleCount": 39,
+      "medDivision": " 6 то",
+      "position": "132.068759 43.265615"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 39/1",
+      "peopleCount": 39,
+      "medDivision": " 6 то",
+      "position": "82.897945 55.008067"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 39а",
+      "peopleCount": 39,
+      "medDivision": " 6 то",
+      "position": "82.897693 55.008149"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 40",
+      "peopleCount": 40,
+      "medDivision": " 6 то",
+      "position": "132.065112 43.275724"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 41",
+      "peopleCount": 41,
+      "medDivision": " 6 то",
+      "position": "132.068633 43.265228"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 42",
+      "peopleCount": 42,
+      "medDivision": " 6 то",
+      "position": "132.065821 43.27552"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 43",
+      "peopleCount": 43,
+      "medDivision": " 6 то",
+      "position": "82.893121 55.009249"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 44",
+      "peopleCount": 44,
+      "medDivision": " 6 то",
+      "position": "132.066181 43.275284"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 45",
+      "peopleCount": 45,
+      "medDivision": " 6 то",
+      "position": "36.561782 50.651982"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 46",
+      "peopleCount": 46,
+      "medDivision": " 6 то",
+      "position": "132.066405 43.275021"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 47",
+      "peopleCount": 47,
+      "medDivision": " 6 то",
+      "position": "82.892797 55.009352"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 48",
+      "peopleCount": 48,
+      "medDivision": " 6 то",
+      "position": "132.066639 43.274844"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 48/1",
+      "peopleCount": 48,
+      "medDivision": " 6 то",
+      "position": "82.900963 55.007194"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 48а",
+      "peopleCount": 48,
+      "medDivision": " 6 то",
+      "position": "82.901538 55.007106"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 49",
+      "peopleCount": 49,
+      "medDivision": " 6 то",
+      "position": "82.892438 55.009471"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 50",
+      "peopleCount": 50,
+      "medDivision": " 6 то",
+      "position": "132.067897 43.27386"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 50/1",
+      "peopleCount": 50,
+      "medDivision": " 6 то",
+      "position": "82.900864 55.007334"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 51",
+      "peopleCount": 51,
+      "medDivision": " 6 то",
+      "position": "82.892294 55.009636"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 52",
+      "peopleCount": 52,
+      "medDivision": " 6 то",
+      "position": "132.068193 43.273722"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 53",
+      "peopleCount": 53,
+      "medDivision": " 6 то",
+      "position": "132.066657 43.274365"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 54",
+      "peopleCount": 54,
+      "medDivision": " 6 то",
+      "position": "132.068364 43.273636"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 55",
+      "peopleCount": 55,
+      "medDivision": " 6 то",
+      "position": "82.891809 55.00975"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 56",
+      "peopleCount": 56,
+      "medDivision": " 6 то",
+      "position": "132.068507 43.273518"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 57",
+      "peopleCount": 57,
+      "medDivision": " 6 то",
+      "position": "82.891369 55.0099"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 58",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "132.071283 43.271759"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 58/1",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.007535"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 58/2",
+      "peopleCount": 58,
+      "medDivision": " 6 то",
+      "position": "82.90002 55.007535"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 59",
+      "peopleCount": 59,
+      "medDivision": " 6 то",
+      "position": "82.891369 55.0099"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 59/1",
+      "peopleCount": 59,
+      "medDivision": " 6 то",
+      "position": "82.89136 55.009533"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 59а",
+      "peopleCount": 59,
+      "medDivision": " 6 то",
+      "position": "82.891369 55.0099"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 60",
+      "peopleCount": 60,
+      "medDivision": " 6 то",
+      "position": "82.899571 55.007705"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 61",
+      "peopleCount": 61,
+      "medDivision": " 6 то",
+      "position": "82.891001 55.009972"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 62",
+      "peopleCount": 62,
+      "medDivision": " 6 то",
+      "position": "82.899265 55.007788"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 63",
+      "peopleCount": 63,
+      "medDivision": " 6 то",
+      "position": "82.890758 55.010003"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 64",
+      "peopleCount": 64,
+      "medDivision": " 6 то",
+      "position": "82.899077 55.007912"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 65",
+      "peopleCount": 65,
+      "medDivision": " 6 то",
+      "position": "82.890507 55.01008"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 66",
+      "peopleCount": 66,
+      "medDivision": " 6 то",
+      "position": "36.562079 50.652364"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 66/1",
+      "peopleCount": 66,
+      "medDivision": " 6 то",
+      "position": "82.898915 55.007963"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 66/2",
+      "peopleCount": 66,
+      "medDivision": " 6 то",
+      "position": "82.898915 55.007963"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 66а",
+      "peopleCount": 66,
+      "medDivision": " 6 то",
+      "position": "82.898915 55.007963"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 67",
+      "peopleCount": 67,
+      "medDivision": " 6 то",
+      "position": "82.890632 55.009616"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 68",
+      "peopleCount": 68,
+      "medDivision": " 6 то",
+      "position": "82.898825 55.008129"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 69",
+      "peopleCount": 69,
+      "medDivision": " 6 то",
+      "position": "82.890426 55.009688"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 70",
+      "peopleCount": 70,
+      "medDivision": " 6 то",
+      "position": "82.898601 55.008134"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 71",
+      "peopleCount": 71,
+      "medDivision": " 6 то",
+      "position": "82.889959 55.00977"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 71а",
+      "peopleCount": 71,
+      "medDivision": " 6 то",
+      "position": "82.889932 55.010178"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 71б",
+      "peopleCount": 71,
+      "medDivision": " 6 то",
+      "position": "82.889959 55.00977"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 72",
+      "peopleCount": 72,
+      "medDivision": " 6 то",
+      "position": "82.898412 55.008185"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 73",
+      "peopleCount": 73,
+      "medDivision": " 6 то",
+      "position": "82.889501 55.009853"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 74",
+      "peopleCount": 74,
+      "medDivision": " 6 то",
+      "position": "82.898232 55.008227"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 74/1",
+      "peopleCount": 74,
+      "medDivision": " 6 то",
+      "position": "82.898232 55.008227"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 74/2",
+      "peopleCount": 74,
+      "medDivision": " 6 то",
+      "position": "82.898232 55.008227"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 75",
+      "peopleCount": 75,
+      "medDivision": " 6 то",
+      "position": "82.889213 55.009853"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 76",
+      "peopleCount": 76,
+      "medDivision": " 6 то",
+      "position": "82.897954 55.008325"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 76/1",
+      "peopleCount": 76,
+      "medDivision": " 6 то",
+      "position": "82.897954 55.008325"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 76/2",
+      "peopleCount": 76,
+      "medDivision": " 6 то",
+      "position": "82.897954 55.008325"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 76а",
+      "peopleCount": 76,
+      "medDivision": " 6 то",
+      "position": "82.897954 55.008325"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 77",
+      "peopleCount": 77,
+      "medDivision": " 6 то",
+      "position": "82.888584 55.010478"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 77/1",
+      "peopleCount": 77,
+      "medDivision": " 6 то",
+      "position": "82.888584 55.010478"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 78",
+      "peopleCount": 78,
+      "medDivision": " 6 то",
+      "position": "82.89781 55.008407"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 79",
+      "peopleCount": 79,
+      "medDivision": " 6 то",
+      "position": "82.889348 55.010287"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 79/1",
+      "peopleCount": 79,
+      "medDivision": " 6 то",
+      "position": "82.889348 55.010287"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 80",
+      "peopleCount": 80,
+      "medDivision": " 6 то",
+      "position": "82.897639 55.008449"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 80а",
+      "peopleCount": 80,
+      "medDivision": " 6 то",
+      "position": "82.898097 55.008862"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 81",
+      "peopleCount": 81,
+      "medDivision": " 6 то",
+      "position": "82.88906 55.0104"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 82",
+      "peopleCount": 82,
+      "medDivision": " 6 то",
+      "position": "82.897693 55.008712"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 82а",
+      "peopleCount": 82,
+      "medDivision": " 6 то",
+      "position": "82.897999 55.009006"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 82б",
+      "peopleCount": 82,
+      "medDivision": " 6 то",
+      "position": "82.897693 55.008712"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 83",
+      "peopleCount": 83,
+      "medDivision": " 6 то",
+      "position": "82.888818 55.010462"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 84",
+      "peopleCount": 84,
+      "medDivision": " 6 то",
+      "position": "82.89746 55.008759"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 84а",
+      "peopleCount": 84,
+      "medDivision": " 6 то",
+      "position": "82.89746 55.008759"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 85",
+      "peopleCount": 85,
+      "medDivision": " 6 то",
+      "position": "82.888432 55.010535"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 86",
+      "peopleCount": 86,
+      "medDivision": " 6 то",
+      "position": "82.897073 55.00864"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 86/1",
+      "peopleCount": 86,
+      "medDivision": " 6 то",
+      "position": "82.897073 55.00864"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 86/2",
+      "peopleCount": 86,
+      "medDivision": " 6 то",
+      "position": "82.897073 55.00864"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 86б",
+      "peopleCount": 86,
+      "medDivision": " 6 то",
+      "position": "82.896921 55.008707"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 87",
+      "peopleCount": 87,
+      "medDivision": " 6 то",
+      "position": "82.888117 55.010473"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 88",
+      "peopleCount": 88,
+      "medDivision": " 6 то",
+      "position": "82.896777 55.0088"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 88/1",
+      "peopleCount": 88,
+      "medDivision": " 6 то",
+      "position": "82.896777 55.0088"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 88/2",
+      "peopleCount": 88,
+      "medDivision": " 6 то",
+      "position": "82.896777 55.0088"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 90",
+      "peopleCount": 90,
+      "medDivision": " 6 то",
+      "position": "82.896436 55.008913"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 90а",
+      "peopleCount": 90,
+      "medDivision": " 6 то",
+      "position": "82.896436 55.008913"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 91",
+      "peopleCount": 91,
+      "medDivision": " 6 то",
+      "position": "82.88774 55.010695"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 91а",
+      "peopleCount": 91,
+      "medDivision": " 6 то",
+      "position": "82.88774 55.010695"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 92",
+      "peopleCount": 92,
+      "medDivision": " 6 то",
+      "position": "82.896148 55.009043"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 93",
+      "peopleCount": 93,
+      "medDivision": " 6 то",
+      "position": "82.887515 55.01072"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 93а",
+      "peopleCount": 93,
+      "medDivision": " 6 то",
+      "position": "82.887345 55.010788"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 94",
+      "peopleCount": 94,
+      "medDivision": " 6 то",
+      "position": "82.895762 55.008867"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 94а",
+      "peopleCount": 94,
+      "medDivision": " 6 то",
+      "position": "82.895762 55.008867"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 95",
+      "peopleCount": 95,
+      "medDivision": " 6 то",
+      "position": "82.887219 55.010839"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 96",
+      "peopleCount": 96,
+      "medDivision": " 6 то",
+      "position": "82.895295 55.009037"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 97",
+      "peopleCount": 97,
+      "medDivision": " 6 то",
+      "position": "82.886913 55.010813"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 98",
+      "peopleCount": 98,
+      "medDivision": " 6 то",
+      "position": "82.895358 55.009208"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 99",
+      "peopleCount": 99,
+      "medDivision": " 6 то",
+      "position": "82.88668 55.010896"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 99а",
+      "peopleCount": 99,
+      "medDivision": " 6 то",
+      "position": "82.88668 55.010313"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 99б",
+      "peopleCount": 99,
+      "medDivision": " 6 то",
+      "position": "82.886383 55.010493"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 100",
+      "peopleCount": 100,
+      "medDivision": " 6 то",
+      "position": "82.895151 55.009295"
+    },
+    {
+      "name": "  2-я Шоссейная, ул., 101",
+      "peopleCount": 101,
+      "medDivision": " 6 то",
+      "position": "82.886231 55.011046"
+    }
+  ]
