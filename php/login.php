@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <?php
+
 require_once "database.php";
 
 if (isset($_POST['login']) && isset($_POST['password'])) {
