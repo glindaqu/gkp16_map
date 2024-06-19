@@ -20,6 +20,9 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
 </head>
 
 <body>
+    <div class="back-btn">
+        <img src="../svg/back.svg" alt="" class="image">
+    </div>
     <form action="" method="post">
         <div class="title">Leafletmap</div>
         <input type="text" name="login" id="login">
@@ -27,5 +30,11 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
         <input type="submit" value="Войти">
     </form>
 </body>
+
+<script>
+document.querySelector(".back-btn").addEventListener("click", () => {
+    window.location.replace("http://leafletmap:81/")
+});
+</script>
 
 </html>
