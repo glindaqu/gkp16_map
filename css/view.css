@@ -5,21 +5,52 @@
 }
 
 .row {
-    display: flex;
-    width: 90%;
+    display: flex !important;
     align-items: center;
     margin: 0 auto;
-    justify-content: center;
-    padding: 10px 0;
+    justify-content: space-between;
+    padding: 10px 100px;
     font-size: 20px;
-    background-color: antiquewhite;
 }
 
 body {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+tbody {
+    display: block;
+}
+
+tbody {
+    height: 90vh;   
+    overflow-y: auto; 
+    overflow-x: hidden;
 }
 
 table {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
+    border-radius: 5px;
 }
+
+thead {
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.address, .people-count {
+    width: 300px;
+}
+
+th.address  {
+    text-align: center;
+}
+
+.people-count {
+    text-align: center;
+}
+

@@ -18,7 +18,11 @@ class Database {
         $this->createConnection();
     }
 
-    public function query($query) {
+    public function __destruct() {
+        $this->connection->close();
+    }
+
+    public function query($query): array {
         assert(!strstr(strtolower($qyery), "delete"));
         $res = [];
         $qr = $this->connection->query($query);
@@ -26,11 +30,11 @@ class Database {
         return $res;
     }
 
-    private function createConnection() {
+    private function createConnection(): void {
         $this->connection = new mysqli($this->ip, $this->user, $this->password, $this->dbName);
     }
 
-    private function makeTable() {
+    private function makeTable(): void {
         assert($this->connection != null);
         assert(!$this->connection->query("DESCRIBE addresses;"));
 

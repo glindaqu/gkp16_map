@@ -3,12 +3,15 @@
 
 <?php
 
-require_once "database.php";
+require_once "api.php";
 
-if (isset($_POST['login']) && isset($_POST['password'])) {
-    $db = new Database("localhost", "root", "", "leafletmap");
-    $user = $db->query("SELECT * FROM users WHERE login = '".$_POST['login']."' AND password = '".$_POST['password']."'");
-    if (isset($user[0])) header("location: http://leafletmap:81/php/viewTable.php") && die();
+if (isset($_COOKIE['login'])) {
+    header("location: http://leafletmap:81/php/viewTable.php") && die();
+} 
+
+if (isset($_POST['login']) && isset($_POST['password']) && API::CheckUser($_POST['login'], $_POST['password'])) {
+    setcookie('login', $_POST['login'], time() + 12 * 60 * 60);
+    header("location: http://leafletmap:81/php/viewTable.php") && die();
 }
 ?>
 
