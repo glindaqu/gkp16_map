@@ -12,7 +12,7 @@ class MapManager {
     }
 
     static get JSON_FILE() {
-        return "../data/withCoords.json";
+        return "../php/tools/getAddresses.php";
     }
 
     get map() {
@@ -23,7 +23,7 @@ class MapManager {
         this.__deleteAllMarkers();
         fetch(MapManager.JSON_FILE)
             .then(response => response.json())
-            .then(addresses => this.__drawGeoJson(addresses.filter(i => i.name.toLowerCase().includes(pattern)), filters, onMarkerClick));
+            .then(addresses => this.__drawGeoJson(addresses.filter(i => i.actualName.toLowerCase().includes(pattern)), filters, onMarkerClick));
     }
 
     __deleteAllMarkers() {
@@ -34,9 +34,9 @@ class MapManager {
         let groupedByMD = [[], [], [], [], [], []];
         for (let i =0; i < addresses.length; i++) {
             let element = addresses[i];
-            let md = element.medDivision.trim().split(" ")[0];
+            let md = element.medicalDivision.trim().split(" ")[0];
             if (typeof(filters) != "boolean" && !filters[md - 1]) continue;
-            groupedByMD[md - 1].push(this.#__createCustomMarker(element, element.position.split(" ").reverse(), md, onMarkerClick));
+            groupedByMD[md - 1].push(this.#__createCustomMarker(element, [element.longitude, element.latitude], md, onMarkerClick));
         }
         for (let i = 0; i < groupedByMD.length; i++) {
             let mDGroup = L.markerClusterGroup({ iconCreateFunction: this.#__createCustomCluster });
@@ -53,7 +53,7 @@ class MapManager {
             iconAnchor: [15, 15],
             popupAnchor: [0, 0],
         });
-        return L.marker(latlng, { icon: myIcon })
+        return L.marker(new L.LatLng(...latlng), { icon: myIcon })
             .on("click", () => { onMarkerClick(feature) });
     }
 

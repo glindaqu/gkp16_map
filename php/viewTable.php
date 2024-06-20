@@ -5,6 +5,8 @@
 require_once "stringUtils.php";
 require_once "api.php";
 
+if (!isset($_COOKIE['login'])) die("Авторизуйтесь в системе");
+
 $json = API::GetAllAdresses();
 $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 ?>

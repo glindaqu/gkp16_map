@@ -4,23 +4,23 @@ const peopleCount = document.querySelector(".people-count");
 const avatar = document.querySelector(".profile");
 const DEFAULT_TILE_PROVIDER = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 
-document.addEventListener("DOMContentLoaded", async () => {
-    await fetch("../data/addresses.json")
-        .then(response => response.json())
-        .then(async items => {
-            const apiKey = "409e7a2c-bae5-4f26-98ca-40a7cc3e4df4";
-            let coordinates = [];
-            for (let i = 1000; i < 2000; i++) {
-                await fetch(`https://geocode-maps.yandex.ru/1.x/?apikey=${apiKey}&geocode=Новосибирск+${items[i].name.replaceAll(",", "+")}&format=json`)
-                    .then(async response => response.json())
-                    .then(async json => {
-                        coordinates.push({ "pos": json.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos });
-                        console.log(json);
-                    });
-            }
-            console.log(coordinates);
-        })
-});
+// document.addEventListener("DOMContentLoaded", async () => {
+//     await fetch("../data/addresses.json")
+//         .then(response => response.json())
+//         .then(async items => {
+//             const apiKey = "409e7a2c-bae5-4f26-98ca-40a7cc3e4df4";
+//             let coordinates = [];
+//             for (let i = 1000; i < 2000; i++) {
+//                 await fetch(`https://geocode-maps.yandex.ru/1.x/?apikey=${apiKey}&geocode=Новосибирск+${items[i].name.replaceAll(",", "+")}&format=json`)
+//                     .then(async response => response.json())
+//                     .then(async json => {
+//                         coordinates.push({ "pos": json.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos });
+//                         console.log(json);
+//                     });
+//             }
+//             console.log(coordinates);
+//         })
+// });
 
 let map = null;
 
@@ -34,8 +34,8 @@ const checkboxes = [
 ];
 
 const updateSidePanelData = feature => {
-    address.innerHTML = feature.name.replaceAll(",", "").trim();
-    medDiv.innerHTML = "№" + feature.medDivision.trim().split(" ")[0];
+    address.innerHTML = feature.actualName.replaceAll(",", "").trim();
+    medDiv.innerHTML = "№" + feature.medicalDivision.trim().split(" ")[0];
     peopleCount.innerHTML = feature.peopleCount;
 };
 
@@ -52,7 +52,7 @@ const refreshMapWithAssignData = () => {
 
 document.addEventListener("DOMContentLoaded", async () => {
     map = new MapManager([54.98356, 82.88706], 14, DEFAULT_TILE_PROVIDER);
-    fetch("../data/withCoords.json")
+    fetch("../php/tools/getAddresses.php")
         .then(response => response.json())
         .then(json => map.__drawGeoJson(json, true, () => { refreshMapWithAssignData() }));
 
