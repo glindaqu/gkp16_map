@@ -20,6 +20,21 @@ class API {
         self::DownloadFile("addresses_dump.json");
     }
 
+    public static function UpdateRowById($row, $id) {
+        self::InitializeDB()->query("UPDATE addresses SET 
+            actualName = '{$row['actualName']}',
+            medicalDivision = {$row['medicalDivision']},
+            peopleCount = {$row['peopleCount']},
+            latitude = {$row['latitude']},
+            longitude = {$row['longitude']}
+            WHERE id = $id"
+        );
+    }
+
+    public static function GetRowById($id): array {
+        return self::InitializeDB()->query("SELECT * FROM addresses WHERE id=$id LIMIT 1")[0];
+    }
+
     public static function CheckUser($login, $password): bool {
         $db = self::InitializeDB();
         return count($db->query("SELECT * FROM users WHERE login = '$login' AND password = '$password';"));

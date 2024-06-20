@@ -26,7 +26,7 @@ class Database {
         assert(!strstr(strtolower($query), "delete"));
         $res = [];
         $qr = $this->connection->query($query);
-        if (strstr(strtolower($query), "insert")) return [];
+        if (strstr(strtolower($query), "insert") || strstr(strtolower($query), "update")) return [];
         while ($item = $qr->fetch_assoc()) $res[] = $item;
         return $res;
     }
