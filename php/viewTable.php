@@ -29,14 +29,14 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 
             <?php
             foreach ($json as $index=>$item) { ?>
-            <tr class="row" style="background-color: #<?php echo $index % 2 ? 'dadada' : 'efefef'?>">
-                <td class="address">
+            <tr class="row" id="<?php echo $item['id']; ?>" style="background-color: #<?php echo $index % 2 ? 'dadada' : 'efefef'?>">
+                <td class="address" id="<?php echo $item['id']; ?>">
                     <?php echo trim(str_replace(",", "", $item["actualName"])) ?>
                 </td>
-                <td class="med-div">
+                <td class="med-div" id="<?php echo $item['id']; ?>">
                     <?php echo trim($item["medicalDivision"]) ?>
                 </td>
-                <td class="people-count">
+                <td class="people-count" id="<?php echo $item['id']; ?>">
                     <?php echo $item["peopleCount"] ?>
                 </td>
             </tr>
@@ -44,6 +44,13 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 
         </tbody>
     </table>
+
+    <div class="menu hidden">
+        <div class="item">Редактировать</div>
+    </div>
+
 </body>
+
+<script src="../js/contextMenu.js"></script>
 
 </html>
