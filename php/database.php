@@ -23,9 +23,10 @@ class Database {
     }
 
     public function query($query): array {
-        assert(!strstr(strtolower($qyery), "delete"));
+        assert(!strstr(strtolower($query), "delete"));
         $res = [];
         $qr = $this->connection->query($query);
+        if (strstr(strtolower($query), "insert")) return [];
         while ($item = $qr->fetch_assoc()) $res[] = $item;
         return $res;
     }
@@ -48,7 +49,9 @@ class Database {
                     NOT NULL
         	        DEFAULT \"undefined\"
         	        UNIQUE,
-                medicalDevision INT(1)
+                peopleCount INT
+                    NOT NULL,
+                medicalDivision INT(1)
         	        NOT NULL,
                 longitude FLOAT(12, 9)
         	        NOT NULL,

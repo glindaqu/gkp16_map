@@ -3,10 +3,9 @@
 
 <?php 
 require_once "stringUtils.php";
-require_once "database.php";
+require_once "api.php";
 
-$jsonInText = file_get_contents("../data/withCoords.json");
-$json = json_decode($jsonInText, true);
+$json = API::GetAllAdresses();
 $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 ?>
 
@@ -27,15 +26,15 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
             </tr>
         </thead>
         <tbody>
-            
+
             <?php
             foreach ($json as $index=>$item) { ?>
             <tr class="row" style="background-color: #<?php echo $index % 2 ? 'dadada' : 'efefef'?>">
                 <td class="address">
-                    <?php echo trim(str_replace(",", "", $item["name"])) ?>
+                    <?php echo trim(str_replace(",", "", $item["actualName"])) ?>
                 </td>
                 <td class="med-div">
-                    <?php echo trim($item["medDivision"]) ?>
+                    <?php echo trim($item["medicalDivision"]) ?>
                 </td>
                 <td class="people-count">
                     <?php echo $item["peopleCount"] ?>

@@ -9,20 +9,40 @@ class API {
     private const PASSWORD = "";
     private const DATABASE = "leafletmap";
 
+    private static function InitializeDB(): Database {
+        return new Database(self::IP, self::USER, self::PASSWORD, self::DATABASE);
+    }
+
     public static function DumpJSON(): void {
-        $db = new Database(self::IP, self::USER, self::PASSWORD, self::DATABASE);
+        $db = self::InitializeDB();
         $json = $db->query("SELECT * FROM addresses;");
         file_put_contents("addresses_dump.json", $json);
         self::DownloadFile("addresses_dump.json");
     }
 
     public static function CheckUser($login, $password): bool {
-        $db = new Database(self::IP, self::USER, self::PASSWORD, self::DATABASE);
+        $db = self::InitializeDB();
         return count($db->query("SELECT * FROM users WHERE login = '$login' AND password = '$password';"));
     }
 
-    public function GetAllAdresses(): array {
+    public static function GetAllAdresses(): array {
+        $db = self::InitializeDB();
+        return $db->query("SELECT * FROM addresses;");
+    }
 
+    public static function InsertAddressesFromJson(): void {
+        if (!file_exists("../data/withCoords.json")) return;
+        $db = self::InitializeDB();
+        $query = "INSERT INTO addresses(actualName, medicalDivision, longitude, latitude, peopleCount) VALUES ";
+        foreach (json_decode(file_get_contents("../data/withCoords.json"), true) as $key=>$value) {
+            $name = trim($value['name']);
+            $md = explode(' ', trim($value['medDivision']))[0];
+            $lon = explode(' ', $value['position'])[1];
+            $lan = explode(' ', $value['position'])[0];
+            $pc = $value['peopleCount'];
+            $query .= "('$name', $md, $lon, $lan, $pc),";
+        }
+        $db->query(substr($query, 0, -1));
     }
 
     private static function DownloadFile($file): void {
