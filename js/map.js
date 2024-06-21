@@ -53,7 +53,7 @@ class MapManager {
             iconAnchor: [15, 15],
             popupAnchor: [0, 0],
         });
-        return L.marker(new L.LatLng(...latlng), { icon: myIcon })
+        return L.marker(new L.LatLng(...latlng), { icon: myIcon, title: feature.actualName.replaceAll(",", "") })
             .on("click", () => { onMarkerClick(feature) });
     }
 
