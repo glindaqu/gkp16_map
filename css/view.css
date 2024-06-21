@@ -102,3 +102,19 @@ th.address  {
     justify-content: center;
     cursor: pointer;
 }
+
+.download-btn {
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -0.2em 0.2em .2em rgba(0, 0, 0, 0.442);
+    top: 70px;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

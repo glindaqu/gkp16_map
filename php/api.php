@@ -16,7 +16,7 @@ class API {
     public static function DumpJSON(): void {
         $db = self::InitializeDB();
         $json = $db->query("SELECT * FROM addresses;");
-        file_put_contents("addresses_dump.json", $json);
+        file_put_contents("addresses_dump.json", json_encode($json));
         self::DownloadFile("addresses_dump.json");
     }
 

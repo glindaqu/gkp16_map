@@ -10,7 +10,7 @@ const DEFAULT_TILE_PROVIDER = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
 //         .then(async items => {
 //             const apiKey = "409e7a2c-bae5-4f26-98ca-40a7cc3e4df4";
 //             let coordinates = [];
-//             for (let i = 1000; i < 2000; i++) {
+//             for (let i = 2000; i < 3000; i++) {
 //                 await fetch(`https://geocode-maps.yandex.ru/1.x/?apikey=${apiKey}&geocode=Новосибирск+${items[i].name.replaceAll(",", "+")}&format=json`)
 //                     .then(async response => response.json())
 //                     .then(async json => {
