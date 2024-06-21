@@ -9,12 +9,64 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    width: 70%;
+    gap: 50px;
+    background-color: #cbcbcb;
+    width: 30%;
     margin: 0 auto;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    justify-content: space-around;
+    box-shadow: -0.4em 0.4em 0.2em rgba(0, 0, 0, 0.39);;
 }
 
 body {
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    height: max-content;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.controls > * {
+    gap: 15px;
+}
+
+.labels, .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input {
+    font-size: 20px !important;
+    padding: 10px 15px;
+    border: none;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    color: #000 !important;
+}
+
+input[type="submit"] {
+    color: #575757;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.back-btn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    cursor: pointer;
 }

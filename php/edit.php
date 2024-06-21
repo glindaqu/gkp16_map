@@ -1,6 +1,7 @@
 <?php
 
-if (!isset($_GET['id'])) die('Запись не выбрана');
+if (!isset($_GET['id']))
+    die('Запись не выбрана');
 
 require_once "api.php";
 
@@ -21,31 +22,28 @@ $row = API::GetRowById($id);
 </head>
 
 <body>
+    <a class="back-btn" href="viewTable.php" title="К таблице">
+        <img src="../svg/back.svg" alt="" class="image">
+    </a>
     <form action="tools/save.php" method=post>
-        <label>
-            Идентификатор записи
-            <input type="text" name="row-id" value="<?php echo $row['id']?>" readonly>
-        </label>
-        <label>
-            Адрес
-            <input type="text" name="actual-name" value="<?php echo $row['actualName']?>">
-        </label>
-        <label>
-            Терапевтическое отделение
-            <input type="text" name="medical-division" value="<?php echo $row['medicalDivision']?>">
-        </label>
-        <label>
-            Количество жильцов
-            <input type="text" name="people-count" value="<?php echo $row['peopleCount']?>">
-        </label>
-        <label>
-            Долгота
-            <input type="text" name="longitude" value="<?php echo $row['longitude']?>">
-        </label>
-        <label>
-            Широта
-            <input type="text" name="latitude" value="<?php echo $row['latitude']?>">
-        </label>
+        <div class="controls">
+            <div class="labels">
+                <label>Идентификатор записи</label>
+                <label>Адрес</label>
+                <label>Терапевтическое отделение</label>
+                <label>Количество жильцов</label>
+                <label>Долгота</label>
+                <label>Широта</label>
+            </div>
+            <div class="inputs">
+                <input type="text" name="row-id" value="<?php echo $row['id'] ?>" readonly>
+                <input type="text" name="actual-name" value="<?php echo $row['actualName'] ?>">
+                <input type="text" name="medical-division" value="<?php echo $row['medicalDivision'] ?>">
+                <input type="text" name="people-count" value="<?php echo $row['peopleCount'] ?>">
+                <input type="text" name="longitude" value="<?php echo $row['longitude'] ?>">
+                <input type="text" name="latitude" value="<?php echo $row['latitude'] ?>">
+            </div>
+        </div>
 
         <input type="submit" value="Редактировть">
     </form>
