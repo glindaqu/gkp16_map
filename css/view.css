@@ -5,22 +5,116 @@
 }
 
 .row {
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
+    display: flex !important;
     align-items: center;
     margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 100px;
+    font-size: 20px;
 }
 
 body {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
 }
 
-td {
-    width: 300px;
+tbody {
+    display: block;
+}
+
+tbody {
+    height: 90vh;   
+    overflow-y: auto; 
+    overflow-x: hidden;
 }
 
 table {
     margin: 0 auto;
-    width: fit-content;
+    width: 60%;
+    border-radius: 5px;
+}
+
+thead {
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.address, .people-count {
+    width: 300px;
+}
+
+th.address  {
+    text-align: center;
+}
+
+.people-count {
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #363535;
+    padding: 10px;
+}
+
+.item {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #c1c1c1;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.item:hover {
+    background-color: black;
+    transition: all 0.5s;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.back-btn {
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -0.2em 0.2em .2em rgba(0, 0, 0, 0.442);
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.download-btn {
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -0.2em 0.2em .2em rgba(0, 0, 0, 0.442);
+    top: 70px;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }

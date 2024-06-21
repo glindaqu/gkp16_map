@@ -18,23 +18,28 @@ class Database {
         $this->createConnection();
     }
 
-    public function query($query) {
-        assert(!strstr(strtolower($qyery), "delete"));
+    public function __destruct() {
+        $this->connection->close();
+    }
+
+    public function query($query): array {
+        assert(!strstr(strtolower($query), "delete"));
         $res = [];
         $qr = $this->connection->query($query);
+        if (strstr(strtolower($query), "insert") || strstr(strtolower($query), "update")) return [];
         while ($item = $qr->fetch_assoc()) $res[] = $item;
         return $res;
     }
 
-    private function createConnection() {
+    private function createConnection(): void {
         $this->connection = new mysqli($this->ip, $this->user, $this->password, $this->dbName);
     }
 
-    private function makeTable() {
+    private function makeTable(): void {
         assert($this->connection != null);
         assert(!$this->connection->query("DESCRIBE addresses;"));
 
-        $this->connection-query(
+        $this->connection->query(
             "CREATE TABLE addresses(
                 id INT
                     PRIMARY KEY
@@ -44,7 +49,9 @@ class Database {
                     NOT NULL
         	        DEFAULT \"undefined\"
         	        UNIQUE,
-                medicalDevision INT(1)
+                peopleCount INT
+                    NOT NULL,
+                medicalDivision INT(1)
         	        NOT NULL,
                 longitude FLOAT(12, 9)
         	        NOT NULL,
