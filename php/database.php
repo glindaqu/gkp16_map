@@ -39,7 +39,7 @@ class Database {
         assert($this->connection != null);
         assert(!$this->connection->query("DESCRIBE addresses;"));
 
-        $this->connection-query(
+        $this->connection->query(
             "CREATE TABLE addresses(
                 id INT
                     PRIMARY KEY
