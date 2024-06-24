@@ -47,8 +47,7 @@ class Database {
                     AUTO_INCREMENT,
                 actualName VARCHAR(200)
                     NOT NULL
-        	        DEFAULT \"undefined\"
-        	        UNIQUE,
+        	        DEFAULT \"undefined\",
                 peopleCount INT
                     NOT NULL,
                 medicalDivision INT(1)

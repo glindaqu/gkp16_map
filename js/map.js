@@ -32,7 +32,7 @@ class MapManager {
 
     __drawGeoJson(addresses, filters, onMarkerClick) {
         let groupedByMD = [[], [], [], [], [], []];
-        for (let i =0; i < addresses.length; i++) {
+        for (let i = 0; i < addresses.length; i++) {
             let element = addresses[i];
             let md = element.medicalDivision.trim().split(" ")[0];
             if (typeof(filters) != "boolean" && !filters[md - 1]) continue;
