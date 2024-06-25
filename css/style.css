@@ -47,6 +47,7 @@ body {
     align-items: center;
     gap: 10px;
     width: 100%;
+    height: 65%;
 }
 
 .placeholder {
@@ -70,6 +71,16 @@ body {
     justify-content: start;
 }
 
+.address-input {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+    align-self: center;
+    justify-content: start;
+}
+
 .label {
     color: #8f8f8f;
     margin-top: 10px;
@@ -85,7 +96,7 @@ body {
     font-size: 20px;
     display: flex;
     width: 100%;
-    margin: 0 auto 30px auto;
+    margin: 0 auto;
     align-self: center;
     justify-content: start;
     padding: 10px 5px;
@@ -94,6 +105,34 @@ body {
     background: url(../svg/search.svg) no-repeat scroll 8px 11px;
     background-color: #e8e8e8;
     padding-left: 40px;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+    background-color: #e8e8e8;
+    margin: 1px auto;
+    padding: 7px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.addresses-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.search {
+    height: 80% !important;
+    justify-content: start !important;
+}
+
+.item:hover {
+    background-color: #dddddd;
+    transform: all 0.5s;
 }
 
 .search-by-address::placeholder {

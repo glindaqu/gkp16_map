@@ -26,9 +26,14 @@ require_once "php/api.php";
     </a>
     <div class="side-content">
         <div class="info-panel">
-            <div class="placeholder">
+            <div class="placeholder search">
                 <div class="label">Поиск</div>
-                <input type="text" class="search-by-address" placeholder="Введите адрес ">
+                <div class="address-input">
+                    <input type="text" class="search-by-address" placeholder="Введите адрес">
+                    <div class="addresses-items">
+
+                    </div>
+                </div>
             </div>
             <div class="placeholder">
                 <div class="label">Адрес</div>

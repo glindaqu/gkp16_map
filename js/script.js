@@ -1,9 +1,13 @@
 const address = document.querySelector(".address");
 const medDiv = document.querySelector(".medical-division");
 const peopleCount = document.querySelector(".people-count");
+const dropdownItemsContainer = document.querySelector(".addresses-items");
+const addressInput = document.querySelector(".search-by-address");
+
 const DEFAULT_TILE_PROVIDER = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 
 let map = null;
+let json = null;
 
 const checkboxes = [
     document.getElementById("f1"),
@@ -17,6 +21,14 @@ const updateSidePanelData = feature => {
     address.innerHTML = feature.actualName.replaceAll(",", "").trim();
     medDiv.innerHTML = "№" + feature.medicalDivision.trim().split(" ")[0];
     peopleCount.innerHTML = feature.peopleCount;
+};
+
+const displayDropdown = () => {
+    dropdownItemsContainer.innerHTML = "";
+    if (addressInput.value == "") return;
+    let filtered = json.filter(el => el.actualName.includes(addressInput.value));
+    for (let i = 0; i < 5 && filtered[i]; i++) 
+        dropdownItemsContainer.innerHTML += `<div class="item">${filtered[i].actualName}<div>`;
 };
 
 const getFiltersValues = () => {
@@ -34,9 +46,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     map = new MapManager([54.98356, 82.88706], 14, DEFAULT_TILE_PROVIDER);
     fetch("../php/tools/getAddresses.php")
         .then(response => response.json())
-        .then(json => map.__drawGeoJson(json, true, () => { refreshMapWithAssignData() }));
-
-    checkboxes.forEach(el => { el.addEventListener("change", () => { refreshMapWithAssignData() }) });
+        .then(j => {
+            map.__drawGeoJson(j, true, () => { refreshMapWithAssignData() });
+            json = j;
+        });
+    checkboxes.forEach(el => { el.addEventListener("change", () => { refreshMapWithAssignData(); }) });
+    addressInput.addEventListener("input", () => { refreshMapWithAssignData(); displayDropdown(); });
 });
-
-document.querySelector(".search-by-address").addEventListener("input", () => { refreshMapWithAssignData(); });
