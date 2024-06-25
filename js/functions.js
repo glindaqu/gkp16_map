@@ -14,3 +14,13 @@ const getDarkColor = () => {
     }
     return color;
 }
+
+const getMDColor = index => {
+    switch (index) {
+        case 0: return "ff2e39";
+        case 1: return "3f48cc";
+        case 2: return "000000";
+        case 3: return "5d874e";
+        case 4: return "6d436e";
+    }
+};

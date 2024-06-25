@@ -31,15 +31,35 @@ class MapManager {
     }
 
     __drawGeoJson(addresses, filters, onMarkerClick) {
-        let groupedByMD = [[], [], [], [], [], []];
+        let groupedByMD = [[], [], [], [], []];
         for (let i = 0; i < addresses.length; i++) {
             let element = addresses[i];
             let md = element.medicalDivision.trim().split(" ")[0];
-            if (typeof(filters) != "boolean" && !filters[md - 1]) continue;
+            if (typeof (filters) != "boolean" && !filters[md - 1]) continue;
             groupedByMD[md - 1].push(this.#__createCustomMarker(element, [element.longitude, element.latitude], md, onMarkerClick));
         }
         for (let i = 0; i < groupedByMD.length; i++) {
-            let mDGroup = L.markerClusterGroup({ iconCreateFunction: this.#__createCustomCluster });
+            let mDGroup = L.markerClusterGroup({
+                iconCreateFunction: cluster => {
+                    const bgcolor = getMDColor(i);
+                    const rgbBgColor = hex2rgb(bgcolor);
+                    return L.divIcon({
+                        html: `
+                            <div class="rounded-markers-count-0" style="
+                                background-color: #${bgcolor} !important; 
+                                box-shadow: 
+                                    0 0 0 5px rgba(${rgbBgColor.r}, ${rgbBgColor.g}, ${rgbBgColor.b}, 0.4),
+                                    0 0 2px 10px rgba(${rgbBgColor.r}, ${rgbBgColor.g}, ${rgbBgColor.b}, 0.3);
+                                "
+                            >
+                                <span>${cluster.getChildCount()}</span>
+                            </div
+                        `,
+                        className: 'custom-marker-cluster',
+                        iconSize: L.point(50, 50, true),
+                    });
+                }
+            });
             for (let j = 0; j < groupedByMD[i].length; j++) groupedByMD[i][j].addTo(mDGroup);
             mDGroup.addTo(this.#__map);
             this.#__layers.push(mDGroup);
@@ -55,25 +75,5 @@ class MapManager {
         });
         return L.marker(new L.LatLng(...latlng), { icon: myIcon, title: feature.actualName.replaceAll(",", "") })
             .on("click", () => { onMarkerClick(feature) });
-    }
-
-    #__createCustomCluster(cluster) {
-        const bgcolor = getDarkColor();
-        const rgbBgColor = hex2rgb(bgcolor);
-        return L.divIcon({
-            html: `
-                <div class="rounded-markers-count-0" style="
-                    background-color: #${bgcolor} !important; 
-                    box-shadow: 
-                        0 0 0 5px rgba(${rgbBgColor.r}, ${rgbBgColor.g}, ${rgbBgColor.b}, 0.4),
-                        0 0 2px 10px rgba(${rgbBgColor.r}, ${rgbBgColor.g}, ${rgbBgColor.b}, 0.3);
-                    "
-                >
-                    <span>${cluster.getChildCount()}</span>
-                </div
-            `,
-            className: 'custom-marker-cluster',
-            iconSize: L.point(50, 50, true),
-        });
     }
 }
