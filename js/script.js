@@ -1,7 +1,6 @@
 const address = document.querySelector(".address");
 const medDiv = document.querySelector(".medical-division");
 const peopleCount = document.querySelector(".people-count");
-const avatar = document.querySelector(".profile");
 const DEFAULT_TILE_PROVIDER = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 
 let map = null;
@@ -11,8 +10,7 @@ const checkboxes = [
     document.getElementById("f2"),
     document.getElementById("f3"),
     document.getElementById("f4"),
-    document.getElementById("f5"),
-    document.getElementById("f6")
+    document.getElementById("f5")
 ];
 
 const updateSidePanelData = feature => {
@@ -39,7 +37,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         .then(json => map.__drawGeoJson(json, true, () => { refreshMapWithAssignData() }));
 
     checkboxes.forEach(el => { el.addEventListener("change", () => { refreshMapWithAssignData() }) });
-    avatar.addEventListener("click", () => { window.location.replace("http://leafletmap:81/php/login.php") });
 });
 
 document.querySelector(".search-by-address").addEventListener("input", () => { refreshMapWithAssignData(); });

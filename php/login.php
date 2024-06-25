@@ -6,12 +6,12 @@
 require_once "api.php";
 
 if (isset($_COOKIE['login'])) {
-    header("location: http://leafletmap:81/php/viewTable.php") && die();
+    header("location: http://".API::SERVER_IP."/php/viewTable.php") && die();
 } 
 
 if (isset($_POST['login']) && isset($_POST['password']) && API::CheckUser($_POST['login'], $_POST['password'])) {
     setcookie('login', $_POST['login'], time() + 12 * 60 * 60);
-    header("location: http://leafletmap:81/php/viewTable.php") && die();
+    header("location: http://".API::SERVER_IP."/php/viewTable.php") && die();
 }
 ?>
 
@@ -23,9 +23,9 @@ if (isset($_POST['login']) && isset($_POST['password']) && API::CheckUser($_POST
 </head>
 
 <body>
-    <div class="back-btn">
+    <a class="back-btn" href="http://<?php echo API::SERVER_IP ?>">
         <img src="../svg/back.svg" alt="" class="image">
-    </div>
+    </a>
     <form action="" method="post">
         <div class="title">Leafletmap</div>
         <input type="text" name="login" id="login">
@@ -33,11 +33,5 @@ if (isset($_POST['login']) && isset($_POST['password']) && API::CheckUser($_POST
         <input type="submit" value="Войти">
     </form>
 </body>
-
-<script>
-document.querySelector(".back-btn").addEventListener("click", () => {
-    window.location.replace("http://leafletmap:81/")
-});
-</script>
 
 </html>

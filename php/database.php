@@ -46,11 +46,10 @@ class Database {
                     NOT NULL
                     AUTO_INCREMENT,
                 actualName VARCHAR(200)
-                    NOT NULL
-        	        DEFAULT \"undefined\",
+                    NOT NULL,
                 peopleCount INT
                     NOT NULL,
-                medicalDivision INT(1)
+                medicalDivision INT
         	        NOT NULL,
                 longitude FLOAT(12, 9)
         	        NOT NULL,

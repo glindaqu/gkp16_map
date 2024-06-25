@@ -57,7 +57,7 @@ body {
     color: #575757;
     gap: 10px;
     justify-content: space-around;
-} 
+}
 
 .filter-placeholder {
     margin: 2% 0;
@@ -68,7 +68,7 @@ body {
     gap: 10px;
     align-items: center;
     justify-content: start;
-} 
+}
 
 .label {
     color: #8f8f8f;
@@ -76,7 +76,7 @@ body {
     font-size: 16px !important;
 }
 
-.info-panel > * {
+.info-panel>* {
     width: 100%;
     font-size: 24px;
 }
@@ -124,7 +124,8 @@ label {
     font-size: 20px !important;
 }
 
-input[type="checkbox"], label {
+input[type="checkbox"],
+label {
     cursor: pointer;
 }
 
@@ -135,7 +136,7 @@ input[type="checkbox"], label {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
+}
 
 .profile {
     position: absolute;
