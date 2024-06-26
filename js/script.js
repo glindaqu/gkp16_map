@@ -26,9 +26,12 @@ const updateSidePanelData = feature => {
 const displayDropdown = () => {
     dropdownItemsContainer.innerHTML = "";
     if (addressInput.value == "") return;
-    let filtered = json.filter(el => el.actualName.includes(addressInput.value));
+    let filtered = json.filter(el => el.actualName.toLowerCase().includes(addressInput.value));
     for (let i = 0; i < 5 && filtered[i]; i++) 
-        dropdownItemsContainer.innerHTML += `<div class="item">${filtered[i].actualName}<div>`;
+        dropdownItemsContainer.innerHTML += `<div class="item" la="${filtered[i].latitude}" lo="${filtered[i].longitude}">${filtered[i].actualName}<div>`;
+    document.querySelectorAll(".item").forEach(el => el.addEventListener("click", e => {
+        map.map.flyTo([e.target.attributes.lo.nodeValue, e.target.attributes.la.nodeValue], 18);
+    }));
 };
 
 const getFiltersValues = () => {
