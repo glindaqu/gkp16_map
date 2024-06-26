@@ -24,3 +24,12 @@ const getMDColor = index => {
         case 4: return "6d436e";
     }
 };
+
+const point = (x, y) => ({ x, y });
+
+const minX = 54;
+const maxX = 56;
+const minY = 82;
+const maxY = 83;
+
+const isInArea = E => E.x <= maxX && E.x >= minX && E.y > minY && E.y <= maxY;
