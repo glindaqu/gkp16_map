@@ -15,16 +15,25 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
+<?php
+require_once "php/api.php";
+?>
+
 <body>
     <div id="map"></div>
-    <div class="profile" title="Админ-панель">
+    <a class="profile" title="Админ-панель" href="http://<?php echo API::SERVER_IP ?>/php/login.php">
         <img src="svg/avatar.svg" alt="" class="image">
-    </div>
+    </a>
     <div class="side-content">
         <div class="info-panel">
-            <div class="placeholder">
+            <div class="placeholder search">
                 <div class="label">Поиск</div>
-                <input type="text" class="search-by-address" placeholder="Введите адрес ">
+                <div class="address-input">
+                    <input type="text" class="search-by-address" placeholder="Введите адрес">
+                    <div class="addresses-items">
+
+                    </div>
+                </div>
             </div>
             <div class="placeholder">
                 <div class="label">Адрес</div>
@@ -60,10 +69,6 @@
             <div class="filter-placeholder" title="Исключить/Включить ТО №5">
                 <label for="f5" class="non-selectable">Терапевтическое отделение №5</label>
                 <input id="f5" class="filter-item" type="checkbox" checked="true">
-            </div>
-            <div class="filter-placeholder" title="Исключить/Включить ТО №6">
-                <label for="f6" class="non-selectable">Терапевтическое отделение №6</label>
-                <input id="f6" class="filter-item" type="checkbox" checked="true">
             </div>
         </div>
     </div>

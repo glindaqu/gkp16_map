@@ -7,12 +7,10 @@ require_once "api.php";
 
 $id = $_GET['id'];
 $row = API::GetRowById($id);
-
-
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">

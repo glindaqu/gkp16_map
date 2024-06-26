@@ -9,6 +9,8 @@ class API {
     private const PASSWORD = "";
     private const DATABASE = "leafletmap";
 
+    public const SERVER_IP = "leafletmap:81";
+
     private static function InitializeDB(): Database {
         return new Database(self::IP, self::USER, self::PASSWORD, self::DATABASE);
     }
