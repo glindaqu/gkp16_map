@@ -8,7 +8,6 @@ document.addEventListener('contextmenu', e => {
     }
     drawContextMenu({x: e.clientX, y: e.clientY});
     lastClickedId = e.target.id;
-    console.log(e);
     e.preventDefault();
 });
 

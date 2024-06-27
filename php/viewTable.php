@@ -59,6 +59,7 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 
 </body>
 
+<script src="../js/config.js"></script>
 <script src="../js/contextMenu.js"></script>
 
 </html>

@@ -23,7 +23,7 @@ $row = API::GetRowById($id);
     <a class="back-btn" href="viewTable.php" title="К таблице">
         <img src="http://<?php echo API::SERVER_IP ?>/svg/back.svg" alt="" class="image">
     </a>
-    <form action="http://<?php echo API::SERVER_IP ?>/tools/save.php" method=post>
+    <form action="tools/save.php" method=post>
         <div class="controls">
             <div class="labels">
                 <label>Идентификатор записи</label>
@@ -34,7 +34,7 @@ $row = API::GetRowById($id);
                 <label>Широта</label>
             </div>
             <div class="inputs">
-                <input type="text" name="row-id" value="<?php echo $row['id'] ?>" disabled readonly>
+                <input type="text" name="row-id" value="<?php echo $row['id'] ?>" readonly>
                 <input type="text" name="actual-name" value="<?php echo $row['actualName'] ?>">
                 <input type="text" name="medical-division" value="<?php echo $row['medicalDivision'] ?>">
                 <input type="text" name="people-count" value="<?php echo $row['peopleCount'] ?>">

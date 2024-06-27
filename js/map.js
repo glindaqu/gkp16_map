@@ -12,7 +12,7 @@ class MapManager {
     }
 
     static get JSON_FILE() {
-        return `http://${SERVER_API}/php/tools/getAddresses.php`;
+        return `http://${SERVER_IP}/php/tools/getAddresses.php`;
     }
 
     get map() {
