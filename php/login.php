@@ -24,7 +24,7 @@ if (isset($_POST['login']) && isset($_POST['password']) && API::CheckUser($_POST
 
 <body>
     <a class="back-btn" href="http://<?php echo API::SERVER_IP ?>">
-        <img src="../svg/back.svg" alt="" class="image">
+        <img src="http://<?php echo API::SERVER_IP ?>/svg/back.svg" alt="" class="image">
     </a>
     <form action="" method="post">
         <div class="title">Leafletmap</div>

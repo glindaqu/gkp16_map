@@ -47,7 +47,7 @@ const refreshMapWithAssignData = () => {
 
 document.addEventListener("DOMContentLoaded", async () => {
     map = new MapManager([54.98356, 82.88706], 14, DEFAULT_TILE_PROVIDER);
-    fetch("../php/tools/getAddresses.php")
+    fetch(`http://${SERVER_IP}/php/tools/getAddresses.php`)
         .then(response => response.json())
         .then(j => {
             map.__drawGeoJson(j, true, () => { refreshMapWithAssignData() });

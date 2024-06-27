@@ -48,10 +48,10 @@ class API {
     }
 
     public static function InsertAddressesFromJson(): void {
-        if (!file_exists("../data/withCoords.json")) return;
+        if (!file_exists("http://".self::SERVER_IP."/data/withCoords.json")) return;
         $db = self::InitializeDB();
         $query = "INSERT INTO addresses(actualName, medicalDivision, longitude, latitude, peopleCount) VALUES ";
-        foreach (json_decode(file_get_contents("../data/withCoords.json"), true) as $key=>$value) {
+        foreach (json_decode(file_get_contents("http://".self::SERVER_IP."/data/withCoords.json"), true) as $value) {
             $name = trim($value['name']);
             $md = explode(' ', trim($value['medDivision']))[0];
             $lon = explode(' ', $value['position'])[1];
@@ -60,6 +60,12 @@ class API {
             $query .= "('$name', $md, $lon, $lan, $pc),";
         }
         $db->query(substr($query, 0, -1));
+    }
+
+    public static function CreateTableStruct(): void {
+        $db = self::InitializeDB();
+        $db->makeTable();
+        self::InsertAddressesFromJson();
     }
 
     private static function DownloadFile($file): void {

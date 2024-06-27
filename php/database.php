@@ -38,6 +38,7 @@ class Database {
     private function makeTable(): void {
         assert($this->connection != null);
         assert(!$this->connection->query("DESCRIBE addresses;"));
+        assert(!$this->connection->query("DESCRIBE users;"));
 
         #region addresses table creation
         $this->connection->query(

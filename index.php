@@ -72,6 +72,7 @@ require_once "php/api.php";
             </div>
         </div>
     </div>
+    <script src="js/config.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/map.js"></script>
     <script src="js/script.js"></script>

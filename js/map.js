@@ -12,7 +12,7 @@ class MapManager {
     }
 
     static get JSON_FILE() {
-        return "../php/tools/getAddresses.php";
+        return `http://${SERVER_API}/php/tools/getAddresses.php`;
     }
 
     get map() {
@@ -68,7 +68,7 @@ class MapManager {
 
     #__createCustomMarker(feature, latlng, colorIndex, onMarkerClick) {
         const myIcon = L.icon({
-            iconUrl: `../pointers/point_${colorIndex}.png`,
+            iconUrl: `http://${SERVER_IP}/pointers/point_${colorIndex}.png`,
             iconSize: [30, 30],
             iconAnchor: [15, 15],
             popupAnchor: [0, 0],

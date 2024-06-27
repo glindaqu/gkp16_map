@@ -19,11 +19,11 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 </head>
 
 <body>
-    <a class="back-btn" href="../" title="К карте">
-        <img src="../svg/map.svg" alt="" class="image">
+    <a class="back-btn" href="http://<?php echo API::SERVER_IP?>" title="К карте">
+        <img src="http://<?php echo API::SERVER_IP ?>/svg/map.svg" alt="" class="image">
     </a>
     <a class="download-btn" title="Выгрузить таблицу" href="tools/download.php">
-        <img src="../svg/download.svg" alt="" class="image">
+        <img src="http://<?php echo API::SERVER_IP ?>/svg/download.svg" alt="" class="image">
     </a>
     <table>
         <thead>
