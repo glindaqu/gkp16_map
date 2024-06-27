@@ -8,7 +8,7 @@ require_once "api.php";
 $id = $_GET['id'];
 $row = API::GetRowById($id);
 ?>
-
+54.98492285514557, 82.90689809244236
 <!DOCTYPE html>
 <html lang="ru">
 

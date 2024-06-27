@@ -192,3 +192,10 @@ label {
     justify-content: center;
     cursor: pointer;
 }
+
+.group-selection {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    border: 2px dotted #000;
+}

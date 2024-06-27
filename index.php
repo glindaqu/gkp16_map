@@ -20,6 +20,7 @@ require_once "php/api.php";
 ?>
 
 <body>
+    <div class="group-selection"></div>
     <div id="map"></div>
     <a class="profile" title="Админ-панель" href="http://<?php echo API::SERVER_IP ?>/php/login.php">
         <img src="svg/avatar.svg" alt="" class="image">
