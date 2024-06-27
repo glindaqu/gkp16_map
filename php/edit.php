@@ -23,7 +23,7 @@ $row = API::GetRowById($id);
     <a class="back-btn" href="viewTable.php" title="К таблице">
         <img src="http://<?php echo API::SERVER_IP ?>/svg/back.svg" alt="" class="image">
     </a>
-    <form action="tools/save.php" method=post>
+    <form action="http://<?php echo API::SERVER_IP ?>/tools/save.php" method=post>
         <div class="controls">
             <div class="labels">
                 <label>Идентификатор записи</label>
