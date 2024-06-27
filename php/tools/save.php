@@ -17,4 +17,4 @@ API::UpdateRowById([
     'latitude' => $la,
 ], $id);
 
-header("location: http://leafletmap:81/php/viewTable.php");
+header("location: http://".API::SERVER_IP."/php/viewTable.php");

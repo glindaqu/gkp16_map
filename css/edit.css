@@ -59,6 +59,13 @@ input[type="submit"] {
     font-weight: 300;
     width: 50%;
     margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+input[type="submit"]:hover {
+    transition: all 0.5s;
+    background-color: #ffffff;
 }
 
 .back-btn {

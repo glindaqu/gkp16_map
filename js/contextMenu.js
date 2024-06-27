@@ -8,7 +8,6 @@ document.addEventListener('contextmenu', e => {
     }
     drawContextMenu({x: e.clientX, y: e.clientY});
     lastClickedId = e.target.id;
-    console.log(e);
     e.preventDefault();
 });
 
@@ -20,5 +19,5 @@ const drawContextMenu = pos => {
 };
 
 document.querySelector(".item").addEventListener("click", () => {
-    window.location.replace("http://leafletmap:81/php/edit.php?id="+lastClickedId)
+    window.location.replace(`http://${SERVER_IP}/php/edit.php?id=${lastClickedId}`)
 });
