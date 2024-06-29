@@ -20,7 +20,7 @@ require_once "php/api.php";
 ?>
 
 <body>
-    <div class="group-selection"></div>
+    <div class="group-selection hidden"></div>
     <div id="map"></div>
     <a class="profile" title="Админ-панель" href="http://<?php echo API::SERVER_IP ?>/php/login.php">
         <img src="svg/avatar.svg" alt="" class="image">
@@ -75,8 +75,9 @@ require_once "php/api.php";
     </div>
     <script src="js/config.js"></script>
     <script src="js/functions.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/selection.js" type="module"></script>
+    <script src="js/map.js" type="module"></script>
+    <script src="js/script.js" type="module"></script>
 </body>
 
 </html>

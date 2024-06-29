@@ -1,12 +1,11 @@
+import { mapManager } from "./map.js";
+
 const address = document.querySelector(".address");
 const medDiv = document.querySelector(".medical-division");
 const peopleCount = document.querySelector(".people-count");
 const dropdownItemsContainer = document.querySelector(".addresses-items");
 const addressInput = document.querySelector(".search-by-address");
 
-const DEFAULT_TILE_PROVIDER = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-
-let map = null;
 let json = null;
 
 const checkboxes = [
@@ -30,7 +29,7 @@ const displayDropdown = () => {
     for (let i = 0; i < 5 && filtered[i]; i++) 
         dropdownItemsContainer.innerHTML += `<div class="item" la="${filtered[i].latitude}" lo="${filtered[i].longitude}">${filtered[i].actualName}<div>`;
     document.querySelectorAll(".item").forEach(el => el.addEventListener("click", e => {
-        map.map.flyTo([e.target.attributes.lo.nodeValue, e.target.attributes.la.nodeValue], 18);
+        mapManager.map.flyTo([e.target.attributes.lo.nodeValue, e.target.attributes.la.nodeValue], 18);
     }));
 };
 
@@ -41,16 +40,14 @@ const getFiltersValues = () => {
 };
 
 const refreshMapWithAssignData = () => {
-    if (!map) return;
-    map.__refreshMap(document.querySelector(".search-by-address").value, getFiltersValues(), feature => { updateSidePanelData(feature) });
+    mapManager.__refreshMap(document.querySelector(".search-by-address").value, getFiltersValues(), feature => { updateSidePanelData(feature) });
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
-    map = new MapManager([54.98356, 82.88706], 14, DEFAULT_TILE_PROVIDER);
     fetch(`http://${SERVER_IP}/php/tools/getAddresses.php`)
         .then(response => response.json())
         .then(j => {
-            map.__drawGeoJson(j, true, () => { refreshMapWithAssignData() });
+            mapManager.__drawGeoJson(j, true, () => { refreshMapWithAssignData() });
             json = j;
         });
     checkboxes.forEach(el => { el.addEventListener("change", () => { refreshMapWithAssignData(); }) });

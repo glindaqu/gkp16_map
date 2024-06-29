@@ -194,8 +194,13 @@ label {
 }
 
 .group-selection {
-    display: none;
+    display: flex;
     position: absolute;
+    z-index: 999;
     background-color: transparent;
     border: 2px dotted #000;
+}
+
+.hidden {
+    display: none !important;
 }

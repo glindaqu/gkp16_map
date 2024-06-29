@@ -1,3 +1,5 @@
+const DEFAULT_TILE_PROVIDER = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+
 class MapManager {
 
     #__map = null;
@@ -7,7 +9,7 @@ class MapManager {
         this.#__map = new L.Map('map', {
             center: new L.LatLng(...center),
             zoom: zoom,
-            layers: new L.TileLayer(tileProvider)
+            layers: new L.TileLayer(tileProvider),
         });
     }
 
@@ -77,3 +79,5 @@ class MapManager {
             .on("click", () => { onMarkerClick(feature) });
     }
 }
+
+export let mapManager = new MapManager([54.98356, 82.88706], 14, DEFAULT_TILE_PROVIDER);
