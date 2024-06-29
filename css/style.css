@@ -147,7 +147,7 @@ body {
     height: 100%;
     width: 30%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     box-shadow: -0.3em 0 .4em rgba(0, 0, 0, 0.156);
     z-index: 999;
     gap: 10px;
@@ -203,4 +203,34 @@ label {
 
 .hidden {
     display: none !important;
+}
+
+.tab-control {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3%;
+}
+
+.tab-control-item {
+    padding: 10px 15px;
+    text-transform: capitalize;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -0.1em 0.1em .1em rgba(0, 0, 0, 0.346);
+    cursor: pointer;
+    color: #575757;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.tab-control-item:hover {
+    background-color: #d0d0d0a0;
+    transition: all 0.5s;
 }

@@ -32,7 +32,7 @@ const maxX = 56;
 const minY = 82;
 const maxY = 83;
 
-const isInArea = E => E.x <= maxX && E.x >= minX && E.y > minY && E.y <= maxY;
+const isInArea = E => E.x <= maxX && E.x >= minX && E.y >= minY && E.y <= maxY;
 
 const assert = condition => {
     if (!condition) throw new Error("assertion failed");

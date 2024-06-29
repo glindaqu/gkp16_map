@@ -1,7 +1,19 @@
 import { mapManager } from "./map.js";
+import { filterJsonWithSelection } from "./script.js";
 
 const border = document.querySelector(".group-selection");
 let x = 0, y = 0;
+
+let startLatlng = null, endLatlng = null;
+
+document.addEventListener("DOMContentLoaded", () => {
+    mapManager.map.on("mousedown", e => startLatlng = e.latlng);
+    mapManager.map.on("mouseup", e => {
+        endLatlng = e.latlng;
+        console.log(startLatlng, endLatlng);
+        filterJsonWithSelection(startLatlng, endLatlng);
+    });
+});
 
 document.addEventListener("contextmenu", e => e.preventDefault());
 

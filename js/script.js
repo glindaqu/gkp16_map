@@ -43,6 +43,15 @@ const refreshMapWithAssignData = () => {
     mapManager.__refreshMap(document.querySelector(".search-by-address").value, getFiltersValues(), feature => { updateSidePanelData(feature) });
 };
 
+export const filterJsonWithSelection = (startLatlng, endLatlng) => {
+    console.log(json.filter(el => 
+        el.latitude >= endLatlng.lat &&
+        el.latitude <= startLatlng.lat &&
+        el.longitude >= startLatlng.lng &&
+        el.longitude <= endLatlng.lng
+    ));
+};
+
 document.addEventListener("DOMContentLoaded", async () => {
     fetch(`http://${SERVER_IP}/php/tools/getAddresses.php`)
         .then(response => response.json())

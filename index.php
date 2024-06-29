@@ -26,6 +26,10 @@ require_once "php/api.php";
         <img src="svg/avatar.svg" alt="" class="image">
     </a>
     <div class="side-content">
+        <div class="tab-control">
+            <div class="tab-control-item">Поиск</div>
+            <div class="tab-control-item">Статистика</div>
+        </div>
         <div class="info-panel">
             <div class="placeholder search">
                 <div class="label">Поиск</div>
