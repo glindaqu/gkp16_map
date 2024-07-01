@@ -5,6 +5,7 @@ const medDiv = document.querySelector(".medical-division");
 const peopleCount = document.querySelector(".people-count");
 const dropdownItemsContainer = document.querySelector(".addresses-items");
 const addressInput = document.querySelector(".search-by-address");
+const totalSelected = document.querySelector(".total-selected-data");
 
 let json = null;
 
@@ -44,12 +45,13 @@ const refreshMapWithAssignData = () => {
 };
 
 export const filterJsonWithSelection = (startLatlng, endLatlng) => {
-    console.log(json.filter(el => 
+    let addresses = json.filter(el => 
         el.latitude >= endLatlng.lat &&
         el.latitude <= startLatlng.lat &&
         el.longitude >= startLatlng.lng &&
         el.longitude <= endLatlng.lng
-    ));
+    );
+    totalSelected.innerHTML = addresses.length;
 };
 
 document.addEventListener("DOMContentLoaded", async () => {

@@ -27,32 +27,43 @@ require_once "php/api.php";
     </a>
     <div class="side-content">
         <div class="tab-control">
-            <div class="tab-control-item">Поиск</div>
-            <div class="tab-control-item">Статистика</div>
-        </div>
-        <div class="info-panel">
-            <div class="placeholder search">
-                <div class="label">Поиск</div>
-                <div class="address-input">
-                    <input type="text" class="search-by-address" placeholder="Введите адрес">
-                    <div class="addresses-items">
+            <a href="index.php?info"
+                class="tab-control-item <?php if (isset($_GET['info']))
+                    echo "selected" ?>">Поиск</a>
+                <a href="index.php?stat"
+                    class="tab-control-item <?php if (isset($_GET['stat']))
+                    echo "selected" ?>">Статистика</a>
+            </div>
+        <?php if (isset($_GET["info"])) { ?>
+            <div class="info-panel">
+                <div class="placeholder search">
+                    <div class="label">Поиск</div>
+                    <div class="address-input">
+                        <input type="text" class="search-by-address" placeholder="Введите адрес">
+                        <div class="addresses-items">
 
+                        </div>
                     </div>
                 </div>
+                <div class="placeholder">
+                    <div class="label">Адрес</div>
+                    <div class="address">NULL</div>
+                </div>
+                <div class="placeholder">
+                    <div class="label">Терапевтическое отделение</div>
+                    <div class="medical-division">NULL</div>
+                </div>
+                <div class="placeholder">
+                    <div class="label">Количество жильцов</div>
+                    <div class="people-count">NULL</div>
+                </div>
             </div>
-            <div class="placeholder">
-                <div class="label">Адрес</div>
-                <div class="address">NULL</div>
+        <? } else { ?>
+            <div class="total-selected">
+                <div class="total-selected-title">Выбрано домов:</div>
+                <div class="total-selected-data">0</div>
             </div>
-            <div class="placeholder">
-                <div class="label">Терапевтическое отделение</div>
-                <div class="medical-division">NULL</div>
-            </div>
-            <div class="placeholder">
-                <div class="label">Количество жильцов</div>
-                <div class="people-count">NULL</div>
-            </div>
-        </div>
+        <? } ?>
         <div class="filters">
             <div class="label">Фильтры</div>
             <div class="filter-placeholder" title="Исключить/Включить ТО №1">
