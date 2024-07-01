@@ -37,8 +37,8 @@ class MapManager {
         for (let i = 0; i < addresses.length; i++) {
             let element = addresses[i];
             let md = element.medicalDivision.trim().split(" ")[0];
-            if ((typeof (filters) != "boolean" && !filters[md - 1]) || !isInArea(point(element.longitude, element.latitude))) continue;
-            groupedByMD[md - 1].push(this.#__createCustomMarker(element, [element.longitude, element.latitude], md, onMarkerClick));
+            if ((typeof (filters) != "boolean" && !filters[md - 1]) || !isInArea(point(element.latitude, element.longitude))) continue;
+            groupedByMD[md - 1].push(this.#__createCustomMarker(element, [element.latitude, element.longitude], md, onMarkerClick));
         }
         for (let i = 0; i < groupedByMD.length; i++) {
             let mDGroup = L.markerClusterGroup({

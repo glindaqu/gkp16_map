@@ -53,7 +53,7 @@ export const filterJsonWithSelection = (startLatlng, endLatlng) => {
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
-    fetch(`http://${SERVER_IP}/php/tools/getAddresses.php`)
+    await fetch(`http://${SERVER_IP}/php/tools/getAddresses.php`)
         .then(response => response.json())
         .then(j => {
             mapManager.__drawGeoJson(j, true, () => { refreshMapWithAssignData() });
