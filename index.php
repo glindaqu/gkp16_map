@@ -27,12 +27,10 @@ require_once "php/api.php";
     </a>
     <div class="side-content">
         <div class="tab-control">
-            <a href="index.php?info"
-                class="tab-control-item <?php if (isset($_GET['info']))
-                    echo "selected" ?>">Поиск</a>
-                <a href="index.php?stat"
-                    class="tab-control-item <?php if (isset($_GET['stat']))
-                    echo "selected" ?>">Статистика</a>
+            <a href="index.php?info" class="tab-control-item <?php if (isset($_GET['info']))
+                echo "selected" ?>">Поиск</a>
+                <a href="index.php?stat" class="tab-control-item <?php if (isset($_GET['stat']))
+                echo "selected" ?>">Статистика</a>
             </div>
         <?php if (isset($_GET["info"])) { ?>
             <div class="info-panel">
@@ -59,9 +57,23 @@ require_once "php/api.php";
                 </div>
             </div>
         <? } else { ?>
-            <div class="total-selected">
-                <div class="total-selected-title">Выбрано домов:</div>
-                <div class="total-selected-data">0</div>
+            <div class="total">
+                <div class="total-selected">
+                    <div class="total-selected-title">Выбрано домов:</div>
+                    <div class="total-selected-data">0</div>
+                </div>
+                <div class="total-selected">
+                    <div class="total-selected-title">Количество жителей:</div>
+                    <div class="total-selected-data">0</div>
+                </div>
+                <div class="total-selected">
+                    <div class="total-selected-title">Площадь области:</div>
+                    <div class="total-selected-data">0 км2</div>
+                </div>
+                <div class="total-selected">
+                    <div class="total-selected-title">Плотность населения:</div>
+                    <div class="total-selected-data">0</div>
+                </div>
             </div>
         <? } ?>
         <div class="filters">

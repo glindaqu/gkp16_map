@@ -25,6 +25,14 @@ const getMDColor = index => {
     }
 };
 
+const area = (lat1, lat2, lng1, lng2, R) => {
+    R = R || 6371000; 
+    var k = Math.PI / 180;
+    return k * R * R
+        * Math.abs(Math.sin(lat1 * k) - Math.sin(lat2 * k))
+        * Math.abs(lng1 - lng2);
+}
+
 const point = (x, y) => ({ x, y });
 
 const minX = 54;

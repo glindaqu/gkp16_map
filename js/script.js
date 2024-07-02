@@ -5,7 +5,10 @@ const medDiv = document.querySelector(".medical-division");
 const peopleCount = document.querySelector(".people-count");
 const dropdownItemsContainer = document.querySelector(".addresses-items");
 const addressInput = document.querySelector(".search-by-address");
-const totalSelected = document.querySelector(".total-selected-data");
+const totalSelected = document.querySelectorAll(".total-selected-data")[0];
+const totalArea = document.querySelectorAll(".total-selected-data")[2];
+const totalPeopleCount = document.querySelectorAll(".total-selected-data")[1];
+const populationDensity = document.querySelectorAll(".total-selected-data")[3];
 
 let json = null;
 
@@ -27,7 +30,7 @@ const displayDropdown = () => {
     dropdownItemsContainer.innerHTML = "";
     if (addressInput.value == "") return;
     let filtered = json.filter(el => el.actualName.toLowerCase().includes(addressInput.value));
-    for (let i = 0; i < 5 && filtered[i]; i++) 
+    for (let i = 0; i < 5 && filtered[i]; i++)
         dropdownItemsContainer.innerHTML += `<div class="item" la="${filtered[i].latitude}" lo="${filtered[i].longitude}">${filtered[i].actualName}<div>`;
     document.querySelectorAll(".item").forEach(el => el.addEventListener("click", e => {
         mapManager.map.flyTo([e.target.attributes.lo.nodeValue, e.target.attributes.la.nodeValue], 18);
@@ -45,13 +48,19 @@ const refreshMapWithAssignData = () => {
 };
 
 export const filterJsonWithSelection = (startLatlng, endLatlng) => {
-    let addresses = json.filter(el => 
-        el.latitude >= endLatlng.lat &&
-        el.latitude <= startLatlng.lat &&
-        el.longitude >= startLatlng.lng &&
-        el.longitude <= endLatlng.lng
-    );
+    let peopleAreaCount = 0;
+    let addresses = json.filter(el => {
+        return el.latitude >= endLatlng.lat &&
+            el.latitude <= startLatlng.lat &&
+            el.longitude >= startLatlng.lng &&
+            el.longitude <= endLatlng.lng
+    });
+    for (let i in addresses) peopleAreaCount += parseInt(addresses[i].peopleCount);
+    let t = area(startLatlng.lat, endLatlng.lat, startLatlng.lng, endLatlng.lng) / 1e+6;
     totalSelected.innerHTML = addresses.length;
+    totalPeopleCount.innerHTML = peopleAreaCount;
+    totalArea.innerHTML = t.toFixed(2) + "км2";
+    populationDensity.innerHTML = (peopleAreaCount / t).toFixed(2);
 };
 
 document.addEventListener("DOMContentLoaded", async () => {

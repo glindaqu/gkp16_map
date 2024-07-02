@@ -261,3 +261,10 @@ a {
 .total-selected-data {
 
 }
+
+.total {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 20px;
+}
