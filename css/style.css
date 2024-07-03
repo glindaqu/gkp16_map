@@ -42,12 +42,10 @@ body {
 }
 
 .info-panel {
+    height: 90%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-    height: 65%;
+    justify-content: space-between;
 }
 
 .placeholder {
@@ -126,7 +124,6 @@ body {
 }
 
 .search {
-    height: 80% !important;
     justify-content: start !important;
 }
 
@@ -254,17 +251,23 @@ a {
     justify-content: space-between;
 }
 
-.total-selected-title {
-
-}
-
-.total-selected-data {
-
-}
-
 .total {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     gap: 20px;
+}
+
+.side-content-container {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 90%;
+}
+
+#stat {
+    height: 100%;
+    justify-content: center;
 }

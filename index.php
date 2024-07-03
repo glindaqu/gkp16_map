@@ -27,12 +27,10 @@ require_once "php/api.php";
     </a>
     <div class="side-content">
         <div class="tab-control">
-            <a href="index.php?info" class="tab-control-item <?php if (isset($_GET['info']))
-                echo "selected" ?>">Поиск</a>
-                <a href="index.php?stat" class="tab-control-item <?php if (isset($_GET['stat']))
-                echo "selected" ?>">Статистика</a>
-            </div>
-        <?php if (isset($_GET["info"])) { ?>
+            <div id="info-control" class="selected tab-control-item">Поиск</div>
+            <div id="stat-control" class="tab-control-item">Статистика</div>
+        </div>
+        <div class="side-content-container" id="info">
             <div class="info-panel">
                 <div class="placeholder search">
                     <div class="label">Поиск</div>
@@ -43,20 +41,23 @@ require_once "php/api.php";
                         </div>
                     </div>
                 </div>
-                <div class="placeholder">
-                    <div class="label">Адрес</div>
-                    <div class="address">NULL</div>
-                </div>
-                <div class="placeholder">
-                    <div class="label">Терапевтическое отделение</div>
-                    <div class="medical-division">NULL</div>
-                </div>
-                <div class="placeholder">
-                    <div class="label">Количество жильцов</div>
-                    <div class="people-count">NULL</div>
+                <div class="placeholders">
+                    <div class="placeholder">
+                        <div class="label">Адрес</div>
+                        <div class="address">NULL</div>
+                    </div>
+                    <div class="placeholder">
+                        <div class="label">Терапевтическое отделение</div>
+                        <div class="medical-division">NULL</div>
+                    </div>
+                    <div class="placeholder">
+                        <div class="label">Количество жильцов</div>
+                        <div class="people-count">NULL</div>
+                    </div>
                 </div>
             </div>
-        <? } else { ?>
+        </div>
+        <div class="side-content-container hidden" id="stat">
             <div class="total">
                 <div class="total-selected">
                     <div class="total-selected-title">Выбрано домов:</div>
@@ -68,14 +69,14 @@ require_once "php/api.php";
                 </div>
                 <div class="total-selected">
                     <div class="total-selected-title">Площадь области:</div>
-                    <div class="total-selected-data">0 км2</div>
+                    <div class="total-selected-data">0</div>
                 </div>
                 <div class="total-selected">
                     <div class="total-selected-title">Плотность населения:</div>
                     <div class="total-selected-data">0</div>
                 </div>
             </div>
-        <? } ?>
+        </div>
         <div class="filters">
             <div class="label">Фильтры</div>
             <div class="filter-placeholder" title="Исключить/Включить ТО №1">
