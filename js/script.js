@@ -52,7 +52,7 @@ const displayDropdown = () => {
     for (let i = 0; i < 5 && filtered[i]; i++)
         dropdownItemsContainer.innerHTML += `<div class="item" la="${filtered[i].latitude}" lo="${filtered[i].longitude}">${filtered[i].actualName}<div>`;
     document.querySelectorAll(".item").forEach(el => el.addEventListener("click", e => {
-        mapManager.map.flyTo([e.target.attributes.lo.nodeValue, e.target.attributes.la.nodeValue], 18);
+        mapManager.map.flyTo([e.target.attributes.la.nodeValue, e.target.attributes.lo.nodeValue], 18);
     }));
 };
 
