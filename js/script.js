@@ -63,7 +63,8 @@ const getFiltersValues = () => {
 };
 
 const refreshMapWithAssignData = () => {
-    mapManager.__refreshMap(document.querySelector(".search-by-address").value, getFiltersValues(), feature => { updateSidePanelData(feature); enableInfo(); });
+    enableInfo();
+    mapManager.__refreshMap(document.querySelector(".search-by-address").value, getFiltersValues(), feature => { updateSidePanelData(feature); });
 };
 
 export const filterJsonWithSelection = (startLatlng, endLatlng) => {
@@ -86,10 +87,8 @@ export const filterJsonWithSelection = (startLatlng, endLatlng) => {
 document.addEventListener("DOMContentLoaded", async () => {
     await fetch(`http://${SERVER_IP}/php/tools/getAddresses.php`)
         .then(response => response.json())
-        .then(j => {
-            mapManager.__drawGeoJson(j, true, () => { refreshMapWithAssignData(); enableInfo(); });
-            json = j;
-        });
+        .then(j => json = j);
+    refreshMapWithAssignData();
     checkboxes.forEach(el => { el.addEventListener("change", () => { refreshMapWithAssignData(); }) });
     addressInput.addEventListener("input", () => { refreshMapWithAssignData(); displayDropdown(); });
     document.getElementById("info-control").addEventListener("click", () => enableInfo());
