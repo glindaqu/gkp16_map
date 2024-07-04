@@ -63,18 +63,19 @@ const getFiltersValues = () => {
 };
 
 const refreshMapWithAssignData = () => {
-    enableInfo();
-    mapManager.__refreshMap(document.querySelector(".search-by-address").value, getFiltersValues(), feature => { updateSidePanelData(feature); });
+    mapManager.__refreshMap(document.querySelector(".search-by-address").value, getFiltersValues(), feature => { updateSidePanelData(feature); enableInfo(); });
 };
 
 export const filterJsonWithSelection = (startLatlng, endLatlng) => {
     enableStat();
+    let filters = getFiltersValues();
     let peopleAreaCount = 0;
     let addresses = json.filter(el => {
         return el.latitude >= endLatlng.lat &&
             el.latitude <= startLatlng.lat &&
             el.longitude >= startLatlng.lng &&
-            el.longitude <= endLatlng.lng
+            el.longitude <= endLatlng.lng &&
+            filters[el.medicalDivision - 1]
     });
     for (let i in addresses) peopleAreaCount += parseInt(addresses[i].peopleCount);
     let t = area(startLatlng.lat, endLatlng.lat, startLatlng.lng, endLatlng.lng) / 1e+6;
