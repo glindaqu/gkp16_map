@@ -28,23 +28,23 @@ require_once "php/api.php";
     <div class="legend">
         <div class="legend-row">
             <div class="legend-item" style="background-color: #ff2e39"></div> 
-            <div class="legend-item-text">ТО №1</div>
+            <div class="legend-item-text">ТО №1 (всего <?php print_r( API::GetHousesCountByMD(1)) ?>)</div>
         </div>
         <div class="legend-row">
             <div class="legend-item" style="background-color: #3f48cc"></div> 
-            <div class="legend-item-text">ТО №2</div>
+            <div class="legend-item-text">ТО №2 (всего <?php echo API::GetHousesCountByMD(2) ?>)</div>
         </div>
         <div class="legend-row">
             <div class="legend-item" style="background-color: #000000"></div> 
-            <div class="legend-item-text">ТО №3</div>
+            <div class="legend-item-text">ТО №3 (всего <?php echo API::GetHousesCountByMD(3) ?>)</div>
         </div>
         <div class="legend-row">
             <div class="legend-item" style="background-color: #5d874e"></div> 
-            <div class="legend-item-text">ТО №4</div>
+            <div class="legend-item-text">ТО №4 (всего <?php echo API::GetHousesCountByMD(4) ?>)</div>
         </div>
         <div class="legend-row">
             <div class="legend-item" style="background-color: #6d436e"></div> 
-            <div class="legend-item-text">ТО №5</div>
+            <div class="legend-item-text">ТО №5 (всего <?php echo API::GetHousesCountByMD(5) ?>)</div>
         </div>
     </div>
     <div class="side-content">

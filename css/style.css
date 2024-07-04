@@ -285,6 +285,7 @@ a {
     flex-direction: column;
     justify-content: space-around;
     border-radius: 5px;
+    align-items: start;
 }
 
 .legend-row {

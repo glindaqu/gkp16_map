@@ -22,6 +22,10 @@ class API {
         self::DownloadFile("addresses_dump.json");
     }
 
+    public static function GetHousesCountByMD($md): int {
+        return self::InitializeDB()->query("SELECT COUNT(*) FROM addresses WHERE medicalDivision = ".$md)[0]["COUNT(*)"];
+    }
+
     public static function UpdateRowById($row, $id) {
         self::InitializeDB()->query("UPDATE addresses SET 
             actualName = '{$row['actualName']}',
