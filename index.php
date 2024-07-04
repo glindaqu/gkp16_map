@@ -25,6 +25,28 @@ require_once "php/api.php";
     <a class="profile" title="Админ-панель" href="http://<?php echo API::SERVER_IP ?>/php/login.php">
         <img src="svg/avatar.svg" alt="" class="image">
     </a>
+    <div class="legend">
+        <div class="legend-row">
+            <div class="legend-item" style="background-color: #ff2e39"></div> 
+            <div class="legend-item-text">ТО №1</div>
+        </div>
+        <div class="legend-row">
+            <div class="legend-item" style="background-color: #3f48cc"></div> 
+            <div class="legend-item-text">ТО №2</div>
+        </div>
+        <div class="legend-row">
+            <div class="legend-item" style="background-color: #000000"></div> 
+            <div class="legend-item-text">ТО №3</div>
+        </div>
+        <div class="legend-row">
+            <div class="legend-item" style="background-color: #5d874e"></div> 
+            <div class="legend-item-text">ТО №4</div>
+        </div>
+        <div class="legend-row">
+            <div class="legend-item" style="background-color: #6d436e"></div> 
+            <div class="legend-item-text">ТО №5</div>
+        </div>
+    </div>
     <div class="side-content">
         <div class="tab-control">
             <div id="info-control" class="selected tab-control-item">Поиск</div>

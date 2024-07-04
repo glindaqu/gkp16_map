@@ -183,7 +183,7 @@ label {
     top: 10px;
     width: 61px;
     height: 61px;
-    left: 60px;
+    left: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,4 +270,32 @@ a {
 #stat {
     height: 100%;
     justify-content: center;
+}
+
+.legend {
+    position: absolute; 
+    gap: 10px;
+    background-color: white;
+    z-index: 999;
+    left: 10px;
+    top: 90px;
+    box-shadow: -0.2em 0.2em .2em rgba(0, 0, 0, 0.442);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.legend-row {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.legend-item {
+    width: 20px;
+    height: 20px;
 }
