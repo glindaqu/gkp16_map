@@ -78,7 +78,7 @@ export const filterJsonWithSelection = (startLatlng, endLatlng) => {
             filters[el.medicalDivision - 1]
     });
     for (let i in addresses) peopleAreaCount += parseInt(addresses[i].peopleCount);
-    let t = area(startLatlng.lat, endLatlng.lat, startLatlng.lng, endLatlng.lng) / 1e+6;
+    let t = area(startLatlng.lat, endLatlng.lat, startLatlng.lng, endLatlng.lng) * 1e-6;
     totalSelected.innerHTML = addresses.length;
     totalPeopleCount.innerHTML = peopleAreaCount;
     totalArea.innerHTML = t.toFixed(2) + " км²";

@@ -12,6 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
         startLatlng = e.latlng;
     });
     mapManager.map.on("mouseup", e => {
+        x = 0;
+        y = 0;
+        border.style.height = 0;
+        border.style.width = 0;
         if (!display) return;
         endLatlng = e.latlng;
         filterJsonWithSelection(startLatlng, endLatlng);
