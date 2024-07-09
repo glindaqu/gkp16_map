@@ -24,6 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
         startLatlng = e.latlng;
     });
     mapManager.map.on("mouseup", e => {
+        console.log(e);
+        endLatlng = e.latlng;
+    });
+    mapManager.map.on("mousemove", e => {
         endLatlng = e.latlng;
     });
 });
@@ -31,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("contextmenu", e => e.preventDefault());
 
 document.addEventListener("mousedown", e => {
+    e.preventDefault();
     if (e.button != 2) return;
     display = true;
     x1 = e.clientX;
@@ -39,7 +44,7 @@ document.addEventListener("mousedown", e => {
 });
 
 document.addEventListener("mouseup", e => {
-    if (e.button != 2) return;
+    if (e.button != 2 || display == false) return;
     display = false;
     x1 = 0, x2 = 0;
     y1 = 0, y2 = 0;
@@ -47,7 +52,6 @@ document.addEventListener("mouseup", e => {
     border.style.width = 0;
     border.classList.add("hidden");
     mapManager.map.dragging.enable();
-    // endLatlng = mapManager.map.layerPointToLatLng({x: e.x, y: e.y});
     let st = {lat: Math.max(startLatlng.lat, endLatlng.lat), lng: Math.min(startLatlng.lng, endLatlng.lng)};
     let ed = {lat: Math.min(startLatlng.lat, endLatlng.lat), lng: Math.max(startLatlng.lng, endLatlng.lng)};
     filterJsonWithSelection(st, ed);
