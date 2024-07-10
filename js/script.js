@@ -82,7 +82,7 @@ export const filterJsonWithSelection = (startLatlng, endLatlng) => {
     totalSelected.innerHTML = addresses.length;
     totalPeopleCount.innerHTML = peopleAreaCount;
     totalArea.innerHTML = t.toFixed(2) + " км²";
-    populationDensity.innerHTML = (peopleAreaCount / t).toFixed(2) + " чел./км²";
+    // populationDensity.innerHTML = (peopleAreaCount / t).toFixed(2) + " чел./км²";
 };
 
 document.addEventListener("DOMContentLoaded", async () => {

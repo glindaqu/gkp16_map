@@ -30,7 +30,7 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
             <tr class="row">
                 <th class="address">Адрес</th>
                 <th class="med-div">Терапевтическое отделение</th>
-                <th class="people-count">Количество жильцов</th>
+                <th class="people-count">Количество квартир</th>
             </tr>
         </thead>
         <tbody>

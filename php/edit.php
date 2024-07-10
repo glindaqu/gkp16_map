@@ -28,7 +28,7 @@ $row = API::GetRowById($id);
                 <label>Идентификатор записи</label>
                 <label>Адрес</label>
                 <label>Терапевтическое отделение</label>
-                <label>Количество жильцов</label>
+                <label>Количество квартир</label>
                 <label>Долгота</label>
                 <label>Широта</label>
             </div>
