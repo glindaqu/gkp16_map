@@ -23,19 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
     mapManager.map.on("mousedown", e => {
         startLatlng = e.latlng;
     });
-    mapManager.map.on("mouseup", e => {
-        console.log(e);
-        endLatlng = e.latlng;
-    });
     mapManager.map.on("mousemove", e => {
         endLatlng = e.latlng;
-    });
+    })
 });
 
 document.addEventListener("contextmenu", e => e.preventDefault());
 
 document.addEventListener("mousedown", e => {
-    e.preventDefault();
     if (e.button != 2) return;
     display = true;
     x1 = e.clientX;

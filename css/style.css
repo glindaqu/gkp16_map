@@ -103,6 +103,8 @@ body {
     background: url(../svg/search.svg) no-repeat scroll 8px 11px;
     background-color: #e8e8e8;
     padding-left: 40px;
+    z-index: 1000;
+    position: reltive;
 }
 
 .item {
