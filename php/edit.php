@@ -19,7 +19,7 @@ $row = API::GetRowById($id);
 </head>
 
 <body>
-    <a class="back-btn" href="viewTable.php" title="К таблице">
+    <a class="back-btn" href="http://<?php echo API::SERVER_IP ?>/php/viewTable.php" title="К таблице">
         <img src="http://<?php echo API::SERVER_IP ?>/svg/back.svg" alt="" class="image">
     </a>
     <form action="tools/save.php" method=post>
