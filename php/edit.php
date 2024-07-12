@@ -26,19 +26,25 @@ $row = API::GetRowById($id);
         <div class="controls">
             <div class="labels">
                 <label>Идентификатор записи</label>
-                <label>Адрес</label>
+                <label>Улица</label>
+                <label>Номер дома</label>
+                <label>Тип объекта</label>
                 <label>Терапевтическое отделение</label>
+                <label>Участок</label>
                 <label>Количество квартир</label>
                 <label>Долгота</label>
                 <label>Широта</label>
             </div>
             <div class="inputs">
                 <input type="text" name="row-id" value="<?php echo $row['id'] ?>" readonly>
-                <input type="text" name="actual-name" value="<?php echo $row['actualName'] ?>">
-                <input type="text" name="medical-division" value="<?php echo $row['medicalDivision'] ?>">
-                <input type="text" name="people-count" value="<?php echo $row['peopleCount'] ?>">
-                <input type="text" name="longitude" value="<?php echo $row['longitude'] ?>">
-                <input type="text" name="latitude" value="<?php echo $row['latitude'] ?>">
+                <input type="text" name="street" value="<?php echo $row['Street'] ?>">
+                <input type="text" name="house-number" value="<?php echo $row['HouseNumber'] ?>">
+                <input type="text" name="prefix" value="<?php echo $row['Prefix'] ?>">
+                <input type="text" name="medical-division" value="<?php echo $row['MedicalDivision'] ?>">
+                <input type="text" name="region" value="<?php echo $row['Region'] ?>">
+                <input type="text" name="flat-count" value="<?php echo $row['FlatCount'] ?>">
+                <input type="text" name="longitude" value="<?php echo $row['Longitude'] ?>">
+                <input type="text" name="latitude" value="<?php echo $row['Latitude'] ?>">
             </div>
         </div>
 

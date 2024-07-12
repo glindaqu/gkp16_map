@@ -76,6 +76,10 @@ require_once "php/api.php";
                         <div class="label">Количество квартир</div>
                         <div class="people-count">NULL</div>
                     </div>
+                    <div class="placeholder">
+                        <div class="label">Участок</div>
+                        <div class="region">NULL</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,10 +97,14 @@ require_once "php/api.php";
                     <div class="total-selected-title">Площадь области:</div>
                     <div class="total-selected-data">0</div>
                 </div>
-                <!-- <div class="total-selected">
+                <div class="total-selected">
+                    <div class="total-selected-title">Количество населения:</div>
+                    <div class="total-selected-data">0</div>
+                </div>
+                <div class="total-selected">
                     <div class="total-selected-title">Плотность населения:</div>
                     <div class="total-selected-data">0</div>
-                </div> -->
+                </div>
             </div>
         </div>
         <div class="filters">

@@ -25,7 +25,7 @@ class MapManager {
         this.__deleteAllMarkers();
         fetch(MapManager.JSON_FILE)
             .then(response => response.json())
-            .then(addresses => this.__drawGeoJson(addresses.filter(i => i.actualName.toLowerCase().includes(pattern)), filters, onMarkerClick));
+            .then(addresses => this.__drawGeoJson(addresses.filter(i => (i.Street + i.HouseNumber).toLowerCase().includes(pattern)), filters, onMarkerClick));
     }
 
     __deleteAllMarkers() {
@@ -36,9 +36,9 @@ class MapManager {
         let groupedByMD = [[], [], [], [], []];
         for (let i = 0; i < addresses.length; i++) {
             let element = addresses[i];
-            let md = element.medicalDivision.trim().split(" ")[0];
-            if ((typeof(filters) != "boolean" && !filters[md - 1]) || !isInArea(point(element.latitude, element.longitude))) continue;
-            groupedByMD[md - 1].push(this.#__createCustomMarker(element, [element.latitude, element.longitude], md, onMarkerClick));
+            let md = element.MedicalDivision;
+            if ((typeof(filters) != "boolean" && !filters[md - 1]) || !isInArea(point(element.Latitude, element.Longitude))) continue;
+            groupedByMD[md - 1].push(this.#__createCustomMarker(element, [element.Latitude, element.Longitude], md, onMarkerClick));
         }
         for (let i = 0; i < groupedByMD.length; i++) {
             let mDGroup = L.markerClusterGroup({
@@ -75,7 +75,7 @@ class MapManager {
             iconAnchor: [15, 15],
             popupAnchor: [0, 0],
         });
-        return L.marker(new L.LatLng(...latlng), { icon: myIcon, title: feature.actualName.replaceAll(",", "") })
+        return L.marker(new L.LatLng(...latlng), { icon: myIcon, title: `${feature.Prefix} ${feature.Street} ${feature.HouseNumber}` })
             .on("click", () => { onMarkerClick(feature) });
     }
 }

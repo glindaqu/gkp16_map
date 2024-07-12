@@ -2,7 +2,8 @@
 
 require_once "database.php";
 
-class API {
+class API
+{
 
     private const IP = "localhost";
     private const USER = "root";
@@ -11,69 +12,87 @@ class API {
 
     public const SERVER_IP = "leafletmap:81";
 
-    private static function InitializeDB(): Database {
+    private static function InitializeDB(): Database
+    {
         return new Database(self::IP, self::USER, self::PASSWORD, self::DATABASE);
     }
 
-    public static function DumpJSON(): void {
+    public static function DumpJSON(): void
+    {
         $db = self::InitializeDB();
         $json = $db->query("SELECT * FROM addresses;");
-        file_put_contents("http://".self::SERVER_IP."/php/tools/addresses_dump.json", json_encode($json));
-        self::DownloadFile("http://".self::SERVER_IP."/php/tools/addresses_dump.json");
+        file_put_contents("http://" . self::SERVER_IP . "/php/tools/addresses_dump.json", json_encode($json));
+        self::DownloadFile("http://" . self::SERVER_IP . "/php/tools/addresses_dump.json");
     }
 
-    public static function GetHousesCountByMD($md): int {
-        return self::InitializeDB()->query("SELECT COUNT(*) FROM addresses WHERE medicalDivision = ".$md)[0]["COUNT(*)"];
+    public static function GetHousesCountByMD($md): int
+    {
+        return self::InitializeDB()->query("SELECT COUNT(*) FROM addresses WHERE medicalDivision = " . $md)[0]["COUNT(*)"];
     }
 
-    public static function UpdateRowById($row, $id) {
-        self::InitializeDB()->query("UPDATE addresses SET 
-            actualName = '{$row['actualName']}',
-            medicalDivision = {$row['medicalDivision']},
-            peopleCount = {$row['peopleCount']},
-            latitude = {$row['latitude']},
-            longitude = {$row['longitude']}
+    public static function UpdateRowById($row, $id)
+    {
+        self::InitializeDB()->query(
+            "UPDATE addresses SET 
+            Street = '{$row['Street']}',
+            Prefix = '{$row['Prefix']}',
+            HouseNumber = '{$row['HouseNumber']}',
+            MedicalDivision = {$row['MedicalDivision']},
+            Region = {$row['Region']},
+            FlatCount = {$row['FlatCount']},
+            Latitude = {$row['Latitude']},
+            Longitude = {$row['Longitude']}
             WHERE id = $id"
         );
     }
 
-    public static function GetRowById($id): array {
+    public static function GetRowById($id): array
+    {
         return self::InitializeDB()->query("SELECT * FROM addresses WHERE id=$id LIMIT 1")[0];
     }
 
-    public static function CheckUser($login, $password): bool {
+    public static function CheckUser($login, $password): bool
+    {
         $db = self::InitializeDB();
         return count($db->query("SELECT * FROM users WHERE login = '$login' AND password = '$password';"));
     }
 
-    public static function GetAllAdresses(): array {
+    public static function GetAllAdresses(): array
+    {
         $db = self::InitializeDB();
         return $db->query("SELECT * FROM addresses;");
     }
 
-    public static function InsertAddressesFromJson(): void {
-        if (!file_exists("http://".self::SERVER_IP."/data/withCoords.json")) return;
+    public static function InsertAddressesFromJson(): void
+    {
+        if (!file_exists("../../data/withCoords.json"))
+            die("file not found");
         $db = self::InitializeDB();
-        $query = "INSERT INTO addresses(actualName, medicalDivision, longitude, latitude, peopleCount) VALUES ";
-        foreach (json_decode(file_get_contents("http://".self::SERVER_IP."/data/withCoords.json"), true) as $value) {
-            $name = trim($value['name']);
-            $md = explode(' ', trim($value['medDivision']))[0];
-            $lon = explode(' ', $value['position'])[1];
-            $lan = explode(' ', $value['position'])[0];
-            $pc = $value['peopleCount'];
-            $query .= "('$name', $md, $lon, $lan, $pc),";
+        $query = "INSERT INTO addresses( Street, Prefix,  MedicalDivision ,  Region ,  HouseNumber ,  FlatCount ,  Longitude , Latitude ) VALUES ";
+        foreach (json_decode(file_get_contents("http://" . self::SERVER_IP . "/data/withCoords.json"), true) as $value) {
+            $street = $value["Street"];
+            $prefix = $value["Prefix"];
+            $md  = $value["MedicalDivision"];
+            $reg = $value["Region"];
+            $hn = $value["HouseNumber"];
+            $fc = $value["FlatCount"];
+            $lng = $value["Longitude"];
+            $lat = $value["Latitude"];
+            $query .= "('$street', '$prefix', $md, $reg, '$hn', $fc, $lng, $lat),";
         }
         $db->query(substr($query, 0, -1));
     }
 
-    public static function CreateTableStruct(): void {
+    public static function CreateTableStruct(): void
+    {
         $db = self::InitializeDB();
         $db->makeTable();
         self::InsertAddressesFromJson();
     }
 
-    private static function DownloadFile($file): void {
-        if (!file_exists($file)) { 
+    private static function DownloadFile($file): void
+    {
+        if (!file_exists($file)) {
             die('file not found');
         } else {
             header("Cache-Control: public");
@@ -81,7 +100,8 @@ class API {
             header("Content-Disposition: attachment; filename=$file");
             header("Content-Type: application/json");
             header("Content-Transfer-Encoding: binary");
-            while (ob_get_level()) ob_end_clean();
+            while (ob_get_level())
+                ob_end_clean();
             readfile($file);
         }
     }

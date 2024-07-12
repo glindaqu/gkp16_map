@@ -39,13 +39,13 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
             foreach ($json as $index=>$item) { ?>
             <tr class="row" id="<?php echo $item['id']; ?>" style="background-color: #<?php echo $index % 2 ? 'dadada' : 'efefef'?>">
                 <td class="address" id="<?php echo $item['id']; ?>">
-                    <?php echo trim(str_replace(",", "", $item["actualName"])) ?>
+                    <?php echo $item["Prefix"] . " " . $item["Street"] . " " . $item["HouseNumber"] ?>
                 </td>
                 <td class="med-div" id="<?php echo $item['id']; ?>">
-                    <?php echo trim($item["medicalDivision"]) ?>
+                    <?php echo trim($item["MedicalDivision"]) ?>
                 </td>
                 <td class="people-count" id="<?php echo $item['id']; ?>">
-                    <?php echo $item["peopleCount"] ?>
+                    <?php echo $item["FlatCount"] ?>
                 </td>
             </tr>
             <?php } ?>
