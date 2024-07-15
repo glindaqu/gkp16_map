@@ -118,3 +118,12 @@ th.address  {
     justify-content: center;
     cursor: pointer;
 }
+
+th {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+    align-self: center;
+    justify-self: center !important;
+}

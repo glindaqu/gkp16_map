@@ -19,7 +19,6 @@ class API
 
     public static function DumpJSON(): void
     {
-        echo getcwd();
         $db = self::InitializeDB();
         $json = $db->query("SELECT * FROM addresses ORDER BY MedicalDivision;");
         echo file_put_contents("addresses_dump.json", json_encode($json));
@@ -58,16 +57,26 @@ class API
         return count($db->query("SELECT * FROM users WHERE login = '$login' AND password = '$password';"));
     }
 
-    public static function GetAllAdresses(): array
+    /**
+     * Summary of GetAllAdresses
+     * @param mixed $filters
+     * @return array
+     * 
+     * ad - address [desc or '' (null-string)]
+     */
+    public static function GetAllAdresses($filters = null): array
     {
         $db = self::InitializeDB();
-        return $db->query("SELECT * FROM addresses;");
+        if ($filters == null)
+            return $db->query("SELECT * FROM addresses ORDER BY MedicalDivision;");
+        return $db->query("SELECT * FROM addresses ORDER BY Street ".$filters['ad'].";");
     }
 
     public static function InsertAddressesFromJson(): void
     {
         if (!file_exists("../../data/withCoords.json"))
             die("file not found");
+
         $db = self::InitializeDB();
         $query = "INSERT INTO addresses( Street, Prefix,  MedicalDivision ,  Region ,  HouseNumber ,  FlatCount ,  Longitude , Latitude ) VALUES ";
         foreach (json_decode(file_get_contents("http://" . self::SERVER_IP . "/data/withCoords.json"), true) as $value) {

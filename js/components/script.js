@@ -1,5 +1,4 @@
-import { mapManager } from "./map.js";
-
+import { mapManager } from "../core/Map.js";
 const address = document.querySelector(".address");
 const medDiv = document.querySelector(".medical-division");
 const flatCount = document.querySelector(".people-count");

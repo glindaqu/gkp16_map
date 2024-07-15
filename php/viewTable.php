@@ -7,7 +7,9 @@ require_once "api.php";
 
 if (!isset($_COOKIE['login'])) die("Авторизуйтесь в системе");
 
-$json = API::GetAllAdresses();
+$json = API::GetAllAdresses([
+    "ad" => isset($_GET['ad']) ? $_GET['ad'] : ''
+]);
 $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 ?>
 
@@ -28,7 +30,10 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
     <table>
         <thead>
             <tr class="row">
-                <th class="address">Адрес</th>
+                <th class="address">
+                    <div class="title">Адрес</div>
+                    <button class="filter-options" id="address-opt">^</button>
+                </th>
                 <th class="med-div">Терапевтическое отделение</th>
                 <th class="people-count">Количество квартир</th>
             </tr>
@@ -59,7 +64,8 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 
 </body>
 
-<script src="../js/config.js"></script>
+<script src="../js/config.js" type="module"></script>
+<script src="../js/view-filters.js" type="module"></script>
 <script src="../js/contextMenu.js"></script>
 
 </html>
