@@ -19,10 +19,11 @@ class API
 
     public static function DumpJSON(): void
     {
+        echo getcwd();
         $db = self::InitializeDB();
         $json = $db->query("SELECT * FROM addresses;");
-        file_put_contents("http://" . self::SERVER_IP . "/php/tools/addresses_dump.json", json_encode($json));
-        self::DownloadFile("http://" . self::SERVER_IP . "/php/tools/addresses_dump.json");
+        file_put_contents("addresses_dump.json", json_encode($json));
+        self::DownloadFile("addresses_dump.json");
     }
 
     public static function GetHousesCountByMD($md): int
