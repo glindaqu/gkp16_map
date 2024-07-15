@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     mapManager.map.on("mousemove", e => {
         endLatlng = e.latlng;
-    })
+    });
 });
 
 document.addEventListener("contextmenu", e => e.preventDefault());
@@ -47,8 +47,8 @@ document.addEventListener("mouseup", e => {
     border.style.width = 0;
     border.classList.add("hidden");
     mapManager.map.dragging.enable();
-    let st = {lat: Math.max(startLatlng.lat, endLatlng.lat), lng: Math.min(startLatlng.lng, endLatlng.lng)};
-    let ed = {lat: Math.min(startLatlng.lat, endLatlng.lat), lng: Math.max(startLatlng.lng, endLatlng.lng)};
+    let st = { lat: Math.max(startLatlng.lat, endLatlng.lat), lng: Math.min(startLatlng.lng, endLatlng.lng) };
+    let ed = { lat: Math.min(startLatlng.lat, endLatlng.lat), lng: Math.max(startLatlng.lng, endLatlng.lng) };
     filterJsonWithSelection(st, ed);
 });
 

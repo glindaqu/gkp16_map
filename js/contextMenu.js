@@ -6,7 +6,7 @@ document.addEventListener('contextmenu', e => {
         menu.classList.add("hidden");
         return;
     }
-    drawContextMenu({x: e.clientX, y: e.clientY});
+    drawContextMenu({ x: e.clientX, y: e.clientY });
     lastClickedId = e.target.id;
     e.preventDefault();
 });

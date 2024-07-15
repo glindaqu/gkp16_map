@@ -37,7 +37,7 @@ class MapManager {
         for (let i = 0; i < addresses.length; i++) {
             let element = addresses[i];
             let md = element.MedicalDivision;
-            if ((typeof(filters) != "boolean" && !filters[md - 1]) || !isInArea(point(element.Latitude, element.Longitude))) continue;
+            if ((typeof (filters) != "boolean" && !filters[md - 1]) || !isInArea(point(element.Latitude, element.Longitude))) continue;
             groupedByMD[md - 1].push(this.#__createCustomMarker(element, [element.Latitude, element.Longitude], md, onMarkerClick));
         }
         for (let i = 0; i < groupedByMD.length; i++) {
