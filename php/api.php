@@ -21,8 +21,8 @@ class API
     {
         echo getcwd();
         $db = self::InitializeDB();
-        $json = $db->query("SELECT * FROM addresses;");
-        file_put_contents("addresses_dump.json", json_encode($json));
+        $json = $db->query("SELECT * FROM addresses ORDER BY MedicalDivision;");
+        echo file_put_contents("addresses_dump.json", json_encode($json));
         self::DownloadFile("addresses_dump.json");
     }
 
