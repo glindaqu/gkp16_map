@@ -1,46 +1,62 @@
+import { SERVER_IP } from "../config.js";
+import { isInArea, Point, getMDColor, hex2rgb } from "../helpers/functions.js";
+
 const DEFAULT_TILE_PROVIDER = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 
 class MapManager {
 
-    #__map = null;
-    #__layers = [];
+    #map = null;
+    #layers = [];
+    #markerClickCallback = () => {};
 
     constructor(center, zoom, tileProvider) {
-        this.#__map = new L.Map('map', {
+        this.#map = new L.Map('map', {
             center: new L.LatLng(...center),
             zoom: zoom,
             layers: new L.TileLayer(tileProvider),
         });
     }
 
-    static get JSON_FILE() {
+    static get JSONFile() {
         return `http://${SERVER_IP}/php/tools/getAddresses.php`;
     }
 
     get map() {
-        return this.#__map;
+        return this.#map;
     }
 
-    __refreshMap(pattern, filters, onMarkerClick) {
-        this.__deleteAllMarkers();
-        fetch(MapManager.JSON_FILE)
-            .then(response => response.json())
-            .then(addresses => this.__drawGeoJson(addresses.filter(i => (i.Street + i.HouseNumber).toLowerCase().includes(pattern)), filters, onMarkerClick));
-    }
-
-    __deleteAllMarkers() {
-        for (let i = 0; i < this.#__layers.length; i++) this.#__map.removeLayer(this.#__layers[i]);
-    }
-
-    __drawGeoJson(addresses, filters, onMarkerClick) {
-        let groupedByMD = [[], [], [], [], []];
-        for (let i = 0; i < addresses.length; i++) {
-            let element = addresses[i];
-            let md = element.MedicalDivision;
-            if ((typeof (filters) != "boolean" && !filters[md - 1]) || !isInArea(point(element.Latitude, element.Longitude))) continue;
-            groupedByMD[md - 1].push(this.#__createCustomMarker(element, [element.Latitude, element.Longitude], md, onMarkerClick));
+    /**
+     * @param {() => void} callback
+     */
+    set markerClickCallback(callback) {
+        if (!(callback instanceof Function)) {
+            throw new Error("Callback must be a function");
         }
-        for (let i = 0; i < groupedByMD.length; i++) {
+        this.#markerClickCallback = callback;
+    }
+
+    refreshMap(newMapData) {
+        this.#deleteAllMarkers();
+        this.#drawGeoJson(newMapData);
+    }
+
+    #deleteAllMarkers() {
+        for (let i = 0; i < this.#layers.length; i++) {
+            this.#map.removeLayer(this.#layers[i]);
+        }
+    }
+
+    #drawGeoJson(addresses) {
+        let medDivList = [[], [], [], [], []];
+
+        for (let index in addresses) {
+            const el = addresses[index];
+            if (!isInArea(Point(el.Latitude, el.Longitude))) {
+                continue;
+            }
+            medDivList[--el.MedicalDivision].push(this.#createCustomMarker(el, this.#markerClickCallback));
+        }
+        for (let i = 0; i < medDivList.length; i++) {
             let mDGroup = L.markerClusterGroup({
                 iconCreateFunction: cluster => {
                     const bgcolor = getMDColor(i);
@@ -62,21 +78,28 @@ class MapManager {
                     });
                 }
             });
-            for (let j = 0; j < groupedByMD[i].length; j++) groupedByMD[i][j].addTo(mDGroup);
-            mDGroup.addTo(this.#__map);
-            this.#__layers.push(mDGroup);
+            for (let j = 0; j < medDivList[i].length; j++) {
+                medDivList[i][j].addTo(mDGroup);
+            }
+            mDGroup.addTo(this.#map);
+            this.#layers.push(mDGroup);
         }
     };
 
-    #__createCustomMarker(feature, latlng, colorIndex, onMarkerClick) {
+    #createCustomMarker(model, onMarkerClick) {
         const myIcon = L.icon({
-            iconUrl: `http://${SERVER_IP}/pointers/point_${colorIndex}.png`,
+            iconUrl: `http://${SERVER_IP}/pointers/point_${model.MedicalDivision}.png`,
             iconSize: [30, 30],
             iconAnchor: [15, 15],
             popupAnchor: [0, 0],
         });
-        return L.marker(new L.LatLng(...latlng), { icon: myIcon, title: `${feature.Prefix} ${feature.Street} ${feature.HouseNumber}` })
-            .on("click", () => { onMarkerClick(feature) });
+        return L.marker(
+            new L.LatLng(model.Latitude, model.Longitude), 
+            { 
+                icon: myIcon, 
+                title: `${model.Prefix} ${model.Street} ${model.HouseNumber}` 
+            }
+        ).on("click", () => { onMarkerClick(model) });
     }
 }
 

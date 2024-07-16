@@ -1,4 +1,4 @@
-const hex2rgb = hex => {
+export const hex2rgb = hex => {
     hex = hex.length == 6 ? hex : '0' + hex;
     const r = parseInt(hex.slice(0, 2), 16);
     const g = parseInt(hex.slice(2, 4), 16);
@@ -7,7 +7,7 @@ const hex2rgb = hex => {
     return { r, g, b };
 }
 
-const getDarkColor = () => {
+export const getDarkColor = () => {
     let color = '';
     for (let i = 0; i < 6; i++) {
         color += Math.floor(Math.random() * 10);
@@ -15,7 +15,7 @@ const getDarkColor = () => {
     return color;
 }
 
-const getMDColor = index => {
+export const getMDColor = index => {
     switch (index) {
         case 0: return "ff2e39";
         case 1: return "3f48cc";
@@ -25,7 +25,7 @@ const getMDColor = index => {
     }
 };
 
-const area = (lat1, lat2, lng1, lng2, R) => {
+export const area = (lat1, lat2, lng1, lng2, R) => {
     R = R || 6_371_228;
     var k = Math.PI / 180;
     return k * R * R
@@ -33,15 +33,11 @@ const area = (lat1, lat2, lng1, lng2, R) => {
         * Math.abs(lng1 - lng2);
 }
 
-const point = (x, y) => ({ x, y });
+export const Point = (x, y) => ({ x, y });
 
 const minX = 54;
 const maxX = 56;
 const minY = 82;
 const maxY = 83;
 
-const isInArea = E => E.x <= maxX && E.x >= minX && E.y >= minY && E.y <= maxY;
-
-const assert = condition => {
-    if (!condition) throw new Error("assertion failed");
-};
+export const isInArea = E => E.x <= maxX && E.x >= minX && E.y >= minY && E.y <= maxY;

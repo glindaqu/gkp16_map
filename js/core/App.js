@@ -1,9 +1,11 @@
+import { View } from "./View.js";
+
 /**
  * Class represent data-driven layer of application
  * @property dataSource Data, got while initializing. Null by default
  * @method init Initialize data source by fetch request 
  */
-class Application {
+export class Application {
 
     #json = null;
     #view = null;
@@ -36,7 +38,7 @@ class Application {
         if (this.#view == null || this.#json == null) {
             throw new Error("View or data source is null. Initialize it before");
         }
-        this.#view.render();
+        this.#view.render(this.#json);
     }
 
     get dataSource() {

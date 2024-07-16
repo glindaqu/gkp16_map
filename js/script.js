@@ -1,7 +1,12 @@
-import { mapManager } from "../core/Map.js";
-const address = document.querySelector(".address");
-const medDiv = document.querySelector(".medical-division");
-const flatCount = document.querySelector(".people-count");
+import { mapManager } from "./core/Map.js";
+import { app } from "./main.js";
+import { IndexView } from "./views/view-index.js";
+import { SERVER_IP } from "./config.js";
+import { enableInfo, disableInfo, updateInfoPanel } from "./components/info-panel.js";
+import { enableStat, disableStat } from "./components/stat-panel.js";
+
+const map = document.getElementById("map");
+
 const dropdownItemsContainer = document.querySelector(".addresses-items");
 const addressInput = document.querySelector(".search-by-address");
 const totalSelected = document.querySelectorAll(".total-selected-data")[0];
@@ -9,11 +14,6 @@ const totalArea = document.querySelectorAll(".total-selected-data")[2];
 const totalflatCount = document.querySelectorAll(".total-selected-data")[1];
 const totalPeopleCount = document.querySelectorAll(".total-selected-data")[3];
 const populationDensity = document.querySelectorAll(".total-selected-data")[4];
-const infoPanel = document.getElementById("info");
-const statPanel = document.getElementById("stat");
-const statControl = document.getElementById("stat-control");
-const infoControl = document.getElementById("info-control");
-const region = document.querySelector(".region");
 
 let json = null;
 
@@ -24,27 +24,6 @@ const checkboxes = [
     document.getElementById("f4"),
     document.getElementById("f5")
 ];
-
-const enableInfo = () => {
-    infoPanel.classList.remove("hidden");
-    statPanel.classList.add("hidden");
-    statControl.classList.remove("selected");
-    infoControl.classList.add("selected");
-};
-
-const enableStat = () => {
-    infoPanel.classList.add("hidden");
-    statPanel.classList.remove("hidden");
-    statControl.classList.add("selected");
-    infoControl.classList.remove("selected");
-};
-
-const updateSidePanelData = feature => {
-    address.innerHTML = `${feature.Prefix} ${feature.Street} ${feature.HouseNumber}`;
-    medDiv.innerHTML = "№" + feature.MedicalDivision;
-    flatCount.innerHTML = feature.FlatCount;
-    region.innerHTML = "№" + feature.Region;
-};
 
 const displayDropdown = () => {
     dropdownItemsContainer.innerHTML = "";
@@ -66,7 +45,7 @@ const getFiltersValues = () => {
 };
 
 const refreshMapWithAssignData = () => {
-    mapManager.__refreshMap(document.querySelector(".search-by-address").value, getFiltersValues(), feature => { updateSidePanelData(feature); enableInfo(); });
+    mapManager.refreshMap(document.querySelector(".search-by-address").value, getFiltersValues(), feature => { updateSidePanelData(feature); enableInfo(); });
 };
 
 export const filterJsonWithSelection = (startLatlng, endLatlng) => {
@@ -90,12 +69,33 @@ export const filterJsonWithSelection = (startLatlng, endLatlng) => {
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
-    await fetch(`http://${SERVER_IP}/php/tools/getAddresses.php`)
-        .then(response => response.json())
-        .then(j => json = j);
-    refreshMapWithAssignData();
+
+    mapManager.markerClickCallback = el => {
+        disableStat();
+        enableInfo();
+        updateInfoPanel(el);
+    };
+
+    await app.init(`http://${SERVER_IP}/php/tools/getAddresses.php`)
+        .then(() => {
+            app.setView(new IndexView(map));
+            app.run();
+        })
+        .catch(() => {
+            console.log("Data source is not avialable");
+        });
+    
+
     checkboxes.forEach(el => { el.addEventListener("change", () => { refreshMapWithAssignData(); }) });
     addressInput.addEventListener("input", () => { refreshMapWithAssignData(); displayDropdown(); });
-    document.getElementById("info-control").addEventListener("click", () => enableInfo());
-    document.getElementById("stat-control").addEventListener("click", () => enableStat());
+    
+    document.getElementById("info-control").addEventListener("click", () => { 
+        disableStat();
+        enableInfo();
+    });
+    document.getElementById("stat-control").addEventListener("click", () => {
+        disableInfo();
+        enableStat();
+    });
+
 });
