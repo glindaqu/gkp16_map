@@ -139,6 +139,9 @@ require_once "php/api.php";
 
 
     <script src="js/script.js" type="module"></script>
+    <script src="js/components/selection.js" type="module"></script>
+    <script src="js/components/index-filters.js" type="module"></script>
+    <script src="js/components/input.js" type="module"></script>
 </body>
 
 </html>

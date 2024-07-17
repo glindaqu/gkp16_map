@@ -7,7 +7,7 @@ class MapManager {
 
     #map = null;
     #layers = [];
-    #markerClickCallback = () => {};
+    #markerClickCallback = () => { };
 
     constructor(center, zoom, tileProvider) {
         this.#map = new L.Map('map', {
@@ -54,7 +54,7 @@ class MapManager {
             if (!isInArea(Point(el.Latitude, el.Longitude))) {
                 continue;
             }
-            medDivList[--el.MedicalDivision].push(this.#createCustomMarker(el, this.#markerClickCallback));
+            medDivList[el.MedicalDivision - 1].push(this.#createCustomMarker(el, this.#markerClickCallback));
         }
         for (let i = 0; i < medDivList.length; i++) {
             let mDGroup = L.markerClusterGroup({
@@ -94,10 +94,10 @@ class MapManager {
             popupAnchor: [0, 0],
         });
         return L.marker(
-            new L.LatLng(model.Latitude, model.Longitude), 
-            { 
-                icon: myIcon, 
-                title: `${model.Prefix} ${model.Street} ${model.HouseNumber}` 
+            new L.LatLng(model.Latitude, model.Longitude),
+            {
+                icon: myIcon,
+                title: `${model.Prefix} ${model.Street} ${model.HouseNumber}`
             }
         ).on("click", () => { onMarkerClick(model) });
     }

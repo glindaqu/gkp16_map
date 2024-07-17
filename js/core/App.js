@@ -48,4 +48,14 @@ export class Application {
     get view() {
         return this.#view;
     }
+
+    /**
+     * @param {Function} filter callback for filter data source 
+     */
+    updateView(filter) {
+        if (!(filter instanceof Function)) {
+            throw new Error("Filter must be a function");
+        }
+        this.#view.render(this.#json.filter(el => filter(el)));
+    }
 }

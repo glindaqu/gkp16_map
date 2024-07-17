@@ -1,5 +1,9 @@
-import { mapManager } from "./map.js";
-import { filterJsonWithSelection } from "./script.js";
+import { mapManager } from "../core/Map.js";
+import { app } from "../main.js";
+import { updateStatPanel, enableStat } from "./stat-panel.js";
+import { getFiltersValues } from "./index-filters.js";
+import { area } from "../helpers/functions.js";
+import { disableInfo } from "./info-panel.js";
 
 const border = document.querySelector(".group-selection");
 let display = false;
@@ -8,7 +12,7 @@ let startLatlng = null, endLatlng = null;
 
 let x1 = 0, y1 = 0, x2 = 0, y2 = 0;
 
-const reCalc = () => {
+const redraw = () => {
     let x3 = Math.min(x1, x2);
     let x4 = Math.max(x1, x2);
     let y3 = Math.min(y1, y2);
@@ -47,8 +51,16 @@ document.addEventListener("mouseup", e => {
     border.style.width = 0;
     border.classList.add("hidden");
     mapManager.map.dragging.enable();
-    let st = { lat: Math.max(startLatlng.lat, endLatlng.lat), lng: Math.min(startLatlng.lng, endLatlng.lng) };
-    let ed = { lat: Math.min(startLatlng.lat, endLatlng.lat), lng: Math.max(startLatlng.lng, endLatlng.lng) };
+    let st = {
+        lat: Math.max(startLatlng.lat, endLatlng.lat),
+        lng: Math.min(startLatlng.lng, endLatlng.lng)
+    };
+    let ed = {
+        lat: Math.min(startLatlng.lat, endLatlng.lat),
+        lng: Math.max(startLatlng.lng, endLatlng.lng)
+    };
+    disableInfo();
+    enableStat();
     filterJsonWithSelection(st, ed);
 });
 
@@ -57,5 +69,26 @@ document.addEventListener("mousemove", e => {
     border.classList.remove("hidden");
     x2 = e.clientX;
     y2 = e.clientY;
-    reCalc();
+    redraw();
 });
+
+const isInCoordsRange = (el, s, e) => {
+    return el.Latitude >= e.lat &&
+        el.Latitude <= s.lat &&
+        el.Longitude >= s.lng &&
+        el.Longitude <= e.lng;
+};
+
+const filterJsonWithSelection = (startLatlng, endLatlng) => {
+    let filters = getFiltersValues();
+    let flatAreaCount = 0;
+    let addresses = app.dataSource.filter(el => {
+        return isInCoordsRange(el, startLatlng, endLatlng) && filters[el.MedicalDivision - 1];
+    });
+    for (let i in addresses) {
+        flatAreaCount += parseInt(addresses[i].FlatCount);
+    }
+    let sq = area(startLatlng.lat, endLatlng.lat, startLatlng.lng, endLatlng.lng) * 1e-6;
+    updateStatPanel(addresses.length, flatAreaCount, sq);
+};
+
