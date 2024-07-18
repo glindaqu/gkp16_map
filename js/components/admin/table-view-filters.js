@@ -1,4 +1,3 @@
-import { SERVER_IP } from "../../config.js";
 import { app } from "../../main.js";
 
 const ARR_UP = "↑";
@@ -30,8 +29,25 @@ class FilterOption {
 
 document.addEventListener("DOMContentLoaded", () => {
     const addressOption = new FilterOption(document.getElementById("address-opt"));
+    // const mdOption = new FilterOption(document.getElementById("md-opt"));
+    // const fcOption = new FilterOption(document.getElementById("fc-opt"));
+
+    const sortFunction = (a, b) => {
+        /** implement */
+    };
+
     addressOption.target.addEventListener("click", () => {
-        app.sortView((a, b) => a.Street.localeCompare(b.Street), addressOption.direction);
+        app.sortView((a, b) => addressOption.direction ? b.Street.localeCompare(a.Street) : a.Street.localeCompare(b.Street));
         addressOption.swap();
-    })
+    });
+
+    // mdOption.target.addEventListener("click", () => {
+    //     app.sortView((a, b) => mdOption.direction ? b.MedicalDivision > a.MedicalDivision : a.MedicalDivision > b.MedicalDivision);
+    //     mdOption.swap();
+    // });
+
+    // fcOption.target.addEventListener("click", () => {
+    //     app.sortView((a, b) => sortFunction(a, b));
+    //     fcOption.swap();
+    // });
 });

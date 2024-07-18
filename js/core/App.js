@@ -59,17 +59,11 @@ export class Application {
         this.#view.render(this.#json.filter(el => filter(el)));
     }
 
-    sortView(sort, isReverse) {
+    sortView(sort) {
         if (!(sort instanceof Function)) {
             throw new Error("Filter must be a function");
-        } else if (typeof isReverse != "boolean") {
-            throw new Error("isReverse must be a boolean, but given " + typeof isReverse);
         }
-
-        if (isReverse) {
-            this.#view.render(this.#json.sort((a, b) => sort(a, b)).reverse());
-        } else {
-            this.#view.render(this.#json.sort((a, b) => sort(a, b)));
-        }
+        this.#json = this.#json.sort((a, b) => sort(a, b));
+        this.run();
     }
 }

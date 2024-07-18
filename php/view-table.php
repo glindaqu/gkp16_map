@@ -18,9 +18,6 @@ if (!isset($_COOKIE['login'])) die("Авторизуйтесь в системе
     <a class="back-btn" href="http://<?php echo API::SERVER_IP?>" title="К карте">
         <img src="http://<?php echo API::SERVER_IP ?>/svg/map.svg" alt="" class="image">
     </a>
-    <a class="download-btn" title="Выгрузить таблицу" href="http://<?php echo API::SERVER_IP ?>/php/tools/download.php">
-        <img src="http://<?php echo API::SERVER_IP ?>/svg/download.svg" alt="" class="image">
-    </a>
     <table>
         <thead>
             <tr class="row">
@@ -28,8 +25,14 @@ if (!isset($_COOKIE['login'])) die("Авторизуйтесь в системе
                     <div class="title">Адрес</div>
                     <button class="filter-options" id="address-opt">↓</button>
                 </th>
-                <th class="med-div">Терапевтическое отделение</th>
-                <th class="people-count">Количество квартир</th>
+                <th class="med-div">
+                    <div class="title">Терапевтическое отделение</div>
+                    <!-- <button class="filter-options" id="md-opt">↓</button> -->
+                </th>
+                <th class="people-count">
+                    <div class="title">Количество квартир</div>
+                    <!-- <button class="filter-options" id="fc-opt">↓</button> -->
+                </th>
             </tr>
         </thead>
         <tbody>
