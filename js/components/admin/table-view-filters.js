@@ -1,8 +1,24 @@
 import { app } from "../../main.js";
 
+/**
+ * up arrow symbol
+ */
 const ARR_UP = "↑";
+/**
+ * down arrow symbol
+ */
 const ARR_DOWN = "↓";
 
+/**
+ * Helper class, represents filter option
+ * 
+ * @property target Filter option container, UI element
+ * @property direction Shows in what direction needs sort an array
+ * 
+ * @method swap Reversing direction and UI symbol on target
+ * 
+ * @author glindaqu
+ */
 class FilterOption {
 
     #container = null;
