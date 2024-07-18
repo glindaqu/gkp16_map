@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
         el.addEventListener("change", () => {
             app.filterView(el =>
                 getFiltersValues()[el.MedicalDivision - 1])
-        })
-    }); ``
+        });
+    });
 });
 
 export const getFiltersValues = () => {

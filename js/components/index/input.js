@@ -32,4 +32,4 @@ document.addEventListener("click", () => {
         );
         displayDropdown();
     });
-});
+}); 
