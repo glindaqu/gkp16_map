@@ -131,17 +131,11 @@ require_once "php/api.php";
             </div>
         </div>
     </div>
-    <!-- <script src="js/config.js" type="module"></script>
-    <script src="js/functions.js"></script>
-    <script src="js/selection.js" type="module"></script>
-    <script src="js/map.js" type="module"></script>
-    <script src="js/script.js" type="module"></script> -->
 
-
-    <script src="js/script.js" type="module"></script>
-    <script src="js/components/selection.js" type="module"></script>
-    <script src="js/components/index-filters.js" type="module"></script>
-    <script src="js/components/input.js" type="module"></script>
+    <script src="js/pages/index.js" type="module"></script>
+    <script src="js/components/index/selection.js" type="module"></script>
+    <script src="js/components/index/index-filters.js" type="module"></script>
+    <script src="js/components/index/input.js" type="module"></script>
 </body>
 
 </html>

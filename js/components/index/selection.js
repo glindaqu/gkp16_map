@@ -1,8 +1,8 @@
-import { mapManager } from "../core/Map.js";
-import { app } from "../main.js";
+import { mapManager } from "../../core/Map.js";
+import { app } from "../../main.js";
 import { updateStatPanel, enableStat } from "./stat-panel.js";
 import { getFiltersValues } from "./index-filters.js";
-import { area } from "../helpers/functions.js";
+import { area } from "../../helpers/functions.js";
 import { disableInfo } from "./info-panel.js";
 
 const border = document.querySelector(".group-selection");

@@ -1,5 +1,5 @@
-import { app } from "../main.js";
-import { mapManager } from "../core/Map.js";
+import { app } from "../../main.js";
+import { mapManager } from "../../core/Map.js";
 
 const dropdownItemsContainer = document.querySelector(".addresses-items");
 const input = document.querySelector(".search-by-address");
@@ -25,7 +25,7 @@ const displayDropdown = () => {
 
 document.addEventListener("click", () => {
     input.addEventListener("input", () => {
-        app.updateView(el =>
+        app.filterView(el =>
             (el.Street + el.HouseNumber + el.Prefix)
                 .toLowerCase()
                 .includes(input.value.toLowerCase())

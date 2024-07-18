@@ -52,10 +52,24 @@ export class Application {
     /**
      * @param {Function} filter callback for filter data source 
      */
-    updateView(filter) {
+    filterView(filter) {
         if (!(filter instanceof Function)) {
             throw new Error("Filter must be a function");
-        }
+        }   
         this.#view.render(this.#json.filter(el => filter(el)));
+    }
+
+    sortView(sort, isReverse) {
+        if (!(sort instanceof Function)) {
+            throw new Error("Filter must be a function");
+        } else if (typeof isReverse != "boolean") {
+            throw new Error("isReverse must be a boolean, but given " + typeof isReverse);
+        }
+
+        if (isReverse) {
+            this.#view.render(this.#json.sort((a, b) => sort(a, b)).reverse());
+        } else {
+            this.#view.render(this.#json.sort((a, b) => sort(a, b)));
+        }
     }
 }

@@ -1,4 +1,4 @@
-import { app } from "../main.js";
+import { app } from "../../main.js";
 
 let filtersList = [];
 
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     filtersList.forEach(el => {
         el.addEventListener("change", () => {
-            app.updateView(el =>
+            app.filterView(el =>
                 getFiltersValues()[el.MedicalDivision - 1])
         })
     }); ``

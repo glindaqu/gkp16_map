@@ -2,15 +2,9 @@
 <html lang="en">
 
 <?php 
-require_once "stringUtils.php";
 require_once "api.php";
 
 if (!isset($_COOKIE['login'])) die("Авторизуйтесь в системе");
-
-$json = API::GetAllAdresses([
-    "ad" => isset($_GET['ad']) ? $_GET['ad'] : ''
-]);
-$maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 ?>
 
 <head>
@@ -32,28 +26,13 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
             <tr class="row">
                 <th class="address">
                     <div class="title">Адрес</div>
-                    <button class="filter-options" id="address-opt">^</button>
+                    <button class="filter-options" id="address-opt">↓</button>
                 </th>
                 <th class="med-div">Терапевтическое отделение</th>
                 <th class="people-count">Количество квартир</th>
             </tr>
         </thead>
         <tbody>
-
-            <?php
-            foreach ($json as $index=>$item) { ?>
-            <tr class="row" id="<?php echo $item['id']; ?>" style="background-color: #<?php echo $index % 2 ? 'dadada' : 'efefef'?>">
-                <td class="address" id="<?php echo $item['id']; ?>">
-                    <?php echo $item["Prefix"] . " " . $item["Street"] . " " . $item["HouseNumber"] ?>
-                </td>
-                <td class="med-div" id="<?php echo $item['id']; ?>">
-                    <?php echo trim($item["MedicalDivision"]) ?>
-                </td>
-                <td class="people-count" id="<?php echo $item['id']; ?>">
-                    <?php echo $item["FlatCount"] ?>
-                </td>
-            </tr>
-            <?php } ?>
 
         </tbody>
     </table>
@@ -64,8 +43,8 @@ $maxLength = max(array_map('StringUtils::GetValueLengthByKey', $json));
 
 </body>
 
-<script src="../js/config.js" type="module"></script>
-<script src="../js/view-filters.js" type="module"></script>
-<script src="../js/contextMenu.js"></script>
+<script src="../js/components/admin/table-view-filters.js" type="module"></script>
+<script src="../js/components/admin/context-menu.js" type="module"></script>
+<script src="../js/pages/admin.js" type="module"></script>
 
 </html>

@@ -6,12 +6,12 @@
 require_once "api.php";
 
 if (isset($_COOKIE['login'])) {
-    header("location: http://".API::SERVER_IP."/php/viewTable.php") && die();
+    header("location: http://".API::SERVER_IP."/php/view-table.php") && die();
 } 
 
 if (isset($_POST['login']) && isset($_POST['password']) && API::CheckUser($_POST['login'], $_POST['password'])) {
     setcookie('login', $_POST['login'], time() + 12 * 60 * 60);
-    header("location: http://".API::SERVER_IP."/php/viewTable.php") && die();
+    header("location: http://".API::SERVER_IP."/php/view-table.php") && die();
 }
 ?>
 

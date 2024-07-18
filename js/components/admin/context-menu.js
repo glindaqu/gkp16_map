@@ -1,3 +1,5 @@
+import { SERVER_IP } from "../../config.js";
+
 const menu = document.querySelector(".menu");
 let lastClickedId = 0;
 
