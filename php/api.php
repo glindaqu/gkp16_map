@@ -72,6 +72,12 @@ class API
         return $db->query("SELECT * FROM addresses ORDER BY Street ".$filters['ad'].";");
     }
 
+    public static function GetAllRegions(): array
+    {
+        $db = self::InitializeDB();
+        return $db->query("SELECT * FROM regions;");
+    }
+
     public static function InsertAddressesFromJson(): void
     {
         if (!file_exists("../../data/withCoords.json"))

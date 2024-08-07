@@ -288,6 +288,7 @@ a {
     justify-content: space-around;
     border-radius: 5px;
     align-items: start;
+    user-select: none;
 }
 
 .legend-row {
@@ -296,9 +297,27 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .legend-item {
     width: 20px;
     height: 20px;
+}
+
+.region-info {
+    position: absolute; 
+    gap: 10px;
+    background-color: white;
+    z-index: 999;
+    left: 220px;
+    top: 90px;
+    box-shadow: -0.2em 0.2em .2em rgba(0, 0, 0, 0.442);
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: start;
+    user-select: none;
 }

@@ -4,8 +4,11 @@ import { IndexView } from "../views/view-index.js";
 import { SERVER_IP } from "../config.js";
 import { enableInfo, disableInfo, updateInfoPanel } from "../components/index/info-panel.js";
 import { enableStat, disableStat } from "../components/index/stat-panel.js";
+import { disableRegionPanel, enableRegionPanel } from "../components/index/region-panel.js";
 
 const map = document.getElementById("map");
+
+let isShowRegions = false;
 
 document.addEventListener("DOMContentLoaded", async () => {
     mapManager.markerClickCallback = el => {
@@ -30,5 +33,15 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("stat-control").addEventListener("click", () => {
         disableInfo();
         enableStat();
+    });
+
+    disableRegionPanel();
+
+    document.querySelectorAll(".legend-row").forEach(el => {
+        el.addEventListener("click", e => {
+            if (!isShowRegions) enableRegionPanel(e.target.textContent.split(' ')[1].split('№')[1]);
+            else disableRegionPanel();
+            isShowRegions = !isShowRegions;
+        });
     });
 });
