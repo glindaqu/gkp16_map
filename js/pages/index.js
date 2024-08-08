@@ -8,8 +8,6 @@ import { disableRegionPanel, enableRegionPanel } from "../components/index/regio
 
 const map = document.getElementById("map");
 
-let isShowRegions = false;
-
 document.addEventListener("DOMContentLoaded", async () => {
     mapManager.markerClickCallback = el => {
         disableStat();
