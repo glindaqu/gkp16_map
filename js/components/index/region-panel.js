@@ -13,17 +13,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 const draw = md => {
     container.innerHTML = `ТО №${md}`;
     let filtered = json.filter(el => el.md == md);
+    let pc = 0;
     if (filtered.length == 0) {
         container.innerHTML += "<br>Нет данных<br>";
         return;
     }
     for (let i in filtered) {
         container.innerHTML += `<div>Участок №${filtered[i].id}, ${filtered[i].peopleCount}</div>`;
+        pc += parseInt(filtered[i].peopleCount);
     }
-    container.innerHTML += `Всего: ${filtered.reduce((a, b) => {
-        console.log(a, b);
-        return parseInt(a.peopleCount) + parseInt(b.peopleCount); 
-    })}`;
+    container.innerHTML += `Всего: ${pc}`;
 };
 
 export const enableRegionPanel = md => { draw(md); document.querySelector('.region-info').style.display = 'flex' };
