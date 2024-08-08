@@ -39,9 +39,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     document.querySelectorAll(".legend-row").forEach(el => {
         el.addEventListener("click", e => {
-            if (!isShowRegions) enableRegionPanel(e.target.textContent.split(' ')[1].split('№')[1]);
-            else disableRegionPanel();
-            isShowRegions = !isShowRegions;
+            enableRegionPanel(e.target.textContent.split(' ')[1].split('№')[1]);
         });
     });
+
+    document.querySelector(".region-info").addEventListener("click", () => { disableRegionPanel() });
 });

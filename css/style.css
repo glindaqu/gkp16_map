@@ -320,4 +320,11 @@ a {
     border-radius: 5px;
     align-items: start;
     user-select: none;
+    cursor: pointer;
+}
+
+.region-info-body {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }

@@ -11,11 +11,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 const draw = md => {
-    container.innerHTML = "";
+    container.innerHTML = `ТО №${md}`;
     let filtered = json.filter(el => el.md == md);
+    if (filtered.length == 0) {
+        container.innerHTML = "Нет данных";
+        return;
+    }
     for (let i in filtered) {
         container.innerHTML += `<div>Участок №${filtered[i].id}, ${filtered[i].peopleCount}</div>`;
     }
+    container.innerHTML += `Всего: ${filtered.reduce((a, b) => parseInt(a.peopleCount) + parseInt(b.peopleCount))}`;
 };
 
 export const enableRegionPanel = md => { draw(md); document.querySelector('.region-info').style.display = 'flex' };
