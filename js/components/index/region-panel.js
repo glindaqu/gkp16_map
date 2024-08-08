@@ -14,7 +14,7 @@ const draw = md => {
     container.innerHTML = `ТО №${md}`;
     let filtered = json.filter(el => el.md == md);
     if (filtered.length == 0) {
-        container.innerHTML += "Нет данных";
+        container.innerHTML += "<br>Нет данных<br>";
         return;
     }
     for (let i in filtered) {
