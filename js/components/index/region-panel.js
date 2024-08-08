@@ -15,7 +15,7 @@ const draw = md => {
     let filtered = json.filter(el => el.md == md);
     let pc = 0;
     if (filtered.length == 0) {
-        container.innerHTML += "<br>Нет данных<br>";
+        container.innerHTML += "<br><div>Нет данных</div><br>";
         return;
     }
     for (let i in filtered) {
