@@ -7,6 +7,7 @@ import { enableStat, disableStat } from "../components/index/stat-panel.js";
 import { disableRegionPanel, enableRegionPanel } from "../components/index/region-panel.js";
 
 const map = document.getElementById("map");
+let reverse = [true, true, true, true, true];
 
 document.addEventListener("DOMContentLoaded", async () => {
     mapManager.markerClickCallback = el => {
@@ -33,13 +34,50 @@ document.addEventListener("DOMContentLoaded", async () => {
         enableStat();
     });
 
-    disableRegionPanel();
-
-    document.querySelectorAll(".legend-row").forEach(el => {
-        el.addEventListener("click", e => {
-            enableRegionPanel(e.target.textContent.split(' ')[1].split('№')[1]);
+    let legendItems = document.querySelectorAll(".legend-row");
+    for (let i = 0; i < legendItems.length; i++) {
+        let el = legendItems[i];
+        el.addEventListener("click", () => {
+            closeAll(i);
+            reverse[i] = !reverse[i];
+            rotate(`#t${parseInt(i) + 1}`, reverse[i]);
+            if (!reverse[i]) {
+                enableAnimation();
+                enableRegionPanel(parseInt(i) + 1);
+            }
+            else disableRegionPanel();
         });
-    });
+    }
 
-    document.querySelector(".region-info").addEventListener("click", () => { disableRegionPanel() });
+    document.querySelector(".region-info").addEventListener("click", () => { disableRegionPanel(); closeAll(-1); });
 });
+
+const rotate = (selector, reverse) => {
+    anime({
+        targets: selector,
+        rotate: reverse ? 0 : 180,
+        loop: false,
+        autoplay: false,
+        easing: 'easeOutSine',
+        duration: 500
+    }).play();
+};
+
+const enableAnimation = () => {
+    anime({
+        targets: '.region-info',
+        opacity: 1,
+        loop: false,
+        autoplay: false,
+        easing: 'easeOutSine',
+        duration: 500
+    });
+};
+
+const closeAll = (index) => {
+    for (let i = 0; i < 5; i++) {
+        if (i == index) continue;
+        reverse[i] = true;
+        rotate(`#t${i + 1}`, reverse[i]);
+    }
+};

@@ -296,8 +296,9 @@ a {
     gap: 10px;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     cursor: pointer;
+    width: 100%;
 }
 
 .legend-item {
@@ -305,12 +306,17 @@ a {
     height: 20px;
 }
 
+.legend-item-text {
+    align-self: flex-start;
+    width: 160px;
+}
+
 .region-info {
     position: absolute; 
     gap: 10px;
     background-color: white;
     z-index: 999;
-    left: 220px;
+    left: 260px;
     top: 90px;
     box-shadow: -0.2em 0.2em .2em rgba(0, 0, 0, 0.442);
     padding: 10px;
@@ -327,4 +333,9 @@ a {
     gap: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.triangle {
+    width: 17px !important;
+    height: 17px !important;
 }
