@@ -41,11 +41,11 @@ document.addEventListener("DOMContentLoaded", async () => {
             closeAll(i);
             reverse[i] = !reverse[i];
             rotate(`#t${parseInt(i) + 1}`, reverse[i]);
-            if (!reverse[i]) {
-                enableAnimation();
+            ease(reverse[i]);
+            if (!reverse[i]) 
                 enableRegionPanel(parseInt(i) + 1);
-            }
-            else disableRegionPanel();
+            else 
+                disableRegionPanel();
         });
     }
 
@@ -63,15 +63,15 @@ const rotate = (selector, reverse) => {
     }).play();
 };
 
-const enableAnimation = () => {
+const ease = (reverse) => {
     anime({
         targets: '.region-info',
-        opacity: 1,
+        opacity: !reverse ? [0, 1] : [1, 0.0000001],
         loop: false,
         autoplay: false,
         easing: 'easeOutSine',
         duration: 500
-    });
+    }).play();
 };
 
 const closeAll = (index) => {

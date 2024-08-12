@@ -327,6 +327,7 @@ a {
     align-items: start;
     user-select: none;
     cursor: pointer;
+    opacity: 0;
 }
 
 .region-info-body {
