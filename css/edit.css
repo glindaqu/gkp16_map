@@ -17,7 +17,7 @@ form {
     padding: 10px 20px;
     border-radius: 5px;
     justify-content: space-around;
-    box-shadow: -0.4em 0.4em 0.2em rgba(0, 0, 0, 0.39);;
+    box-shadow: -0.2em 0.2em .2em rgba(0, 0, 0, 0.442);
 }
 
 body {
