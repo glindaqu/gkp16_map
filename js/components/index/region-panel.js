@@ -1,4 +1,5 @@
 import { SERVER_IP } from "../../config.js";
+import { app } from "../../main.js";
 
 const container = document.querySelector(".region-info-body");
 
@@ -19,11 +20,16 @@ const draw = md => {
         return;
     }
     for (let i in filtered) {
-        container.innerHTML += `<div>Участок №${filtered[i].id}, ${filtered[i].peopleCount}</div>`;
+        container.innerHTML += `<div class="region-list-item">Участок №${filtered[i].id}, ${filtered[i].peopleCount}</div>`;
         pc += parseInt(filtered[i].peopleCount);
     }
     container.innerHTML += `Всего: ${pc}`;
+    document.querySelectorAll(".region-list-item").forEach(el => {
+        el.addEventListener("click", e => {
+            app.filterView(item => item.Region == el.innerText.split('№')[1].split(',')[0]);
+        });
+    });
 };
 
 export const enableRegionPanel = md => { draw(md); document.querySelector('.region-info').style.display = 'flex' };
-export const disableRegionPanel = () => { document.querySelector('.region-info').style.display = 'none' };
+export const disableRegionPanel = () => { document.querySelector('.region-info').style.display = 'none'; app.filterView(i => true); };

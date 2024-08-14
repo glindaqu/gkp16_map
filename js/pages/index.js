@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
-    document.querySelector(".region-info").addEventListener("click", () => { disableRegionPanel(); closeAll(-1); });
+    // document.querySelector(".region-info").addEventListener("click", () => { disableRegionPanel(); closeAll(-1); });
 });
 
 const rotate = (selector, reverse) => {
