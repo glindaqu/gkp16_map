@@ -2,7 +2,7 @@ import { SERVER_IP } from "../../config.js";
 import { app } from "../../main.js";
 
 const container = document.querySelector(".region-info-body");
-
+export let currentRegion = null;
 let json = null;
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -26,10 +26,15 @@ const draw = md => {
     container.innerHTML += `Всего: ${pc}`;
     document.querySelectorAll(".region-list-item").forEach(el => {
         el.addEventListener("click", e => {
-            app.filterView(item => item.Region == el.innerText.split('№')[1].split(',')[0]);
+            currentRegion = el.innerText.split('№')[1].split(',')[0];
+            app.filterView(item => item.Region == currentRegion);
         });
     });
 };
 
 export const enableRegionPanel = md => { draw(md); document.querySelector('.region-info').style.display = 'flex' };
-export const disableRegionPanel = () => { document.querySelector('.region-info').style.display = 'none'; app.filterView(i => true); };
+export const disableRegionPanel = () => { 
+    document.querySelector('.region-info').style.display = 'none'; 
+    app.filterView(i => true); 
+    currentRegion = null; 
+};

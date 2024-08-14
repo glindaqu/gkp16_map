@@ -4,6 +4,7 @@ import { updateStatPanel, enableStat } from "./stat-panel.js";
 import { getFiltersValues } from "./index-filters.js";
 import { area } from "../../helpers/functions.js";
 import { disableInfo } from "./info-panel.js";
+import { currentRegion } from "./region-panel.js";
 
 const border = document.querySelector(".group-selection");
 let display = false;
@@ -83,7 +84,7 @@ const filterJsonWithSelection = (startLatlng, endLatlng) => {
     let filters = getFiltersValues();
     let flatAreaCount = 0;
     let addresses = app.dataSource.filter(el => {
-        return isInCoordsRange(el, startLatlng, endLatlng) && filters[el.MedicalDivision - 1];
+        return isInCoordsRange(el, startLatlng, endLatlng) && filters[el.MedicalDivision - 1] && (currentRegion == null || el.Region == currentRegion);
     });
     for (let i in addresses) {
         flatAreaCount += parseInt(addresses[i].FlatCount);
