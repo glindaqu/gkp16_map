@@ -26,12 +26,12 @@ if (!isset($_COOKIE['login'])) die("Авторизуйтесь в системе
                     <button class="filter-options" id="address-opt">↓</button>
                 </th>
                 <th class="med-div">
-                    <div class="title">Терапевтическое отделение</div>
-                    <!-- <button class="filter-options" id="md-opt">↓</button> -->
+                    <div class="title">Терапевтическое<br>отделение</div>
+                    <button class="filter-options" id="md-opt">↓</button>
                 </th>
                 <th class="people-count">
                     <div class="title">Количество квартир</div>
-                    <!-- <button class="filter-options" id="fc-opt">↓</button> -->
+                    <button class="filter-options" id="fc-opt">↓</button>
                 </th>
             </tr>
         </thead>

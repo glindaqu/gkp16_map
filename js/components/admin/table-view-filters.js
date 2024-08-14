@@ -45,25 +45,21 @@ class FilterOption {
 
 document.addEventListener("DOMContentLoaded", () => {
     const addressOption = new FilterOption(document.getElementById("address-opt"));
-    // const mdOption = new FilterOption(document.getElementById("md-opt"));
-    // const fcOption = new FilterOption(document.getElementById("fc-opt"));
-
-    const sortFunction = (a, b) => {
-        /** implement */
-    };
+    const mdOption = new FilterOption(document.getElementById("md-opt"));
+    const fcOption = new FilterOption(document.getElementById("fc-opt"));
 
     addressOption.target.addEventListener("click", () => {
         app.sortView((a, b) => addressOption.direction ? b.Street.localeCompare(a.Street) : a.Street.localeCompare(b.Street));
         addressOption.swap();
     });
 
-    // mdOption.target.addEventListener("click", () => {
-    //     app.sortView((a, b) => mdOption.direction ? b.MedicalDivision > a.MedicalDivision : a.MedicalDivision > b.MedicalDivision);
-    //     mdOption.swap();
-    // });
+    mdOption.target.addEventListener("click", () => {
+        app.sortView((a, b) => mdOption.direction ? b.MedicalDivision > a.MedicalDivision : a.MedicalDivision > b.MedicalDivision);
+        mdOption.swap();
+    });
 
-    // fcOption.target.addEventListener("click", () => {
-    //     app.sortView((a, b) => sortFunction(a, b));
-    //     fcOption.swap();
-    // });
+    fcOption.target.addEventListener("click", () => {
+        app.sortView((a, b) => fcOption.direction ? b.FlatCount > a.FlatCount : a.FlatCount > b.FlatCount);
+        fcOption.swap();
+    });
 });

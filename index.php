@@ -26,26 +26,36 @@ require_once "php/api.php";
         <img src="svg/avatar.svg" alt="" class="image">
     </a>
     <div class="legend">
-        <div class="legend-row">
+        <div class="legend-row" id="lr1">
             <div class="legend-item" style="background-color: #ff2e39"></div> 
             <div class="legend-item-text">ТО №1 (домов <?php echo API::GetHousesCountByMD(1) ?>)</div>
+            <img class="legend-item triangle" id="t1" src="svg/triangle.svg">
         </div>
-        <div class="legend-row">
+        <div class="legend-row" id="lr2">
             <div class="legend-item" style="background-color: #3f48cc"></div> 
             <div class="legend-item-text">ТО №2 (домов <?php echo API::GetHousesCountByMD(2) ?>)</div>
+            <img class="legend-item triangle" id="t2" src="svg/triangle.svg">
         </div>
-        <div class="legend-row">
+        <div class="legend-row" id="lr3">
             <div class="legend-item" style="background-color: #000000"></div> 
             <div class="legend-item-text">ТО №3 (домов <?php echo API::GetHousesCountByMD(3) ?>)</div>
+            <img class="legend-item triangle" id="t3" src="svg/triangle.svg">
         </div>
-        <div class="legend-row">
+        <div class="legend-row" id="lr4">
             <div class="legend-item" style="background-color: #5d874e"></div> 
             <div class="legend-item-text">ТО №4 (домов <?php echo API::GetHousesCountByMD(4) ?>)</div>
+            <img class="legend-item triangle" id="t4" src="svg/triangle.svg">
         </div>
-        <div class="legend-row">
+        <div class="legend-row" id="lr5">
             <div class="legend-item" style="background-color: #6d436e"></div> 
             <div class="legend-item-text">ТО №5 (домов <?php echo API::GetHousesCountByMD(5) ?>)</div>
+            <img class="legend-item triangle" id="t5" src="svg/triangle.svg">
         </div>
+    </div>
+    <div class="region-info">
+        <ul class="region-info-body">
+
+        </ul>
     </div>
     <div class="side-content">
         <div class="tab-control">
@@ -132,10 +142,12 @@ require_once "php/api.php";
         </div>
     </div>
 
+    <script src="js/animejs/lib/anime.js"></script>
     <script src="js/pages/index.js" type="module"></script>
     <script src="js/components/index/selection.js" type="module"></script>
     <script src="js/components/index/index-filters.js" type="module"></script>
     <script src="js/components/index/input.js" type="module"></script>
+    <script src="js/components/index/region-panel.js" type="module"></script>
 </body>
 
 </html>
