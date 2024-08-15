@@ -3,6 +3,9 @@
 if (!isset($_GET['id']))
     die('Запись не выбрана');
 
+if (!isset($_COOKIE['login'])) 
+    die("Авторизуйтесь в системе");
+
 require_once "api.php";
 
 $id = $_GET['id'];
