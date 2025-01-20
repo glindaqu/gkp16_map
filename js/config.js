@@ -1,1 +1,1 @@
-export const SERVER_IP = "leafletmap:81";
+export const SERVER_IP = "10.174.246.199/m/";

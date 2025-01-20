@@ -6,11 +6,11 @@ class API
 {
 
     private const IP = "localhost";
-    private const USER = "root";
-    private const PASSWORD = "";
+    private const USER = "leafletuser";
+    private const PASSWORD = "123456";
     private const DATABASE = "leafletmap";
 
-    public const SERVER_IP = "leafletmap:81";
+    public const SERVER_IP = "10.174.246.199/m/";
 
     private static function InitializeDB(): Database
     {
@@ -75,7 +75,11 @@ class API
     public static function GetAllRegions(): array
     {
         $db = self::InitializeDB();
-        return $db->query("SELECT * FROM regions;");
+	return $db->query("SELECT r.id, r.md, COALESCE(sum(a.FlatCount), 0)  as peopleCount 
+		from regions r
+		left join addresses a
+		on r.id = a.Region
+		GROUP by id;");
     }
 
     public static function InsertAddressesFromJson(): void

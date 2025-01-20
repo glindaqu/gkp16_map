@@ -1,5 +1,6 @@
 import { app } from "../../main.js";
 import { mapManager } from "../../core/Map.js";
+import { updateInfoPanel } from "./info-panel.js";
 
 const dropdownItemsContainer = document.querySelector(".addresses-items");
 const input = document.querySelector(".search-by-address");
@@ -14,13 +15,17 @@ const displayDropdown = () => {
         .includes(input.value.toLowerCase())
     );
     for (let i = 0; i < 3 && filtered[i]; i++) {
-        dropdownItemsContainer.innerHTML += `<div class="item" la="${filtered[i].Latitude}" lo="${filtered[i].Longitude}">
-                                                ${filtered[i].Prefix + " " + filtered[i].Street + " " + filtered[i].HouseNumber}
-                                            <div>`;
+        let dto = filtered[i];
+        let element = document.createElement('div');
+        element.classList.add('item');
+        element.innerHTML = `${dto.Prefix} ${dto.Street}  ${dto.HouseNumber}`;
+        element.addEventListener('click', () => {
+            mapManager.map.flyTo([dto.Latitude, dto.Longitude], 18);
+            updateInfoPanel(dto);
+        });
+        dropdownItemsContainer.appendChild(element);
+        
     }
-    document.querySelectorAll(".item").forEach(el => el.addEventListener("click", e => {
-        mapManager.map.flyTo([e.target.attributes.la.nodeValue, e.target.attributes.lo.nodeValue], 18);
-    }));
 };
 
 document.addEventListener("click", () => {
